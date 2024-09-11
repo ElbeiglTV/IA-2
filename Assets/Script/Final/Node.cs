@@ -36,27 +36,4 @@ public class Node : MonoBehaviour
     }
 
 
-
-
-    private void OnMouseOver()
-    {
-
-        if (Input.GetKey(KeyCode.UpArrow))
-        {
-            _cost++;
-            if (_cost > 50)
-                _cost = 50;
-            textCost.text = _cost.ToString();
-        }
-
-        if (Input.GetKey(KeyCode.DownArrow))
-        {
-            _cost--;
-            if (_cost < 1)
-                _cost = 1;
-
-            textCost.text = _cost.ToString();
-        }
-
-    }
 }

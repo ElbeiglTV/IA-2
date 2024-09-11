@@ -4,12 +4,8 @@ using UnityEngine;
 
 public class Enums
 {
-    public enum LeaderStateID
+    public enum AgentStateID
     {
-        Idle,PathFind,FollowPath
-    }
-    public enum BoidStateID
-    {
-        LeaderFloking,PathFindToLead,PathfindToBase,FollowPath,Escape,InBase
+        LeavingMarket,GoingToMarket,Idle,Buying,ComplainingByPrice
     }
 }

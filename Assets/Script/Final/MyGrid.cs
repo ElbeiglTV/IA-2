@@ -22,14 +22,10 @@ public class MyGrid : MonoBehaviour
         {
             node.neighbors.Clear();
 
-            foreach (var otherNodes in grid)
-            {
-                if (node == otherNodes)
-                    continue;
+            node.neighbors = grid
+            .Where(otherNodes => node != otherNodes && GameManager.Instance.NodeInLineOfSight(node.transform.position, otherNodes.transform.position, node.nodeCollider, otherNodes.nodeCollider))
+            .ToList();
 
-                if(GameManager.Instance.NodeInLineOfSight(node.transform.position, otherNodes.transform.position,node.nodeCollider,otherNodes.nodeCollider))  
-                    node.neighbors.Add(otherNodes);
-            }
         }
 
         //Otra opcion, tirar Raycast hacia los costados y adelante y atras

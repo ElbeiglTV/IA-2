@@ -46,8 +46,27 @@ public class Stand : MonoBehaviour
         Debug.Log("Bought " + item.itemType);
         
     }
+
     public void ReStock()
     {
+        StartCoroutine(Purchase());
+    }
 
+    //Time-Slicing Matias Labreniuk
+
+    public IEnumerator Purchase()
+    {
+        MarketManager.instance.StandCorrutineCounter++;
+        foreach (var item in items.PurchaseItems())
+        {
+            if (money >= item.cost)
+            {
+                money -= item.cost;
+                item.active = true;
+                visuals[items.ToList().IndexOf(item)].enabled = true;
+            }
+            yield return new WaitForSeconds(0.5f);
+        }
+        MarketManager.instance.StandCorrutineCounter--;
     }
 }

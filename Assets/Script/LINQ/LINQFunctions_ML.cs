@@ -8,11 +8,11 @@ public static class LINQFunctions_ML
 {
     //Funciones de LINQ de Matias Labreniuk
 
-    public static List<Tuple<string,int,int>> TupleListCreator<T>(this List<Item> myItemList, int itemQuantity)
+    public static List<Tuple<string,int, bool, Item>> TupleListCreator<T>(this List<Item> myItemList)
     {
-        var myCollection = myItemList.Aggregate(new List<Tuple<string, int, int>>(), (acumulator, current) => 
+        var myCollection = myItemList.Aggregate(new List<Tuple<string, int, bool, Item>>(), (acumulator, current) => 
                            {
-                               var myTuple = Tuple.Create(current.itemType, current.price, itemQuantity);
+                               var myTuple = Tuple.Create(current.itemType, current.price, current.active, current);
                                acumulator.Add(myTuple);
                                return acumulator;
                            }
@@ -20,10 +20,9 @@ public static class LINQFunctions_ML
         return myCollection;
     }
 
-    public static List<Item> PurchaseItems(this IEnumerable<Item> allItems)
+    public static IEnumerable<Item> PurchaseItems(this IEnumerable<Item> allItems)
     {
         return allItems.Where(x => x.active == false)           //Grupo 1: Where
-                       .OrderBy(x => x.cost)                    //Grupo 2: OrderBy
-                       .ToList();                               //Grupo 3: ToList
+                       .OrderBy(x => x.cost);                   //Grupo 2: OrderBy
     }
 }

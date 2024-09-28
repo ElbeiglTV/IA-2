@@ -12,8 +12,11 @@ public static class LINQFunctions_ML
     {
         var myCollection = myItemList.Aggregate(new List<Tuple<string, int, bool, Item>>(), (acumulator, current) => 
                            {
-                               var myTuple = Tuple.Create(current.itemType, current.price, current.active, current);
-                               acumulator.Add(myTuple);
+                               if (current.active == true) 
+                               { 
+                                   var myTuple = Tuple.Create(current.itemType, current.price, current.active, current); 
+                                   acumulator.Add(myTuple);
+                               }
                                return acumulator;
                            }
                            );
@@ -26,11 +29,24 @@ public static class LINQFunctions_ML
                        .OrderBy(x => x.cost);                   //Grupo 2: OrderBy
     }
 
-    public static IEnumerable<dynamic> TupleTypeCounter(this List<Tuple<string, int, bool, Item>> allItems)
+    public static IEnumerable<(string ItemType, int Count)> TupleTypeCounter(this List<Tuple<string, int, bool, Item>> allItems)
     {
-        var itemCount = allItems.GroupBy(x => x.Item1)                                              //GroupBy
-                                .Select(group => new {Item1 = group.Key, Count = group.Count()})    //Grupo 1: Select
-                                .ToList();                                                          //Grupo 3: ToList
-        return itemCount;
+        return allItems.GroupBy(x => x.Item1)                                           //GroupBy
+                       .Select(group => (ItemType: group.Key, Count: group.Count()))    //Grupo 1: Select
+                       .ToList();                                                       //Grupo 3: ToList
+    }
+
+    public static IEnumerable<(string ItemType, int LowestPrice)> GetLowestPricePerType(this List<Tuple<string, int, bool, Item>> allItems)
+    {
+        var lowestPrices = allItems
+            .OrderBy(item => item.Item1)                                           // Grupo 2: OrderBy
+            .ThenBy(item => item.Item2)                                            // Grupo 2: ThenBy
+            .Select(item => new { item.Item1, item.Item2 })                        // Grupo 1: Select
+            .GroupBy(item => item.Item1)                                           // GroupBy
+            .Select(group => group.First())                                        // Grupo 1: Select & First
+            .Select(result => (ItemType: result.Item1, LowestPrice: result.Item2)) // Grupo 1: Select
+            .ToList();                                                             // Grupo 3: ToList
+
+        return lowestPrices;
     }
 }

@@ -29,6 +29,7 @@ public class MarketManager : MonoBehaviour
     public Node MarketQueue;
 
     public int MarketQueueCounter;
+    public int MarketEntranceCounter;
 
 
     public int StandCorrutineCounter;

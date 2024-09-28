@@ -12,10 +12,9 @@ public class LinqAgent : MonoBehaviour
 
     public int ActualStand;
 
-    private void Start()
+    public void InitializeAgent()
     {
         transform.position = MarketManager.instance.MarketEntrance.transform.position;
-
 
         if (MarketManager.instance.MarketIsOpen)
         {

@@ -1318,7 +1318,8 @@ Transform:
   m_LocalPosition: {x: 1.2149284, y: -0.9868882, z: 9.409397}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1221840941}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &33450844
@@ -25365,6 +25366,71 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1681662641}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1221840940
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1221840941}
+  - component: {fileID: 1221840942}
+  m_Layer: 0
+  m_Name: UIManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1221840941
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221840940}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 33450843}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1221840942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221840940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a8b5576971731649b6a83b20b1693fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pescadoA: {fileID: 767341739}
+  pescadoB: {fileID: 265718540}
+  pescadoC: {fileID: 480091235}
+  espada: {fileID: 1356644877}
+  escudo: {fileID: 151294001}
+  hacha: {fileID: 968348376}
+  tarta: {fileID: 193870436}
+  torta: {fileID: 1825155478}
+  pan: {fileID: 1609551300}
+  galletas: {fileID: 1832315644}
+  banana: {fileID: 548956528}
+  zanahoria: {fileID: 1407879655}
+  sandia: {fileID: 548956528}
+  carne: {fileID: 766803421}
+  jamon: {fileID: 1806386139}
+  chorizo: {fileID: 107425809}
+  pescado: {fileID: 1121713995}
+  vegetales: {fileID: 255764652}
+  procesado: {fileID: 1304337645}
+  armaduras: {fileID: 124063295}
+  carnes: {fileID: 1040548846}
 --- !u!1 &1227235462 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5512969965247550855, guid: ac936ad7ddc749a41a651adf7537ca96,

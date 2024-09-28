@@ -46,11 +46,13 @@ public class MarketManager : MonoBehaviour
     {
         while (true)
         {
-            foreach (var agents in LinqAgentGenerator().Take(Random.Range(0, 10)))
+            var random = Random.Range(0, 6);
+            foreach (var agents in LinqAgentGenerator().Take(random))
             {
                 agents.InitializeAgent();
                 yield return new WaitForSeconds(1);
             }
+            Debug.Log("Spawned "+ random +" Agents");
 
             while (AgentCorrutineCounter > 0)
             {

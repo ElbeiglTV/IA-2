@@ -8,29 +8,48 @@ public class LinqAgent : MonoBehaviour
 {
     public float money;
 
-    public List<Item> itemsToBuy;
+    public List<NMItem> itemsToBuy;
 
-    public List<Node> Stands;
     public int ActualStand;
 
     private void Start()
     {
+        transform.position = MarketManager.instance.MarketEntrance.transform.position;
+
+
         if (MarketManager.instance.MarketIsOpen)
         {
         StartCoroutine(TravelAlongMarket());
         }
+
     }
 
     public IEnumerator TravelAlongMarket()
     {
         MarketManager.instance.AgentCorrutineCounter++;
-        while(ActualStand < Stands.Count)
+        while(ActualStand < MarketManager.instance.Stands.Count)
         {
-            transform.position = Stands[ActualStand].transform.position;
-            yield return StartCoroutine(BuyItems(Stands.Select(x => x.GetComponent<Stand>()).ToList()[ActualStand]));
+
+
+            if (MarketManager.instance.Stands[ActualStand].isOccupied)
+            {
+                
+                MarketManager.instance.MarketQueueCounter++;
+                transform.position = MarketManager.instance.MarketQueue.transform.position + new Vector3(0,10*MarketManager.instance.MarketQueueCounter,0);
+                while (MarketManager.instance.Stands[ActualStand].isOccupied)
+                {
+                    yield return null;
+                }
+            }
+            transform.position = MarketManager.instance.Stands[ActualStand].transform.position;
+            MarketManager.instance.Stands[ActualStand].isOccupied = true;
+            MarketManager.instance.Stands[ActualStand-1].isOccupied = false;
+            yield return StartCoroutine(BuyItems(MarketManager.instance.Stands.Select(x => x.GetComponent<Stand>()).ToList()[ActualStand]));
             ActualStand++;
         }
+
         MarketManager.instance.AgentCorrutineCounter--; 
+        Destroy(gameObject);
     }
     public IEnumerator BuyItems(Stand standToBuy)
     {

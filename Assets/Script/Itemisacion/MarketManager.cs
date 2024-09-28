@@ -22,6 +22,11 @@ public class MarketManager : MonoBehaviour
     public bool MarketIsOpen;
     public MarketState marketState;
     public List<Node> Stands;
+    public Node MarketEntrance;
+    public Node MarketQueue;
+
+    public int MarketQueueCounter;
+
 
     public int StandCorrutineCounter;
     public int AgentCorrutineCounter;

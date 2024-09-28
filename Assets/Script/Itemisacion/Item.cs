@@ -25,3 +25,14 @@ public class Item : MonoBehaviour
     }
 
 }
+[System.Serializable]
+public class NMItem
+{
+    [StringPopup(new[] {"Pescado azul", "Pescado rojo", "Pescado verde",
+                        "Espada", "Escudo", "Hacha",
+                        "Tarta", "Torta", "Pan", "Galletas",
+                        "Banana", "Zanahoria", "Sandía",
+                        "Carne", "Jamón", "Chorizo" })]
+    public string itemType;
+
+}

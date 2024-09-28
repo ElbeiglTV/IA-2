@@ -8,11 +8,11 @@ public static class LINQFunctions_ML
 {
     //Funciones de LINQ de Matias Labreniuk
 
-    public static List<Tuple<string,int>> TupleListCreator<T>(this List<Item> myItemList)
+    public static List<Tuple<string,int, bool, Item>> TupleListCreator<T>(this List<Item> myItemList)
     {
-        var myCollection = myItemList.Aggregate(new List<Tuple<string, int>>(), (acumulator, current) => 
+        var myCollection = myItemList.Aggregate(new List<Tuple<string, int, bool, Item>>(), (acumulator, current) => 
                            {
-                               var myTuple = Tuple.Create(current.itemType, current.price);
+                               var myTuple = Tuple.Create(current.itemType, current.price, current.active, current);
                                acumulator.Add(myTuple);
                                return acumulator;
                            }

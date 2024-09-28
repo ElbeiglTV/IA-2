@@ -16,27 +16,4 @@ public static class LinqFunc_GT
     {
         return items.Where(x => x.active && x.price < costFilter).OfType<T>();
     }
-    public static float BuyItems<T>(this float money, IEnumerable<T> buyList,Stand stand) where T : Item
-    {
-        float totalCost = buyList.Aggregate(0f, (acc, x) => acc + x.price);
-
-        if(money >= totalCost)
-        {
-           foreach (var item in buyList)
-           {
-               item.active = false;
-           }
-           stand.money += totalCost;
-           return money -= totalCost;
-        }
-        else
-        {
-            return money;
-        }
-    }
-
-
-
-
-
 }

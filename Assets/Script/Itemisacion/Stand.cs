@@ -38,4 +38,12 @@ public class Stand : MonoBehaviour
            
         
     }
+    public void BuyItem(Item item)
+    {
+        money += item.price;
+        item.active = false;
+        visuals[items.ToList().IndexOf(item)].enabled = false;
+        Debug.Log("Bought " + item.itemType);
+        
+    }
 }

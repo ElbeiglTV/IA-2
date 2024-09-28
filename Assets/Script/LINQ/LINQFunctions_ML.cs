@@ -19,4 +19,9 @@ public static class LINQFunctions_ML
                            );
         return myCollection;
     }
+
+    public static List<GameObject> PurchaseItems(this IEnumerable<Item> allItems)
+    {
+        return allItems.Where(x => x.active == false).OrderBy(x => x.cost).Select(x => x.gameObject).ToList();
+    }
 }

@@ -5,7 +5,11 @@ using UnityEngine;
 
 public class Item : MonoBehaviour
 {
-    [StringPopup(new[] {"Pescado","Arma","Prosesado","Vegetales","Carnes" })]
+    [StringPopup(new[] {"Pescado azul", "Pescado rojo", "Pescado verde", 
+                        "Espada", "Escudo", "Hacha", 
+                        "Tarta", "Torta", "Pan", 
+                        "Banana", "Zanahoria", "Sandía", 
+                        "Carne", "Jamón", "Chorizo" })]
     public string itemType;
 
 

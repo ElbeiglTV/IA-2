@@ -1447,6 +1447,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -7681823731938670938, guid: 216af29fb8329d948aacd9ef677bee72, type: 3}
+--- !u!114 &85795247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506286901812682103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Chorizo
+  price: 10
+  cost: 6
+  active: 1
 --- !u!1001 &88515875
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1733,6 +1749,22 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 96563461}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &97622577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506286901812682099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Chorizo
+  price: 10
+  cost: 6
+  active: 1
 --- !u!1001 &101712338
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2503,6 +2535,22 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 132291264}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &136724814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506286901812682106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Chorizo
+  price: 10
+  cost: 6
+  active: 1
 --- !u!1001 &137716947
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3750,6 +3798,38 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 195847334}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &197045636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506286901812682131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Carne
+  price: 8
+  cost: 4
+  active: 1
+--- !u!114 &197659828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506286901812682130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Chorizo
+  price: 10
+  cost: 6
+  active: 1
 --- !u!1001 &198835147
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3943,6 +4023,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1258736543099589447, guid: 3763a610870991740befe42354bfeb4a, type: 3}
+--- !u!114 &211038750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506286901812682102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Chorizo
+  price: 10
+  cost: 6
+  active: 1
 --- !u!1001 &212462760
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4988,6 +5084,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -8389614761513725398, guid: 095c7254214cf304ea29b3561adb1351, type: 3}
+--- !u!114 &257885403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506286901812682128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Carne
+  price: 8
+  cost: 4
+  active: 1
 --- !u!1001 &259516184
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5528,6 +5640,22 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 283486524}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &286065364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506286901812682098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: "Jam\xF3n"
+  price: 7
+  cost: 5
+  active: 1
 --- !u!1 &286669456 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6440789765353807096, guid: 5ed459fa9af3cc54a8803d749f445718,
@@ -6055,6 +6183,22 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 309713203}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &310897216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506286901812682114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Carne
+  price: 8
+  cost: 4
+  active: 1
 --- !u!4 &316420841 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2752604511930461857, guid: d6cfbca0aa720344e9a0d920d30c1e75,
@@ -6558,7 +6702,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
+  itemType: Pescado
   price: 20
   cost: 10
   active: 0
@@ -7216,6 +7360,22 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 408096603}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &412802804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506286901812682112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Chorizo
+  price: 10
+  cost: 6
+  active: 1
 --- !u!1001 &432827915
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7644,7 +7804,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
+  itemType: Pescado
   price: 20
   cost: 10
   active: 0
@@ -7758,6 +7918,22 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 455566610}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &472381149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506286901812682129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Carne
+  price: 8
+  cost: 4
+  active: 1
 --- !u!1001 &480422398
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9249,7 +9425,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
+  itemType: Pescado
   price: 20
   cost: 10
   active: 0
@@ -10382,6 +10558,22 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 601315355}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &603987091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506286901812682120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Chorizo
+  price: 10
+  cost: 6
+  active: 1
 --- !u!1001 &611641973
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10476,6 +10668,22 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 611641973}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &617502941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506286901812682116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Carne
+  price: 8
+  cost: 4
+  active: 1
 --- !u!1001 &620621737
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10575,12 +10783,44 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 620621737}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &623051140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506286901812682121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: "Jam\xF3n"
+  price: 7
+  cost: 5
+  active: 1
 --- !u!1 &626306859 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2671707540183766986, guid: e75203ad640d6aa4890f0c17e26e0046,
     type: 3}
   m_PrefabInstance: {fileID: 1188997720}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &630166307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506286901812682105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Chorizo
+  price: 10
+  cost: 6
+  active: 1
 --- !u!1 &630531127 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5721597293754519371, guid: 0793504ad3bc94f4cba8cd1e1621390e,
@@ -11683,6 +11923,22 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 677113497}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &678949372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506286901812682126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Chorizo
+  price: 10
+  cost: 6
+  active: 1
 --- !u!1 &682370932 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2853160215902145305, guid: b82d9969aedb66c4b998ad0627711207,
@@ -13729,7 +13985,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
+  itemType: Pescado
   price: 20
   cost: 10
   active: 0
@@ -14168,6 +14424,22 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 821134794}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &822492687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506286901812682127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Chorizo
+  price: 10
+  cost: 6
+  active: 1
 --- !u!1 &825838496 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4275908527123672530, guid: aa5b129a96531904680cf344db456eea,
@@ -14572,6 +14844,22 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 862189027}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &864674695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506286901812682108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Chorizo
+  price: 10
+  cost: 6
+  active: 1
 --- !u!1001 &876325811
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18180,6 +18468,22 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1101768486}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1103577377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506286901812682113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Chorizo
+  price: 10
+  cost: 6
+  active: 1
 --- !u!1 &1110950823 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8833014857866130543, guid: db8edc7562833af4b9eebea07c69d5d9,
@@ -18192,6 +18496,22 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1650557311}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1115381403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506286901812682097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: "Jam\xF3n"
+  price: 7
+  cost: 5
+  active: 1
 --- !u!1001 &1115933441
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19418,6 +19738,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 2159703810824169821, guid: 811e0fd5b521204478f4c03144cf78d7, type: 3}
+--- !u!114 &1219939054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506286901812682122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Chorizo
+  price: 10
+  cost: 6
+  active: 1
 --- !u!1 &1220054632 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7231767413298178359, guid: 7a529b20e0299d54e8a27a8499ab7f81,
@@ -21629,6 +21965,22 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1595323918}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1329252943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506286901812682123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Chorizo
+  price: 10
+  cost: 6
+  active: 1
 --- !u!1001 &1341407685
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21750,6 +22102,30 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1341407687}
+    - targetCorrespondingSourceObject: {fileID: 7577300870917087709, guid: 5c2023285b6214242a8f9f473ccc1ab7,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1341407698}
+    - targetCorrespondingSourceObject: {fileID: 7577300871146784063, guid: 5c2023285b6214242a8f9f473ccc1ab7,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1341407697}
+    - targetCorrespondingSourceObject: {fileID: 3443884543487540499, guid: 5c2023285b6214242a8f9f473ccc1ab7,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1341407696}
+    - targetCorrespondingSourceObject: {fileID: 7577300870036667125, guid: 5c2023285b6214242a8f9f473ccc1ab7,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1341407695}
+    - targetCorrespondingSourceObject: {fileID: 7577300870426886313, guid: 5c2023285b6214242a8f9f473ccc1ab7,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1341407694}
+    - targetCorrespondingSourceObject: {fileID: 7577300870164255229, guid: 5c2023285b6214242a8f9f473ccc1ab7,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1602390433}
   m_SourcePrefab: {fileID: 100100000, guid: 5c2023285b6214242a8f9f473ccc1ab7, type: 3}
 --- !u!4 &1341407686 stripped
 Transform:
@@ -21779,6 +22155,138 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!1 &1341407688 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7577300870164255229, guid: 5c2023285b6214242a8f9f473ccc1ab7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1341407685}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1341407689 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7577300870426886313, guid: 5c2023285b6214242a8f9f473ccc1ab7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1341407685}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1341407690 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7577300870036667125, guid: 5c2023285b6214242a8f9f473ccc1ab7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1341407685}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1341407691 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3443884543487540499, guid: 5c2023285b6214242a8f9f473ccc1ab7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1341407685}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1341407692 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7577300871146784063, guid: 5c2023285b6214242a8f9f473ccc1ab7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1341407685}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1341407693 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7577300870917087709, guid: 5c2023285b6214242a8f9f473ccc1ab7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1341407685}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1341407694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1341407689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Carne
+  price: 8
+  cost: 4
+  active: 1
+--- !u!114 &1341407695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1341407690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Carne
+  price: 8
+  cost: 4
+  active: 1
+--- !u!114 &1341407696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1341407691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Carne
+  price: 8
+  cost: 4
+  active: 1
+--- !u!114 &1341407697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1341407692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Carne
+  price: 8
+  cost: 4
+  active: 1
+--- !u!114 &1341407698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1341407693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Carne
+  price: 8
+  cost: 4
+  active: 1
+--- !u!114 &1347450985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506286901812682110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Chorizo
+  price: 10
+  cost: 6
+  active: 1
 --- !u!1 &1350858123 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5492840848138943856, guid: 73a9ab3e0680d24459b8cc6ef9809672,
@@ -22213,7 +22721,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
+  itemType: Pescado
   price: 20
   cost: 10
   active: 0
@@ -24430,6 +24938,22 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2028576532}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1449697381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506286901812682125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Carne
+  price: 8
+  cost: 4
+  active: 1
 --- !u!1 &1451837724 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5492840849371059401, guid: 73a9ab3e0680d24459b8cc6ef9809672,
@@ -26949,12 +27473,44 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1598550335}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1601952556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506286901812682117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Carne
+  price: 8
+  cost: 4
+  active: 1
 --- !u!1 &1602006452 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8833014857866130543, guid: db8edc7562833af4b9eebea07c69d5d9,
     type: 3}
   m_PrefabInstance: {fileID: 2043072043}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1602390433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1341407688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Carne
+  price: 8
+  cost: 4
+  active: 1
 --- !u!1001 &1608738890
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27322,7 +27878,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
+  itemType: Pescado
   price: 20
   cost: 10
   active: 0
@@ -28539,6 +29095,38 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -3181957846400817141, guid: fb1a94648bbde3b4aa235b2722ee7582, type: 3}
+--- !u!114 &1683622332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506286901812682107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Chorizo
+  price: 10
+  cost: 6
+  active: 1
+--- !u!114 &1687581266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506286901812682104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Chorizo
+  price: 10
+  cost: 6
+  active: 1
 --- !u!1 &1689928264 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8833014857866130543, guid: db8edc7562833af4b9eebea07c69d5d9,
@@ -28567,6 +29155,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -9144735209240173524, guid: 547918b602e9a664f8bbed6998006b60, type: 3}
+--- !u!114 &1693682742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506286901812682111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Chorizo
+  price: 10
+  cost: 6
+  active: 1
 --- !u!1 &1693923334 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5512969965247550855, guid: ac936ad7ddc749a41a651adf7537ca96,
@@ -29807,7 +30411,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
+  itemType: Pescado
   price: 20
   cost: 10
   active: 0
@@ -30646,7 +31250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
+  itemType: Pescado
   price: 20
   cost: 10
   active: 0
@@ -30744,6 +31348,38 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 1065176376799538906, guid: 4066b69ead49d39438006f007286e158, type: 3}
+--- !u!114 &1782999134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506286901812682109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Chorizo
+  price: 10
+  cost: 6
+  active: 1
+--- !u!114 &1785550362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506286901812682115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Carne
+  price: 8
+  cost: 4
+  active: 1
 --- !u!1001 &1787874761
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30954,7 +31590,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
+  itemType: Pescado
   price: 20
   cost: 10
   active: 0
@@ -31086,7 +31722,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
+  itemType: Pescado azul
   price: 20
   cost: 10
   active: 0
@@ -31488,6 +32124,22 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1810994188}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1811592127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506286901812682124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Chorizo
+  price: 10
+  cost: 6
+  active: 1
 --- !u!1001 &1813832108
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32072,6 +32724,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8768842807459120182, guid: f18dbc5e2d5cf7445a5eb39f6a7d3458, type: 3}
+--- !u!114 &1843499383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506286901812682100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Carne
+  price: 8
+  cost: 4
+  active: 1
 --- !u!4 &1846487376 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1367966905094457711, guid: b69c35c4f3d673e4f85004d0581f9105,
@@ -32399,7 +33067,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
+  itemType: Pescado
   price: 20
   cost: 10
   active: 0
@@ -33472,6 +34140,22 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1902613015}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1912860521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506286901812682118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Chorizo
+  price: 10
+  cost: 6
+  active: 1
 --- !u!1 &1912972744 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4324010838217731521, guid: 5ed459fa9af3cc54a8803d749f445718,
@@ -33516,6 +34200,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1258736543099589447, guid: 3763a610870991740befe42354bfeb4a, type: 3}
+--- !u!114 &1918806709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506286901812682119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: "Jam\xF3n"
+  price: 7
+  cost: 5
+  active: 1
 --- !u!1 &1926149279 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9095942915120226209, guid: 5ed459fa9af3cc54a8803d749f445718,
@@ -34323,6 +35023,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &1979090390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506286901812682101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Carne
+  price: 8
+  cost: 4
+  active: 1
 --- !u!1 &1979367519 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2606311159111780170, guid: 5ed459fa9af3cc54a8803d749f445718,
@@ -34855,7 +35571,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
+  itemType: Pescado
   price: 20
   cost: 10
   active: 0
@@ -36281,6 +36997,22 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 7879479369554055516}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2091911668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506286901812682132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Carne
+  price: 8
+  cost: 4
+  active: 1
 --- !u!1001 &2104863468
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36672,7 +37404,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
+  itemType: Pescado
   price: 20
   cost: 10
   active: 0
@@ -37968,6 +38700,170 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 2506286901812682096}
+    - targetCorrespondingSourceObject: {fileID: 1360950264960807551, guid: 70eb163c2558dd14d97f3b3f6621756a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2506286901812682142}
+    - targetCorrespondingSourceObject: {fileID: 1360950264582252221, guid: 70eb163c2558dd14d97f3b3f6621756a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2506286901812682141}
+    - targetCorrespondingSourceObject: {fileID: 8918512581472451712, guid: 70eb163c2558dd14d97f3b3f6621756a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2506286901812682140}
+    - targetCorrespondingSourceObject: {fileID: 8918512582085471982, guid: 70eb163c2558dd14d97f3b3f6621756a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2506286901812682139}
+    - targetCorrespondingSourceObject: {fileID: 8918512580693286977, guid: 70eb163c2558dd14d97f3b3f6621756a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2506286901812682138}
+    - targetCorrespondingSourceObject: {fileID: 8918512582335842016, guid: 70eb163c2558dd14d97f3b3f6621756a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2091911668}
+    - targetCorrespondingSourceObject: {fileID: 8918512582222746790, guid: 70eb163c2558dd14d97f3b3f6621756a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 197045636}
+    - targetCorrespondingSourceObject: {fileID: 8918512582301065572, guid: 70eb163c2558dd14d97f3b3f6621756a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 197659828}
+    - targetCorrespondingSourceObject: {fileID: 8918512582024535474, guid: 70eb163c2558dd14d97f3b3f6621756a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 472381149}
+    - targetCorrespondingSourceObject: {fileID: 8918512580715928456, guid: 70eb163c2558dd14d97f3b3f6621756a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 257885403}
+    - targetCorrespondingSourceObject: {fileID: 8918512581635480075, guid: 70eb163c2558dd14d97f3b3f6621756a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 822492687}
+    - targetCorrespondingSourceObject: {fileID: 8918512581392805756, guid: 70eb163c2558dd14d97f3b3f6621756a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 678949372}
+    - targetCorrespondingSourceObject: {fileID: 8918512580299743901, guid: 70eb163c2558dd14d97f3b3f6621756a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1449697381}
+    - targetCorrespondingSourceObject: {fileID: 8918512580381288544, guid: 70eb163c2558dd14d97f3b3f6621756a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1811592127}
+    - targetCorrespondingSourceObject: {fileID: 8918512582273586333, guid: 70eb163c2558dd14d97f3b3f6621756a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1329252943}
+    - targetCorrespondingSourceObject: {fileID: 8918512581128322024, guid: 70eb163c2558dd14d97f3b3f6621756a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1219939054}
+    - targetCorrespondingSourceObject: {fileID: 8918512580772383755, guid: 70eb163c2558dd14d97f3b3f6621756a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 623051140}
+    - targetCorrespondingSourceObject: {fileID: 8918512581590367942, guid: 70eb163c2558dd14d97f3b3f6621756a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 603987091}
+    - targetCorrespondingSourceObject: {fileID: 8918512581684082136, guid: 70eb163c2558dd14d97f3b3f6621756a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1918806709}
+    - targetCorrespondingSourceObject: {fileID: 8918512581197220995, guid: 70eb163c2558dd14d97f3b3f6621756a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1912860521}
+    - targetCorrespondingSourceObject: {fileID: 1360950265167304349, guid: 70eb163c2558dd14d97f3b3f6621756a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1601952556}
+    - targetCorrespondingSourceObject: {fileID: 6057281361638083155, guid: 70eb163c2558dd14d97f3b3f6621756a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 617502941}
+    - targetCorrespondingSourceObject: {fileID: 1360950266065259957, guid: 70eb163c2558dd14d97f3b3f6621756a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1785550362}
+    - targetCorrespondingSourceObject: {fileID: 1360950264308021225, guid: 70eb163c2558dd14d97f3b3f6621756a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 310897216}
+    - targetCorrespondingSourceObject: {fileID: 4001664579458388476, guid: 70eb163c2558dd14d97f3b3f6621756a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1103577377}
+    - targetCorrespondingSourceObject: {fileID: 4001664579946702066, guid: 70eb163c2558dd14d97f3b3f6621756a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 412802804}
+    - targetCorrespondingSourceObject: {fileID: 4001664579683515864, guid: 70eb163c2558dd14d97f3b3f6621756a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1693682742}
+    - targetCorrespondingSourceObject: {fileID: 4001664580187359028, guid: 70eb163c2558dd14d97f3b3f6621756a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1347450985}
+    - targetCorrespondingSourceObject: {fileID: 4001664579985671338, guid: 70eb163c2558dd14d97f3b3f6621756a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1782999134}
+    - targetCorrespondingSourceObject: {fileID: 4001664579604608537, guid: 70eb163c2558dd14d97f3b3f6621756a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 864674695}
+    - targetCorrespondingSourceObject: {fileID: 4001664579951046971, guid: 70eb163c2558dd14d97f3b3f6621756a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1683622332}
+    - targetCorrespondingSourceObject: {fileID: 4001664579335402952, guid: 70eb163c2558dd14d97f3b3f6621756a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 136724814}
+    - targetCorrespondingSourceObject: {fileID: 4001664578662998342, guid: 70eb163c2558dd14d97f3b3f6621756a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 630166307}
+    - targetCorrespondingSourceObject: {fileID: 4001664579282262256, guid: 70eb163c2558dd14d97f3b3f6621756a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1687581266}
+    - targetCorrespondingSourceObject: {fileID: 4001664580150782937, guid: 70eb163c2558dd14d97f3b3f6621756a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 85795247}
+    - targetCorrespondingSourceObject: {fileID: 4001664578633095103, guid: 70eb163c2558dd14d97f3b3f6621756a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 211038750}
+    - targetCorrespondingSourceObject: {fileID: 8918512580576180297, guid: 70eb163c2558dd14d97f3b3f6621756a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1979090390}
+    - targetCorrespondingSourceObject: {fileID: 8918512581692810995, guid: 70eb163c2558dd14d97f3b3f6621756a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1843499383}
+    - targetCorrespondingSourceObject: {fileID: 8918512582027713937, guid: 70eb163c2558dd14d97f3b3f6621756a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 97622577}
+    - targetCorrespondingSourceObject: {fileID: 8918512582355018870, guid: 70eb163c2558dd14d97f3b3f6621756a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 286065364}
+    - targetCorrespondingSourceObject: {fileID: 8918512582185117495, guid: 70eb163c2558dd14d97f3b3f6621756a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1115381403}
   m_SourcePrefab: {fileID: 100100000, guid: 70eb163c2558dd14d97f3b3f6621756a, type: 3}
 --- !u!4 &2506286901812682095 stripped
 Transform:
@@ -37997,6 +38893,332 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!1 &2506286901812682097 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8918512582185117495, guid: 70eb163c2558dd14d97f3b3f6621756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2506286901812682094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2506286901812682098 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8918512582355018870, guid: 70eb163c2558dd14d97f3b3f6621756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2506286901812682094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2506286901812682099 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8918512582027713937, guid: 70eb163c2558dd14d97f3b3f6621756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2506286901812682094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2506286901812682100 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8918512581692810995, guid: 70eb163c2558dd14d97f3b3f6621756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2506286901812682094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2506286901812682101 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8918512580576180297, guid: 70eb163c2558dd14d97f3b3f6621756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2506286901812682094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2506286901812682102 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4001664578633095103, guid: 70eb163c2558dd14d97f3b3f6621756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2506286901812682094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2506286901812682103 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4001664580150782937, guid: 70eb163c2558dd14d97f3b3f6621756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2506286901812682094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2506286901812682104 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4001664579282262256, guid: 70eb163c2558dd14d97f3b3f6621756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2506286901812682094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2506286901812682105 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4001664578662998342, guid: 70eb163c2558dd14d97f3b3f6621756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2506286901812682094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2506286901812682106 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4001664579335402952, guid: 70eb163c2558dd14d97f3b3f6621756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2506286901812682094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2506286901812682107 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4001664579951046971, guid: 70eb163c2558dd14d97f3b3f6621756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2506286901812682094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2506286901812682108 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4001664579604608537, guid: 70eb163c2558dd14d97f3b3f6621756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2506286901812682094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2506286901812682109 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4001664579985671338, guid: 70eb163c2558dd14d97f3b3f6621756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2506286901812682094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2506286901812682110 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4001664580187359028, guid: 70eb163c2558dd14d97f3b3f6621756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2506286901812682094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2506286901812682111 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4001664579683515864, guid: 70eb163c2558dd14d97f3b3f6621756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2506286901812682094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2506286901812682112 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4001664579946702066, guid: 70eb163c2558dd14d97f3b3f6621756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2506286901812682094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2506286901812682113 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4001664579458388476, guid: 70eb163c2558dd14d97f3b3f6621756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2506286901812682094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2506286901812682114 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1360950264308021225, guid: 70eb163c2558dd14d97f3b3f6621756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2506286901812682094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2506286901812682115 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1360950266065259957, guid: 70eb163c2558dd14d97f3b3f6621756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2506286901812682094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2506286901812682116 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6057281361638083155, guid: 70eb163c2558dd14d97f3b3f6621756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2506286901812682094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2506286901812682117 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1360950265167304349, guid: 70eb163c2558dd14d97f3b3f6621756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2506286901812682094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2506286901812682118 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8918512581197220995, guid: 70eb163c2558dd14d97f3b3f6621756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2506286901812682094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2506286901812682119 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8918512581684082136, guid: 70eb163c2558dd14d97f3b3f6621756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2506286901812682094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2506286901812682120 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8918512581590367942, guid: 70eb163c2558dd14d97f3b3f6621756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2506286901812682094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2506286901812682121 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8918512580772383755, guid: 70eb163c2558dd14d97f3b3f6621756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2506286901812682094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2506286901812682122 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8918512581128322024, guid: 70eb163c2558dd14d97f3b3f6621756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2506286901812682094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2506286901812682123 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8918512582273586333, guid: 70eb163c2558dd14d97f3b3f6621756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2506286901812682094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2506286901812682124 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8918512580381288544, guid: 70eb163c2558dd14d97f3b3f6621756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2506286901812682094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2506286901812682125 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8918512580299743901, guid: 70eb163c2558dd14d97f3b3f6621756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2506286901812682094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2506286901812682126 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8918512581392805756, guid: 70eb163c2558dd14d97f3b3f6621756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2506286901812682094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2506286901812682127 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8918512581635480075, guid: 70eb163c2558dd14d97f3b3f6621756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2506286901812682094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2506286901812682128 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8918512580715928456, guid: 70eb163c2558dd14d97f3b3f6621756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2506286901812682094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2506286901812682129 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8918512582024535474, guid: 70eb163c2558dd14d97f3b3f6621756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2506286901812682094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2506286901812682130 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8918512582301065572, guid: 70eb163c2558dd14d97f3b3f6621756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2506286901812682094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2506286901812682131 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8918512582222746790, guid: 70eb163c2558dd14d97f3b3f6621756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2506286901812682094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2506286901812682132 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8918512582335842016, guid: 70eb163c2558dd14d97f3b3f6621756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2506286901812682094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2506286901812682133 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8918512580693286977, guid: 70eb163c2558dd14d97f3b3f6621756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2506286901812682094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2506286901812682134 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8918512582085471982, guid: 70eb163c2558dd14d97f3b3f6621756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2506286901812682094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2506286901812682135 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8918512581472451712, guid: 70eb163c2558dd14d97f3b3f6621756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2506286901812682094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2506286901812682136 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1360950264582252221, guid: 70eb163c2558dd14d97f3b3f6621756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2506286901812682094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2506286901812682137 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1360950264960807551, guid: 70eb163c2558dd14d97f3b3f6621756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2506286901812682094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2506286901812682138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506286901812682133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Carne
+  price: 8
+  cost: 4
+  active: 1
+--- !u!114 &2506286901812682139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506286901812682134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Carne
+  price: 8
+  cost: 4
+  active: 1
+--- !u!114 &2506286901812682140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506286901812682135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Carne
+  price: 8
+  cost: 4
+  active: 1
+--- !u!114 &2506286901812682141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506286901812682136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Carne
+  price: 8
+  cost: 4
+  active: 1
+--- !u!114 &2506286901812682142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506286901812682137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Carne
+  price: 8
+  cost: 4
+  active: 1
 --- !u!1001 &2606311158365134057
 PrefabInstance:
   m_ObjectHideFlags: 0

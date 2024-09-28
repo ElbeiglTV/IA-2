@@ -1254,6 +1254,7 @@ GameObject:
   - component: {fileID: 33450843}
   - component: {fileID: 33450842}
   - component: {fileID: 33450841}
+  - component: {fileID: 33450844}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -1320,6 +1321,34 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &33450844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33450840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60bdd550c8a8ea844a543944d34f48f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MarketIsOpen: 0
+  AgentPrefab: {fileID: 7402546216218944767, guid: d3a80facf4587e6428117927c64b4f2c,
+    type: 3}
+  marketState: 1
+  Stands:
+  - {fileID: 1040548845}
+  - {fileID: 124063294}
+  - {fileID: 1304337644}
+  - {fileID: 255764651}
+  - {fileID: 1121713993}
+  MarketEntrance: {fileID: 2136412444}
+  MarketQueue: {fileID: 1138849347}
+  MarketQueueCounter: 0
+  MarketEntranceCounter: 0
+  StandCorrutineCounter: 0
+  AgentCorrutineCounter: 0
 --- !u!4 &35447660 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7238891033119205893, guid: ea1d9040b339d034abaa12dd47062386,
@@ -3012,7 +3041,7 @@ Transform:
   m_GameObject: {fileID: 124063291}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.35, y: 3.571, z: -7.77}
+  m_LocalPosition: {x: -7.35, y: 4.03, z: -7.77}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -22613,7 +22642,7 @@ Transform:
   m_GameObject: {fileID: 1040548842}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.4, y: 3.571, z: -0.05}
+  m_LocalPosition: {x: -10.4, y: 3.93, z: -0.05}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -24343,7 +24372,7 @@ Transform:
   m_GameObject: {fileID: 1138849344}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.558, y: 3.571, z: 10.5}
+  m_LocalPosition: {x: 4.67, y: 4.15, z: 9.65}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

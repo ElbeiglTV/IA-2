@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,11 +13,11 @@ public class Stand : MonoBehaviour
     public List<MeshRenderer> visuals => standObjects.Select(x => x.GetComponentInChildren<MeshRenderer>()).ToList();
     // list of Items for this stand (Item)
     public IEnumerable<Item> items => standObjects.Select(x => x.GetComponentInChildren<Item>());
+    public List<Tuple<string, int, bool, Item>> tupleList => items.TupleListCreator();
 
     private void Start()
     {
         InitializeStand();
-    
     }
     
     void InitializeStand()

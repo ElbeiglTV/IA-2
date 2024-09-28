@@ -142,8 +142,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Espada
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado azul
+  stand: {fileID: 1121713995}
   price: 35
   cost: 18
   active: 1
@@ -199,7 +199,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Zanahoria
-  stand: {fileID: 0}
+  stand: {fileID: 255764652}
   price: 4
   cost: 3
   active: 1
@@ -320,8 +320,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado rojo
+  stand: {fileID: 1121713995}
   price: 13
   cost: 5
   active: 1
@@ -347,6 +347,140 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1258736543099589447, guid: 3763a610870991740befe42354bfeb4a, type: 3}
+--- !u!1 &12975613
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 12975614}
+  - component: {fileID: 12975616}
+  - component: {fileID: 12975615}
+  m_Layer: 5
+  m_Name: Item Name
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &12975614
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12975613}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2136501781}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 20.965, y: 8.6}
+  m_SizeDelta: {x: 97.166, y: 15.31}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &12975615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12975613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Pescado Verde
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 13.7
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 9
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &12975616
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12975613}
+  m_CullTransparentMesh: 1
 --- !u!1001 &14829415
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -570,75 +704,6 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!1 &19795562
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 19795563}
-  - component: {fileID: 19795565}
-  - component: {fileID: 19795564}
-  m_Layer: 6
-  m_Name: Path (6)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &19795563
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 19795562}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.43, y: 3.571, z: -1.29}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1730755471}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &19795564
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 19795562}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &19795565
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 19795562}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f5d81f417f87214eb3c472270a90c36, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textCost: {fileID: 0}
-  neighbors: []
-  isOccupied: 0
 --- !u!1 &20014164 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7231767413298178359, guid: 7a529b20e0299d54e8a27a8499ab7f81,
@@ -658,7 +723,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Galletas
-  stand: {fileID: 1685491069}
+  stand: {fileID: 1304337645}
   price: 3
   cost: 1
   active: 1
@@ -849,6 +914,81 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6cfbca0aa720344e9a0d920d30c1e75, type: 3}
+--- !u!1 &27848447
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 27848448}
+  - component: {fileID: 27848450}
+  - component: {fileID: 27848449}
+  m_Layer: 5
+  m_Name: Color
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &27848448
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27848447}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1027348497}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 23.1, y: 0}
+  m_SizeDelta: {x: 33.426, y: 36.099}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &27848449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27848447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0.41037738, b: 0.41037738, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: ae096691a63d3f440ab0bfa38176e36f, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &27848450
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27848447}
+  m_CullTransparentMesh: 1
 --- !u!1 &29950342
 GameObject:
   m_ObjectHideFlags: 0
@@ -1199,7 +1339,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Espada
-  stand: {fileID: 1114110930}
+  stand: {fileID: 124063295}
   price: 45
   cost: 30
   active: 1
@@ -1344,7 +1484,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Pescado Azul
+  m_text: Torta
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1439,8 +1579,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado verde
+  stand: {fileID: 1121713995}
   price: 17
   cost: 9
   active: 1
@@ -1694,14 +1834,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.949539, b: 0.19339621, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 1cb61cc01cab28046b352e53f1499572, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1836,8 +1976,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Espada
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado azul
+  stand: {fileID: 1121713995}
   price: 35
   cost: 18
   active: 1
@@ -1875,8 +2015,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  itemType: Chorizo
+  stand: {fileID: 1040548846}
   price: 10
   cost: 6
   active: 1
@@ -1992,7 +2132,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Hacha
-  stand: {fileID: 1114110930}
+  stand: {fileID: 124063295}
   price: 55
   cost: 35
   active: 1
@@ -2195,8 +2335,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  itemType: Chorizo
+  stand: {fileID: 1040548846}
   price: 10
   cost: 6
   active: 1
@@ -2463,7 +2603,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Zanahoria
-  stand: {fileID: 0}
+  stand: {fileID: 255764652}
   price: 4
   cost: 3
   active: 1
@@ -2579,7 +2719,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Hacha
-  stand: {fileID: 1114110930}
+  stand: {fileID: 124063295}
   price: 55
   cost: 35
   active: 1
@@ -2854,6 +2994,7 @@ GameObject:
   m_Component:
   - component: {fileID: 124063292}
   - component: {fileID: 124063294}
+  - component: {fileID: 124063295}
   - component: {fileID: 124063293}
   m_Layer: 6
   m_Name: WeaponMarket
@@ -2913,6 +3054,20 @@ MonoBehaviour:
   textCost: {fileID: 0}
   neighbors: []
   isOccupied: 0
+--- !u!114 &124063295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124063291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66819de8dd3c2e0408780a6f38389a7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  money: 1000
+  standObjects: []
 --- !u!1 &124547230 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 732768093082343926, guid: 73a9ab3e0680d24459b8cc6ef9809672,
@@ -3151,8 +3306,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  itemType: Chorizo
+  stand: {fileID: 1040548846}
   price: 10
   cost: 6
   active: 1
@@ -3337,7 +3492,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Escudo
-  stand: {fileID: 1114110930}
+  stand: {fileID: 124063295}
   price: 25
   cost: 15
   active: 1
@@ -3354,7 +3509,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Hacha
-  stand: {fileID: 1114110930}
+  stand: {fileID: 124063295}
   price: 55
   cost: 35
   active: 1
@@ -3371,7 +3526,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Espada
-  stand: {fileID: 1114110930}
+  stand: {fileID: 124063295}
   price: 45
   cost: 30
   active: 1
@@ -3388,7 +3543,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Espada
-  stand: {fileID: 1114110930}
+  stand: {fileID: 124063295}
   price: 45
   cost: 30
   active: 1
@@ -3579,75 +3734,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 143757988}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &149352030
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 149352031}
-  - component: {fileID: 149352033}
-  - component: {fileID: 149352032}
-  m_Layer: 6
-  m_Name: Path (10)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &149352031
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 149352030}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.34, y: 3.571, z: -1.7}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1730755471}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &149352032
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 149352030}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &149352033
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 149352030}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f5d81f417f87214eb3c472270a90c36, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textCost: {fileID: 0}
-  neighbors: []
-  isOccupied: 0
 --- !u!1001 &149647669
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3749,8 +3835,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado verde
+  stand: {fileID: 1121713995}
   price: 17
   cost: 9
   active: 1
@@ -4542,20 +4628,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 180043659}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &185986422
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1483026223}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66819de8dd3c2e0408780a6f38389a7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  money: 1000
-  standObjects: []
 --- !u!1 &187381713 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8833014857866130543, guid: db8edc7562833af4b9eebea07c69d5d9,
@@ -4596,12 +4668,13 @@ RectTransform:
   - {fileID: 712698048}
   - {fileID: 376364050}
   - {fileID: 707687225}
+  - {fileID: 1185337206}
   m_Father: {fileID: 196201649}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -426, y: 346}
-  m_SizeDelta: {x: 162.217, y: 148.869}
+  m_AnchoredPosition: {x: -426, y: 327.49188}
+  m_SizeDelta: {x: 162.217, y: 185.885}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &190734703
 MonoBehaviour:
@@ -5018,8 +5091,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  itemType: Carne
+  stand: {fileID: 1040548846}
   price: 8
   cost: 4
   active: 1
@@ -5035,8 +5108,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  itemType: Chorizo
+  stand: {fileID: 1040548846}
   price: 10
   cost: 6
   active: 1
@@ -5164,7 +5237,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  stand: {fileID: 1121713995}
   price: 18
   cost: 15
   active: 1
@@ -5202,8 +5275,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  itemType: Chorizo
+  stand: {fileID: 1040548846}
   price: 10
   cost: 6
   active: 1
@@ -5418,8 +5491,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado rojo
+  stand: {fileID: 1121713995}
   price: 12
   cost: 8
   active: 1
@@ -5683,8 +5756,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado rojo
+  stand: {fileID: 1121713995}
   price: 16
   cost: 10
   active: 1
@@ -5854,14 +5927,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.03450945, g: 0.6509434, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: f0843b79f849c2e49a9c03079a940107, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5892,7 +5965,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Torta
-  stand: {fileID: 1685491069}
+  stand: {fileID: 1304337645}
   price: 15
   cost: 6
   active: 1
@@ -6260,6 +6333,7 @@ GameObject:
   m_Component:
   - component: {fileID: 255764649}
   - component: {fileID: 255764651}
+  - component: {fileID: 255764652}
   - component: {fileID: 255764650}
   m_Layer: 6
   m_Name: VegetalMarket
@@ -6319,6 +6393,20 @@ MonoBehaviour:
   textCost: {fileID: 0}
   neighbors: []
   isOccupied: 0
+--- !u!114 &255764652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 255764648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66819de8dd3c2e0408780a6f38389a7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  money: 1000
+  standObjects: []
 --- !u!1 &256823493 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4096715253863170276, guid: 5ed459fa9af3cc54a8803d749f445718,
@@ -6359,8 +6447,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  itemType: Carne
+  stand: {fileID: 1040548846}
   price: 8
   cost: 4
   active: 1
@@ -6569,8 +6657,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado rojo
+  stand: {fileID: 1121713995}
   price: 15
   cost: 8
   active: 1
@@ -6596,6 +6684,140 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1258736543099589447, guid: 3763a610870991740befe42354bfeb4a, type: 3}
+--- !u!1 &265718538
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 265718539}
+  - component: {fileID: 265718541}
+  - component: {fileID: 265718540}
+  m_Layer: 5
+  m_Name: Quantity + Price
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &265718539
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 265718538}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1027348497}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 20.965, y: -9.515}
+  m_SizeDelta: {x: 97.166, y: 15.31}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &265718540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 265718538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 10/10 - $10
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 13.7
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 9
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &265718541
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 265718538}
+  m_CullTransparentMesh: 1
 --- !u!1 &266946392 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8833014857866130543, guid: db8edc7562833af4b9eebea07c69d5d9,
@@ -6723,6 +6945,81 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 267038151}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &267769336
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 267769337}
+  - component: {fileID: 267769339}
+  - component: {fileID: 267769338}
+  m_Layer: 5
+  m_Name: Color
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &267769337
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 267769336}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2136501781}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 23.1, y: 0}
+  m_SizeDelta: {x: 33.426, y: 36.099}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &267769338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 267769336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 1, b: 0.12644672, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: ae096691a63d3f440ab0bfa38176e36f, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &267769339
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 267769336}
+  m_CullTransparentMesh: 1
 --- !u!1001 &281672601
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6918,7 +7215,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  stand: {fileID: 1040548846}
   price: 7
   cost: 5
   active: 1
@@ -7058,8 +7355,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado rojo
+  stand: {fileID: 1121713995}
   price: 15
   cost: 8
   active: 1
@@ -7203,7 +7500,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  stand: {fileID: 1121713995}
   price: 18
   cost: 15
   active: 1
@@ -7407,81 +7704,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 309713203}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &309923455
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 309923456}
-  - component: {fileID: 309923458}
-  - component: {fileID: 309923457}
-  m_Layer: 5
-  m_Name: Color
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &309923456
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 309923455}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 453894767}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -53.5, y: -0.18900299}
-  m_SizeDelta: {x: -114.588, y: -6.019}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &309923457
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 309923455}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.050477777, b: 0, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &309923458
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 309923455}
-  m_CullTransparentMesh: 1
 --- !u!114 &310897216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7494,8 +7716,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  itemType: Carne
+  stand: {fileID: 1040548846}
   price: 8
   cost: 4
   active: 1
@@ -7595,6 +7817,140 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 568687998}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &330428073
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 330428074}
+  - component: {fileID: 330428076}
+  - component: {fileID: 330428075}
+  m_Layer: 5
+  m_Name: Item Name
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &330428074
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330428073}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1185337206}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 20.965, y: 8.6}
+  m_SizeDelta: {x: 97.166, y: 15.31}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &330428075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330428073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Pescado Verde
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 13.7
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 9
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &330428076
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330428073}
+  m_CullTransparentMesh: 1
 --- !u!114 &336531755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7608,7 +7964,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Pan
-  stand: {fileID: 1685491069}
+  stand: {fileID: 1304337645}
   price: 8
   cost: 3
   active: 1
@@ -7745,7 +8101,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b69c35c4f3d673e4f85004d0581f9105, type: 3}
---- !u!1 &345659283
+--- !u!1 &352540570
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7753,67 +8109,73 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 345659284}
-  - component: {fileID: 345659286}
-  - component: {fileID: 345659285}
-  m_Layer: 6
-  m_Name: Path (2)
+  - component: {fileID: 352540571}
+  - component: {fileID: 352540573}
+  - component: {fileID: 352540572}
+  m_Layer: 5
+  m_Name: Color
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &345659284
-Transform:
+--- !u!224 &352540571
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 345659283}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.66, y: 3.571, z: -1.26}
+  m_GameObject: {fileID: 352540570}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1730755471}
+  m_Father: {fileID: 1185337206}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &345659285
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 345659283}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &345659286
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -53.5, y: -0.18900299}
+  m_SizeDelta: {x: -114.588, y: -6.019}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &352540572
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 345659283}
+  m_GameObject: {fileID: 352540570}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f5d81f417f87214eb3c472270a90c36, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textCost: {fileID: 0}
-  neighbors: []
-  isOccupied: 0
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 726cfc92b2638a54487324e471284a01, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &352540573
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 352540570}
+  m_CullTransparentMesh: 1
 --- !u!1 &353378502 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7231767413298178359, guid: 7a529b20e0299d54e8a27a8499ab7f81,
@@ -7930,81 +8292,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 353933249}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &357764650
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 357764651}
-  - component: {fileID: 357764653}
-  - component: {fileID: 357764652}
-  m_Layer: 5
-  m_Name: Color
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &357764651
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 357764650}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 379845582}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -53.5, y: -0.18900299}
-  m_SizeDelta: {x: -114.588, y: -6.019}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &357764652
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 357764650}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.03450945, g: 0.6509434, b: 0, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &357764653
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 357764650}
-  m_CullTransparentMesh: 1
 --- !u!1 &361625717 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8746790521595194062, guid: 5ed459fa9af3cc54a8803d749f445718,
@@ -8052,7 +8339,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  stand: {fileID: 1121713995}
   price: 18
   cost: 15
   active: 1
@@ -8096,8 +8383,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado verde
+  stand: {fileID: 1121713995}
   price: 16
   cost: 8
   active: 1
@@ -8141,8 +8428,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado verde
+  stand: {fileID: 1121713995}
   price: 17
   cost: 9
   active: 1
@@ -8186,8 +8473,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado rojo
+  stand: {fileID: 1121713995}
   price: 12
   cost: 8
   active: 1
@@ -8375,84 +8662,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 379735414}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &379845581
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 379845582}
-  - component: {fileID: 379845584}
-  - component: {fileID: 379845583}
-  m_Layer: 5
-  m_Name: Item 3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &379845582
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 379845581}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 357764651}
-  - {fileID: 1057111371}
-  - {fileID: 2070646771}
-  m_Father: {fileID: 1730320915}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 39.981}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &379845583
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 379845581}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &379845584
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 379845581}
-  m_CullTransparentMesh: 1
 --- !u!1 &381822429 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6059482449408788297, guid: c13aa8e236f8e5c43bcd9dc7046042fd,
@@ -8832,7 +9041,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Pescado Rojo
+  m_text: Tarta
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -9015,8 +9224,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  itemType: Chorizo
+  stand: {fileID: 1040548846}
   price: 10
   cost: 6
   active: 1
@@ -9122,8 +9331,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado verde
+  stand: {fileID: 1121713995}
   price: 17
   cost: 9
   active: 1
@@ -9449,8 +9658,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado verde
+  stand: {fileID: 1121713995}
   price: 16
   cost: 8
   active: 1
@@ -9476,84 +9685,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1258736543099589447, guid: 3763a610870991740befe42354bfeb4a, type: 3}
---- !u!1 &453894766
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 453894767}
-  - component: {fileID: 453894769}
-  - component: {fileID: 453894768}
-  m_Layer: 5
-  m_Name: Item 2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &453894767
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 453894766}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 309923456}
-  - {fileID: 525758946}
-  - {fileID: 831582965}
-  m_Father: {fileID: 1730320915}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 39.981}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &453894768
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 453894766}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &453894769
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 453894766}
-  m_CullTransparentMesh: 1
 --- !u!114 &454452053
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9567,7 +9698,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: "Sand\xEDa"
-  stand: {fileID: 0}
+  stand: {fileID: 255764652}
   price: 8
   cost: 5
   active: 1
@@ -9672,7 +9803,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Espada
-  stand: {fileID: 1114110930}
+  stand: {fileID: 124063295}
   price: 45
   cost: 30
   active: 1
@@ -9710,8 +9841,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -53.5, y: -0.18900299}
-  m_SizeDelta: {x: -114.588, y: -6.019}
+  m_AnchoredPosition: {x: -53.499992, y: 0.000049591064}
+  m_SizeDelta: {x: -114.588, y: -0.0001297}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &469038288
 MonoBehaviour:
@@ -9726,14 +9857,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.7922032, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: b7e618aac330e5245b6bb604d3db13b6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9764,7 +9895,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Hacha
-  stand: {fileID: 1114110930}
+  stand: {fileID: 124063295}
   price: 55
   cost: 35
   active: 1
@@ -9780,8 +9911,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  itemType: Carne
+  stand: {fileID: 1040548846}
   price: 8
   cost: 4
   active: 1
@@ -9862,6 +9993,140 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 472924175}
+  m_CullTransparentMesh: 1
+--- !u!1 &480091233
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 480091234}
+  - component: {fileID: 480091236}
+  - component: {fileID: 480091235}
+  m_Layer: 5
+  m_Name: Quantity + Price
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &480091234
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 480091233}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2136501781}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 20.965, y: -9.515}
+  m_SizeDelta: {x: 97.166, y: 15.31}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &480091235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 480091233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 10/10 - $10
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 13.7
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 9
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &480091236
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 480091233}
   m_CullTransparentMesh: 1
 --- !u!1001 &480422398
 PrefabInstance:
@@ -9993,8 +10258,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado rojo
+  stand: {fileID: 1121713995}
   price: 16
   cost: 10
   active: 1
@@ -10038,8 +10303,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado rojo
+  stand: {fileID: 1121713995}
   price: 12
   cost: 8
   active: 1
@@ -10188,8 +10453,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado rojo
+  stand: {fileID: 1121713995}
   price: 15
   cost: 8
   active: 1
@@ -10508,8 +10773,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado rojo
+  stand: {fileID: 1121713995}
   price: 12
   cost: 8
   active: 1
@@ -10725,209 +10990,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -6414079997428420802, guid: 76720c48bd762e840b89a7f55e2e238d, type: 3}
---- !u!1 &525758945
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 525758946}
-  - component: {fileID: 525758948}
-  - component: {fileID: 525758947}
-  m_Layer: 5
-  m_Name: Item Name
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &525758946
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 525758945}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 453894767}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 20.965, y: 8.6}
-  m_SizeDelta: {x: 97.166, y: 15.31}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &525758947
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 525758945}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: Pescado Rojo
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 13.7
-  m_fontSizeBase: 36
-  m_fontWeight: 400
-  m_enableAutoSizing: 1
-  m_fontSizeMin: 9
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &525758948
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 525758945}
-  m_CullTransparentMesh: 1
---- !u!1 &526726307
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 526726308}
-  - component: {fileID: 526726310}
-  - component: {fileID: 526726309}
-  m_Layer: 6
-  m_Name: Path (13)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &526726308
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 526726307}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.84, y: 3.571, z: 5.6}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1730755471}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &526726309
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 526726307}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &526726310
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 526726307}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f5d81f417f87214eb3c472270a90c36, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textCost: {fileID: 0}
-  neighbors: []
-  isOccupied: 0
 --- !u!114 &529696829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10941,7 +11003,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Banana
-  stand: {fileID: 0}
+  stand: {fileID: 255764652}
   price: 6
   cost: 4
   active: 1
@@ -11351,7 +11413,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Espada
-  stand: {fileID: 1114110930}
+  stand: {fileID: 124063295}
   price: 45
   cost: 30
   active: 1
@@ -11368,7 +11430,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Espada
-  stand: {fileID: 1114110930}
+  stand: {fileID: 124063295}
   price: 45
   cost: 30
   active: 1
@@ -11583,7 +11645,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Espada
-  stand: {fileID: 1114110930}
+  stand: {fileID: 124063295}
   price: 45
   cost: 30
   active: 1
@@ -11715,8 +11777,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado verde
+  stand: {fileID: 1121713995}
   price: 16
   cost: 8
   active: 1
@@ -11742,6 +11804,140 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1258736543099589447, guid: 3763a610870991740befe42354bfeb4a, type: 3}
+--- !u!1 &542352664
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 542352665}
+  - component: {fileID: 542352667}
+  - component: {fileID: 542352666}
+  m_Layer: 5
+  m_Name: Item Name
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &542352665
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542352664}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1027348497}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 20.965, y: 8.6}
+  m_SizeDelta: {x: 97.166, y: 15.31}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &542352666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542352664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Pescado Rojo
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 13.7
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 9
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &542352667
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542352664}
+  m_CullTransparentMesh: 1
 --- !u!114 &547125756
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11755,7 +11951,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Zanahoria
-  stand: {fileID: 0}
+  stand: {fileID: 255764652}
   price: 4
   cost: 3
   active: 1
@@ -12974,7 +13170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Galletas
-  stand: {fileID: 1685491069}
+  stand: {fileID: 1304337645}
   price: 3
   cost: 1
   active: 1
@@ -13142,8 +13338,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  itemType: Chorizo
+  stand: {fileID: 1040548846}
   price: 10
   cost: 6
   active: 1
@@ -13253,8 +13449,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  itemType: Carne
+  stand: {fileID: 1040548846}
   price: 8
   cost: 4
   active: 1
@@ -13370,7 +13566,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  stand: {fileID: 1040548846}
   price: 7
   cost: 5
   active: 1
@@ -13392,8 +13588,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  itemType: Chorizo
+  stand: {fileID: 1040548846}
   price: 10
   cost: 6
   active: 1
@@ -13415,8 +13611,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado rojo
+  stand: {fileID: 1121713995}
   price: 15
   cost: 8
   active: 1
@@ -13466,8 +13662,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado verde
+  stand: {fileID: 1121713995}
   price: 17
   cost: 9
   active: 1
@@ -13635,14 +13831,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.03450945, g: 0.6509434, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: edc69492983f0654096b0decf54d5f7e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13673,7 +13869,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Espada
-  stand: {fileID: 1114110930}
+  stand: {fileID: 124063295}
   price: 45
   cost: 30
   active: 1
@@ -14585,7 +14781,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: "Sand\xEDa"
-  stand: {fileID: 0}
+  stand: {fileID: 255764652}
   price: 8
   cost: 5
   active: 1
@@ -14700,8 +14896,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  itemType: Chorizo
+  stand: {fileID: 1040548846}
   price: 10
   cost: 6
   active: 1
@@ -15365,7 +15561,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Zanahoria
-  stand: {fileID: 0}
+  stand: {fileID: 255764652}
   price: 4
   cost: 3
   active: 1
@@ -15752,8 +15948,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado rojo
+  stand: {fileID: 1121713995}
   price: 13
   cost: 5
   active: 1
@@ -16959,7 +17155,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Pescado Rojo
+  m_text: Espada
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -17546,8 +17742,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado rojo
+  stand: {fileID: 1121713995}
   price: 15
   cost: 8
   active: 1
@@ -17701,8 +17897,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado verde
+  stand: {fileID: 1121713995}
   price: 16
   cost: 8
   active: 1
@@ -17961,14 +18157,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.03450945, g: 0.6509434, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 75d8575c24ef0fa44aca602641b7294a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -18036,14 +18232,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.03450945, g: 0.6509434, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 60aa343fcf7d1ec4b9d786d149fce9b3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -18080,7 +18276,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  stand: {fileID: 1121713995}
   price: 18
   cost: 15
   active: 1
@@ -18119,7 +18315,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Espada
-  stand: {fileID: 1114110930}
+  stand: {fileID: 124063295}
   price: 45
   cost: 30
   active: 1
@@ -18302,7 +18498,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Zanahoria
-  stand: {fileID: 0}
+  stand: {fileID: 255764652}
   price: 4
   cost: 3
   active: 1
@@ -18324,8 +18520,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado rojo
+  stand: {fileID: 1121713995}
   price: 12
   cost: 8
   active: 1
@@ -18369,8 +18565,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado rojo
+  stand: {fileID: 1121713995}
   price: 16
   cost: 10
   active: 1
@@ -18496,8 +18692,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  itemType: Chorizo
+  stand: {fileID: 1040548846}
   price: 10
   cost: 6
   active: 1
@@ -18507,140 +18703,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1614239705}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &831582964
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 831582965}
-  - component: {fileID: 831582967}
-  - component: {fileID: 831582966}
-  m_Layer: 5
-  m_Name: Quantity + Price
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &831582965
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 831582964}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 453894767}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 20.965, y: -9.515}
-  m_SizeDelta: {x: 97.166, y: 15.31}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &831582966
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 831582964}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: 10/10 - $10
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 13.7
-  m_fontSizeBase: 36
-  m_fontWeight: 400
-  m_enableAutoSizing: 1
-  m_fontSizeMin: 9
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &831582967
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 831582964}
-  m_CullTransparentMesh: 1
 --- !u!1 &845761032
 GameObject:
   m_ObjectHideFlags: 0
@@ -18849,7 +18911,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  stand: {fileID: 1121713995}
   price: 18
   cost: 15
   active: 1
@@ -19157,8 +19219,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  itemType: Chorizo
+  stand: {fileID: 1040548846}
   price: 10
   cost: 6
   active: 1
@@ -19378,8 +19440,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado rojo
+  stand: {fileID: 1121713995}
   price: 13
   cost: 5
   active: 1
@@ -19739,7 +19801,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Zanahoria
-  stand: {fileID: 0}
+  stand: {fileID: 255764652}
   price: 4
   cost: 3
   active: 1
@@ -19954,8 +20016,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado rojo
+  stand: {fileID: 1121713995}
   price: 12
   cost: 8
   active: 1
@@ -20000,7 +20062,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  stand: {fileID: 1121713995}
   price: 18
   cost: 15
   active: 1
@@ -20039,7 +20101,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Tarta
-  stand: {fileID: 1685491069}
+  stand: {fileID: 1304337645}
   price: 14
   cost: 8
   active: 0
@@ -20167,8 +20229,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Espada
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado azul
+  stand: {fileID: 1121713995}
   price: 35
   cost: 18
   active: 1
@@ -20224,7 +20286,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Pan
-  stand: {fileID: 1685491069}
+  stand: {fileID: 1304337645}
   price: 6
   cost: 4
   active: 1
@@ -20766,7 +20828,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Pan
-  stand: {fileID: 1685491069}
+  stand: {fileID: 1304337645}
   price: 8
   cost: 3
   active: 1
@@ -20783,7 +20845,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Pan
-  stand: {fileID: 1685491069}
+  stand: {fileID: 1304337645}
   price: 8
   cost: 3
   active: 1
@@ -20800,7 +20862,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Escudo
-  stand: {fileID: 1114110930}
+  stand: {fileID: 124063295}
   price: 25
   cost: 15
   active: 1
@@ -21109,14 +21171,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.7922032, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: cc7d544888aadbb418e898c33269db2d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -22115,7 +22177,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Hacha
-  stand: {fileID: 1114110930}
+  stand: {fileID: 124063295}
   price: 55
   cost: 35
   active: 1
@@ -22175,14 +22237,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.050477777, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: e86de121b82e8d24ab3e7a35efc5aa4b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -22206,6 +22268,84 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1424320716}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1027348496
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1027348497}
+  - component: {fileID: 1027348499}
+  - component: {fileID: 1027348498}
+  m_Layer: 5
+  m_Name: Item 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1027348497
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1027348496}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 27848448}
+  - {fileID: 542352665}
+  - {fileID: 265718539}
+  m_Father: {fileID: 1730320915}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 39.981}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1027348498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1027348496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1027348499
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1027348496}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1027442125
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22307,8 +22447,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado rojo
+  stand: {fileID: 1121713995}
   price: 16
   cost: 10
   active: 1
@@ -22441,7 +22581,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Espada
-  stand: {fileID: 1114110930}
+  stand: {fileID: 124063295}
   price: 45
   cost: 30
   active: 1
@@ -22455,6 +22595,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1040548843}
   - component: {fileID: 1040548845}
+  - component: {fileID: 1040548846}
   - component: {fileID: 1040548844}
   m_Layer: 6
   m_Name: MeatMarket
@@ -22514,6 +22655,20 @@ MonoBehaviour:
   textCost: {fileID: 0}
   neighbors: []
   isOccupied: 0
+--- !u!114 &1040548846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1040548842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66819de8dd3c2e0408780a6f38389a7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  money: 1000
+  standObjects: []
 --- !u!1001 &1048539323
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22797,140 +22952,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -445526093955236900, guid: 7cb2c82d5615e92438e691aee458fe7c, type: 3}
---- !u!1 &1057111370
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1057111371}
-  - component: {fileID: 1057111373}
-  - component: {fileID: 1057111372}
-  m_Layer: 5
-  m_Name: Item Name
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1057111371
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1057111370}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 379845582}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 20.965, y: 8.6}
-  m_SizeDelta: {x: 97.166, y: 15.31}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1057111372
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1057111370}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: Pescado Verde
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 13.7
-  m_fontSizeBase: 36
-  m_fontWeight: 400
-  m_enableAutoSizing: 1
-  m_fontSizeMin: 9
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &1057111373
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1057111370}
-  m_CullTransparentMesh: 1
 --- !u!114 &1062772544
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22944,7 +22965,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Espada
-  stand: {fileID: 1114110930}
+  stand: {fileID: 124063295}
   price: 45
   cost: 30
   active: 1
@@ -23634,7 +23655,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Espada
-  stand: {fileID: 1114110930}
+  stand: {fileID: 124063295}
   price: 45
   cost: 30
   active: 1
@@ -23749,8 +23770,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  itemType: Chorizo
+  stand: {fileID: 1040548846}
   price: 10
   cost: 6
   active: 1
@@ -23766,20 +23787,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1650557311}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1114110930
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 489877371}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66819de8dd3c2e0408780a6f38389a7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  money: 1000
-  standObjects: []
 --- !u!114 &1115381403
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23793,7 +23800,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  stand: {fileID: 1040548846}
   price: 7
   cost: 5
   active: 1
@@ -24020,7 +24027,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Espada
-  stand: {fileID: 1114110930}
+  stand: {fileID: 124063295}
   price: 45
   cost: 30
   active: 1
@@ -24037,7 +24044,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Hacha
-  stand: {fileID: 1114110930}
+  stand: {fileID: 124063295}
   price: 55
   cost: 35
   active: 1
@@ -24051,6 +24058,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1121713992}
   - component: {fileID: 1121713993}
+  - component: {fileID: 1121713995}
   - component: {fileID: 1121713994}
   m_Layer: 6
   m_Name: FishMarketNode
@@ -24110,6 +24118,20 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1121713995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121713991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66819de8dd3c2e0408780a6f38389a7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  money: 1000
+  standObjects: []
 --- !u!114 &1124704064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24123,7 +24145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Banana
-  stand: {fileID: 0}
+  stand: {fileID: 255764652}
   price: 6
   cost: 4
   active: 1
@@ -24140,7 +24162,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Hacha
-  stand: {fileID: 1114110930}
+  stand: {fileID: 124063295}
   price: 55
   cost: 35
   active: 1
@@ -24191,7 +24213,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Zanahoria
-  stand: {fileID: 0}
+  stand: {fileID: 255764652}
   price: 4
   cost: 3
   active: 1
@@ -24294,6 +24316,75 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1134117240}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1138849344
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1138849345}
+  - component: {fileID: 1138849347}
+  - component: {fileID: 1138849346}
+  m_Layer: 6
+  m_Name: Queue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1138849345
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138849344}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.558, y: 3.571, z: 10.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1730755471}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &1138849346
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138849344}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1138849347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138849344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f5d81f417f87214eb3c472270a90c36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textCost: {fileID: 0}
+  neighbors: []
+  isOccupied: 0
 --- !u!1 &1139203571 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6403694407855145921, guid: 5ed459fa9af3cc54a8803d749f445718,
@@ -24312,8 +24403,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado rojo
+  stand: {fileID: 1121713995}
   price: 13
   cost: 5
   active: 1
@@ -24436,7 +24527,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: "Sand\xEDa"
-  stand: {fileID: 0}
+  stand: {fileID: 255764652}
   price: 8
   cost: 5
   active: 1
@@ -24790,6 +24881,84 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1183851623}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1185337205
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1185337206}
+  - component: {fileID: 1185337208}
+  - component: {fileID: 1185337207}
+  m_Layer: 5
+  m_Name: Item 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1185337206
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1185337205}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 352540571}
+  - {fileID: 330428074}
+  - {fileID: 1832315643}
+  m_Father: {fileID: 190734702}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 39.981}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1185337207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1185337205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1185337208
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1185337205}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1188997720
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25030,7 +25199,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Espada
-  stand: {fileID: 1114110930}
+  stand: {fileID: 124063295}
   price: 45
   cost: 30
   active: 1
@@ -25156,8 +25325,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  itemType: Chorizo
+  stand: {fileID: 1040548846}
   price: 10
   cost: 6
   active: 1
@@ -25390,7 +25559,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Zanahoria
-  stand: {fileID: 0}
+  stand: {fileID: 255764652}
   price: 4
   cost: 3
   active: 1
@@ -25553,7 +25722,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Zanahoria
-  stand: {fileID: 0}
+  stand: {fileID: 255764652}
   price: 4
   cost: 3
   active: 1
@@ -25654,7 +25823,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Pan
-  stand: {fileID: 1685491069}
+  stand: {fileID: 1304337645}
   price: 8
   cost: 3
   active: 1
@@ -25945,14 +26114,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.7922032, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 7d7da8fa0a32cff44b9a632f3e7a59d0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -26104,8 +26273,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado rojo
+  stand: {fileID: 1121713995}
   price: 12
   cost: 8
   active: 1
@@ -26293,7 +26462,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Pescado Azul
+  m_text: Escudo
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -26807,75 +26976,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1787874761}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1291147185
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1291147186}
-  - component: {fileID: 1291147188}
-  - component: {fileID: 1291147187}
-  m_Layer: 6
-  m_Name: Path (7)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1291147186
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1291147185}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.52, y: 3.571, z: 6.65}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1730755471}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &1291147187
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1291147185}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1291147188
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1291147185}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f5d81f417f87214eb3c472270a90c36, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textCost: {fileID: 0}
-  neighbors: []
-  isOccupied: 0
 --- !u!114 &1291989959
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26889,7 +26989,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Escudo
-  stand: {fileID: 1114110930}
+  stand: {fileID: 124063295}
   price: 25
   cost: 15
   active: 1
@@ -27354,7 +27454,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Escudo
-  stand: {fileID: 1114110930}
+  stand: {fileID: 124063295}
   price: 25
   cost: 15
   active: 1
@@ -27569,8 +27669,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado rojo
+  stand: {fileID: 1121713995}
   price: 16
   cost: 10
   active: 1
@@ -27606,6 +27706,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1304337642}
   - component: {fileID: 1304337644}
+  - component: {fileID: 1304337645}
   - component: {fileID: 1304337643}
   m_Layer: 6
   m_Name: PanMarket
@@ -27665,6 +27766,20 @@ MonoBehaviour:
   textCost: {fileID: 0}
   neighbors: []
   isOccupied: 0
+--- !u!114 &1304337645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1304337641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66819de8dd3c2e0408780a6f38389a7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  money: 1000
+  standObjects: []
 --- !u!1001 &1306149477
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27848,14 +27963,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.050477777, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 774412626f4715e4eadfdbcbbd0a41da, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -27891,8 +28006,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  itemType: Chorizo
+  stand: {fileID: 1040548846}
   price: 10
   cost: 6
   active: 1
@@ -28118,8 +28233,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  itemType: Carne
+  stand: {fileID: 1040548846}
   price: 8
   cost: 4
   active: 1
@@ -28135,8 +28250,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  itemType: Carne
+  stand: {fileID: 1040548846}
   price: 8
   cost: 4
   active: 1
@@ -28152,8 +28267,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  itemType: Carne
+  stand: {fileID: 1040548846}
   price: 8
   cost: 4
   active: 1
@@ -28169,8 +28284,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  itemType: Carne
+  stand: {fileID: 1040548846}
   price: 8
   cost: 4
   active: 1
@@ -28186,8 +28301,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  itemType: Carne
+  stand: {fileID: 1040548846}
   price: 8
   cost: 4
   active: 1
@@ -28203,8 +28318,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  itemType: Chorizo
+  stand: {fileID: 1040548846}
   price: 10
   cost: 6
   active: 1
@@ -28221,7 +28336,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Pan
-  stand: {fileID: 1685491069}
+  stand: {fileID: 1304337645}
   price: 8
   cost: 3
   active: 1
@@ -28244,7 +28359,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  stand: {fileID: 1121713995}
   price: 18
   cost: 15
   active: 1
@@ -28550,7 +28665,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Escudo
-  stand: {fileID: 1114110930}
+  stand: {fileID: 124063295}
   price: 25
   cost: 15
   active: 1
@@ -28567,7 +28682,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Zanahoria
-  stand: {fileID: 0}
+  stand: {fileID: 255764652}
   price: 4
   cost: 3
   active: 1
@@ -28783,7 +28898,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Pescado Verde
+  m_text: Hacha
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -28962,8 +29077,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado verde
+  stand: {fileID: 1121713995}
   price: 16
   cost: 8
   active: 1
@@ -29007,8 +29122,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado rojo
+  stand: {fileID: 1121713995}
   price: 12
   cost: 8
   active: 1
@@ -29219,7 +29334,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  stand: {fileID: 1121713995}
   price: 20
   cost: 10
   active: 1
@@ -30027,10 +30142,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1398777257}
-    - targetCorrespondingSourceObject: {fileID: 1881795171969133157, guid: 6eef9e580c001db45934a1ce61d95a7b,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1114110930}
     - targetCorrespondingSourceObject: {fileID: 7291558787647426699, guid: 6eef9e580c001db45934a1ce61d95a7b,
         type: 3}
       insertIndex: -1
@@ -30433,7 +30544,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Espada
-  stand: {fileID: 1114110930}
+  stand: {fileID: 124063295}
   price: 45
   cost: 30
   active: 1
@@ -30450,7 +30561,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Hacha
-  stand: {fileID: 1114110930}
+  stand: {fileID: 124063295}
   price: 55
   cost: 35
   active: 1
@@ -30467,7 +30578,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Espada
-  stand: {fileID: 1114110930}
+  stand: {fileID: 124063295}
   price: 45
   cost: 30
   active: 1
@@ -30484,7 +30595,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Espada
-  stand: {fileID: 1114110930}
+  stand: {fileID: 124063295}
   price: 45
   cost: 30
   active: 1
@@ -30501,7 +30612,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Espada
-  stand: {fileID: 1114110930}
+  stand: {fileID: 124063295}
   price: 45
   cost: 30
   active: 1
@@ -30607,8 +30718,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado rojo
+  stand: {fileID: 1121713995}
   price: 16
   cost: 10
   active: 1
@@ -31297,7 +31408,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Espada
-  stand: {fileID: 1114110930}
+  stand: {fileID: 124063295}
   price: 45
   cost: 30
   active: 1
@@ -31915,7 +32026,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Pan
-  stand: {fileID: 1685491069}
+  stand: {fileID: 1304337645}
   price: 6
   cost: 4
   active: 1
@@ -32102,8 +32213,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  itemType: Carne
+  stand: {fileID: 1040548846}
   price: 8
   cost: 4
   active: 1
@@ -32125,8 +32236,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado verde
+  stand: {fileID: 1121713995}
   price: 17
   cost: 9
   active: 1
@@ -32230,14 +32341,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.46135104, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: cef9b6b3e5816f248853e5b29866c444, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -32404,14 +32515,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.050477777, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 4d46585308f2e0043b79452d10ccbe4d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -32553,7 +32664,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  stand: {fileID: 1121713995}
   price: 18
   cost: 15
   active: 1
@@ -32697,7 +32808,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Zanahoria
-  stand: {fileID: 0}
+  stand: {fileID: 255764652}
   price: 4
   cost: 3
   active: 1
@@ -32779,75 +32890,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1476041536}
   m_CullTransparentMesh: 1
---- !u!1 &1476744754
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1476744755}
-  - component: {fileID: 1476744757}
-  - component: {fileID: 1476744756}
-  m_Layer: 6
-  m_Name: Path (5)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1476744755
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1476744754}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.51, y: 3.571, z: -1.86}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1730755471}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &1476744756
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1476744754}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1476744757
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1476744754}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f5d81f417f87214eb3c472270a90c36, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textCost: {fileID: 0}
-  neighbors: []
-  isOccupied: 0
 --- !u!1001 &1481430146
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33147,7 +33189,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Pan
-  stand: {fileID: 1685491069}
+  stand: {fileID: 1304337645}
   price: 6
   cost: 4
   active: 1
@@ -33164,7 +33206,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Pan
-  stand: {fileID: 1685491069}
+  stand: {fileID: 1304337645}
   price: 6
   cost: 4
   active: 1
@@ -33181,7 +33223,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Pan
-  stand: {fileID: 1685491069}
+  stand: {fileID: 1304337645}
   price: 6
   cost: 4
   active: 1
@@ -33198,7 +33240,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Pan
-  stand: {fileID: 1685491069}
+  stand: {fileID: 1304337645}
   price: 6
   cost: 4
   active: 1
@@ -33418,8 +33460,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado rojo
+  stand: {fileID: 1121713995}
   price: 15
   cost: 8
   active: 1
@@ -33585,7 +33627,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Espada
-  stand: {fileID: 1114110930}
+  stand: {fileID: 124063295}
   price: 45
   cost: 30
   active: 1
@@ -33636,7 +33678,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  stand: {fileID: 1121713995}
   price: 20
   cost: 10
   active: 1
@@ -33687,7 +33729,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Pan
-  stand: {fileID: 1685491069}
+  stand: {fileID: 1304337645}
   price: 6
   cost: 4
   active: 1
@@ -33723,10 +33765,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 796093098}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -53.5, y: -0.18900299}
-  m_SizeDelta: {x: -114.588, y: -6.019}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 23.1, y: 0}
+  m_SizeDelta: {x: 33.426, y: 36.099}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1528429880
 MonoBehaviour:
@@ -33741,14 +33783,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.7922032, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: ae096691a63d3f440ab0bfa38176e36f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -33867,7 +33909,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Pan
-  stand: {fileID: 1685491069}
+  stand: {fileID: 1304337645}
   price: 8
   cost: 3
   active: 1
@@ -34071,8 +34113,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado rojo
+  stand: {fileID: 1121713995}
   price: 12
   cost: 8
   active: 1
@@ -34209,8 +34251,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Espada
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado azul
+  stand: {fileID: 1121713995}
   price: 35
   cost: 18
   active: 1
@@ -34679,7 +34721,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Zanahoria
-  stand: {fileID: 0}
+  stand: {fileID: 255764652}
   price: 4
   cost: 3
   active: 1
@@ -34905,8 +34947,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado rojo
+  stand: {fileID: 1121713995}
   price: 16
   cost: 10
   active: 1
@@ -35142,8 +35184,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  itemType: Carne
+  stand: {fileID: 1040548846}
   price: 8
   cost: 4
   active: 1
@@ -35165,8 +35207,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  itemType: Carne
+  stand: {fileID: 1040548846}
   price: 8
   cost: 4
   active: 1
@@ -35416,7 +35458,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Banana
-  stand: {fileID: 0}
+  stand: {fileID: 255764652}
   price: 6
   cost: 4
   active: 1
@@ -35549,7 +35591,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Hacha
-  stand: {fileID: 1114110930}
+  stand: {fileID: 124063295}
   price: 55
   cost: 35
   active: 1
@@ -35661,8 +35703,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado verde
+  stand: {fileID: 1121713995}
   price: 17
   cost: 9
   active: 1
@@ -35706,8 +35748,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado verde
+  stand: {fileID: 1121713995}
   price: 16
   cost: 8
   active: 1
@@ -36057,7 +36099,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  stand: {fileID: 1121713995}
   price: 20
   cost: 10
   active: 1
@@ -36188,75 +36230,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -9144735209240173524, guid: 547918b602e9a664f8bbed6998006b60, type: 3}
---- !u!1 &1650942619
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1650942620}
-  - component: {fileID: 1650942622}
-  - component: {fileID: 1650942621}
-  m_Layer: 6
-  m_Name: Path (11)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1650942620
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1650942619}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.39, y: 3.571, z: 8.76}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1730755471}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &1650942621
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1650942619}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1650942622
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1650942619}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f5d81f417f87214eb3c472270a90c36, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textCost: {fileID: 0}
-  neighbors: []
-  isOccupied: 0
 --- !u!1001 &1651114674
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36562,7 +36535,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Torta
-  stand: {fileID: 1685491069}
+  stand: {fileID: 1304337645}
   price: 15
   cost: 6
   active: 1
@@ -36955,25 +36928,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  itemType: Chorizo
+  stand: {fileID: 1040548846}
   price: 10
   cost: 6
   active: 1
---- !u!114 &1685491069
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1166057032}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66819de8dd3c2e0408780a6f38389a7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  money: 1000
-  standObjects: []
 --- !u!114 &1687581266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36986,8 +36945,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  itemType: Chorizo
+  stand: {fileID: 1040548846}
   price: 10
   cost: 6
   active: 1
@@ -37031,8 +36990,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  itemType: Chorizo
+  stand: {fileID: 1040548846}
   price: 10
   cost: 6
   active: 1
@@ -37064,75 +37023,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -6414079997428420802, guid: 76720c48bd762e840b89a7f55e2e238d, type: 3}
---- !u!1 &1698060289
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1698060290}
-  - component: {fileID: 1698060292}
-  - component: {fileID: 1698060291}
-  m_Layer: 6
-  m_Name: Path (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1698060290
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1698060289}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.18, y: 3.571, z: -3.54}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1730755471}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &1698060291
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1698060289}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1698060292
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1698060289}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f5d81f417f87214eb3c472270a90c36, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textCost: {fileID: 0}
-  neighbors: []
-  isOccupied: 0
 --- !u!1001 &1706157237
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37372,7 +37262,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Espada
-  stand: {fileID: 1114110930}
+  stand: {fileID: 124063295}
   price: 45
   cost: 30
   active: 1
@@ -37586,75 +37476,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1098593387046518237, guid: 69cb0724f0074d840bb7e3c80fabb4ca, type: 3}
---- !u!1 &1717319668
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1717319669}
-  - component: {fileID: 1717319671}
-  - component: {fileID: 1717319670}
-  m_Layer: 6
-  m_Name: Path (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1717319669
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1717319668}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.24, y: 3.571, z: 4.16}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1730755471}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &1717319670
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1717319668}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1717319671
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1717319668}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f5d81f417f87214eb3c472270a90c36, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textCost: {fileID: 0}
-  neighbors: []
-  isOccupied: 0
 --- !u!1001 &1719122230
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37801,7 +37622,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  stand: {fileID: 1121713995}
   price: 18
   cost: 15
   active: 1
@@ -37997,8 +37818,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 796093098}
-  - {fileID: 453894767}
-  - {fileID: 379845582}
+  - {fileID: 1027348497}
+  - {fileID: 2136501781}
   m_Father: {fileID: 196201649}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -38101,22 +37922,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2136412443}
-  - {fileID: 1760208792}
-  - {fileID: 1291147186}
-  - {fileID: 2047059071}
-  - {fileID: 1650942620}
-  - {fileID: 1992104322}
-  - {fileID: 526726308}
-  - {fileID: 1717319669}
-  - {fileID: 345659284}
-  - {fileID: 1698060290}
-  - {fileID: 2000592864}
-  - {fileID: 1476744755}
-  - {fileID: 19795563}
+  - {fileID: 1138849345}
   - {fileID: 1040548843}
   - {fileID: 124063292}
-  - {fileID: 2112127688}
-  - {fileID: 149352031}
   - {fileID: 1304337642}
   - {fileID: 255764649}
   - {fileID: 1121713992}
@@ -38357,8 +38165,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado verde
+  stand: {fileID: 1121713995}
   price: 16
   cost: 8
   active: 1
@@ -38835,75 +38643,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1750654076}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1760208791
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1760208792}
-  - component: {fileID: 1760208793}
-  - component: {fileID: 1760208794}
-  m_Layer: 6
-  m_Name: Path
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1760208792
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1760208791}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.82, y: 3.571, z: 7.7}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1730755471}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1760208793
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1760208791}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f5d81f417f87214eb3c472270a90c36, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textCost: {fileID: 0}
-  neighbors: []
-  isOccupied: 0
---- !u!135 &1760208794
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1760208791}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1760407153
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39193,7 +38932,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Espada
-  stand: {fileID: 1114110930}
+  stand: {fileID: 124063295}
   price: 45
   cost: 30
   active: 1
@@ -39215,8 +38954,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado verde
+  stand: {fileID: 1121713995}
   price: 16
   cost: 8
   active: 1
@@ -39260,8 +38999,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado rojo
+  stand: {fileID: 1121713995}
   price: 13
   cost: 5
   active: 1
@@ -39327,8 +39066,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  itemType: Chorizo
+  stand: {fileID: 1040548846}
   price: 10
   cost: 6
   active: 1
@@ -39344,8 +39083,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  itemType: Carne
+  stand: {fileID: 1040548846}
   price: 8
   cost: 4
   active: 1
@@ -39559,8 +39298,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado verde
+  stand: {fileID: 1121713995}
   price: 16
   cost: 8
   active: 1
@@ -39604,8 +39343,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado verde
+  stand: {fileID: 1121713995}
   price: 17
   cost: 9
   active: 1
@@ -39649,8 +39388,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado rojo
+  stand: {fileID: 1121713995}
   price: 16
   cost: 10
   active: 1
@@ -39694,8 +39433,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado rojo
+  stand: {fileID: 1121713995}
   price: 12
   cost: 8
   active: 1
@@ -40243,8 +39982,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  itemType: Chorizo
+  stand: {fileID: 1040548846}
   price: 10
   cost: 6
   active: 1
@@ -40979,7 +40718,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Pescado Verde
+  m_text: Pan
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -41056,6 +40795,140 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1827663255}
   m_CullTransparentMesh: 1
+--- !u!1 &1832315642
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1832315643}
+  - component: {fileID: 1832315645}
+  - component: {fileID: 1832315644}
+  m_Layer: 5
+  m_Name: Quantity + Price
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1832315643
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1832315642}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1185337206}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 20.965, y: -9.515}
+  m_SizeDelta: {x: 97.166, y: 15.31}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1832315644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1832315642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 10/10 - $10
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 13.7
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 9
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1832315645
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1832315642}
+  m_CullTransparentMesh: 1
 --- !u!114 &1843499383
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41068,8 +40941,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  itemType: Carne
+  stand: {fileID: 1040548846}
   price: 8
   cost: 4
   active: 1
@@ -41400,8 +41273,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado verde
+  stand: {fileID: 1121713995}
   price: 16
   cost: 8
   active: 1
@@ -41524,7 +41397,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Galletas
-  stand: {fileID: 1685491069}
+  stand: {fileID: 1304337645}
   price: 3
   cost: 1
   active: 1
@@ -41828,7 +41701,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Espada
-  stand: {fileID: 1114110930}
+  stand: {fileID: 124063295}
   price: 45
   cost: 30
   active: 1
@@ -41850,8 +41723,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado rojo
+  stand: {fileID: 1121713995}
   price: 15
   cost: 8
   active: 1
@@ -42080,8 +41953,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Espada
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado azul
+  stand: {fileID: 1121713995}
   price: 35
   cost: 18
   active: 1
@@ -42131,8 +42004,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado rojo
+  stand: {fileID: 1121713995}
   price: 16
   cost: 10
   active: 1
@@ -42199,7 +42072,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Hacha
-  stand: {fileID: 1114110930}
+  stand: {fileID: 124063295}
   price: 55
   cost: 35
   active: 1
@@ -42540,8 +42413,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  itemType: Chorizo
+  stand: {fileID: 1040548846}
   price: 10
   cost: 6
   active: 1
@@ -42564,7 +42437,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  stand: {fileID: 1121713995}
   price: 20
   cost: 10
   active: 1
@@ -42603,7 +42476,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  stand: {fileID: 1040548846}
   price: 7
   cost: 5
   active: 1
@@ -42840,8 +42713,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado rojo
+  stand: {fileID: 1121713995}
   price: 12
   cost: 8
   active: 1
@@ -42885,8 +42758,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado verde
+  stand: {fileID: 1121713995}
   price: 17
   cost: 9
   active: 1
@@ -42931,7 +42804,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  stand: {fileID: 1121713995}
   price: 20
   cost: 10
   active: 1
@@ -43385,8 +43258,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  itemType: Carne
+  stand: {fileID: 1040548846}
   price: 8
   cost: 4
   active: 1
@@ -43458,75 +43331,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1554273956}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1992104321
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1992104322}
-  - component: {fileID: 1992104324}
-  - component: {fileID: 1992104323}
-  m_Layer: 6
-  m_Name: Path (12)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1992104322
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1992104321}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.61, y: 3.571, z: 9.27}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1730755471}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &1992104323
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1992104321}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1992104324
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1992104321}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f5d81f417f87214eb3c472270a90c36, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textCost: {fileID: 0}
-  neighbors: []
-  isOccupied: 0
 --- !u!1 &1993371111 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7231767413298178359, guid: 7a529b20e0299d54e8a27a8499ab7f81,
@@ -43555,75 +43359,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -3181957846400817141, guid: fb1a94648bbde3b4aa235b2722ee7582, type: 3}
---- !u!1 &2000592863
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2000592864}
-  - component: {fileID: 2000592866}
-  - component: {fileID: 2000592865}
-  m_Layer: 6
-  m_Name: Path (4)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2000592864
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2000592863}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.14, y: 3.571, z: -6.08}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1730755471}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &2000592865
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2000592863}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2000592866
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2000592863}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f5d81f417f87214eb3c472270a90c36, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textCost: {fileID: 0}
-  neighbors: []
-  isOccupied: 0
 --- !u!1001 &2004429701
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43924,8 +43659,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado verde
+  stand: {fileID: 1121713995}
   price: 16
   cost: 8
   active: 1
@@ -44256,7 +43991,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Escudo
-  stand: {fileID: 1114110930}
+  stand: {fileID: 124063295}
   price: 25
   cost: 15
   active: 1
@@ -44587,7 +44322,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Zanahoria
-  stand: {fileID: 0}
+  stand: {fileID: 255764652}
   price: 4
   cost: 3
   active: 1
@@ -44619,75 +44354,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -6414079997428420802, guid: 76720c48bd762e840b89a7f55e2e238d, type: 3}
---- !u!1 &2047059070
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2047059071}
-  - component: {fileID: 2047059073}
-  - component: {fileID: 2047059072}
-  m_Layer: 6
-  m_Name: Path (8)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2047059071
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2047059070}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.14, y: 3.571, z: 8.07}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1730755471}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &2047059072
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2047059070}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2047059073
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2047059070}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f5d81f417f87214eb3c472270a90c36, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textCost: {fileID: 0}
-  neighbors: []
-  isOccupied: 0
 --- !u!1 &2047852658 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8833014857866130543, guid: db8edc7562833af4b9eebea07c69d5d9,
@@ -45380,140 +45046,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 1379806433689925699, guid: ced8328dcd6ff85449e524474b164944, type: 3}
---- !u!1 &2070646770
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2070646771}
-  - component: {fileID: 2070646773}
-  - component: {fileID: 2070646772}
-  m_Layer: 5
-  m_Name: Quantity + Price
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2070646771
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2070646770}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 379845582}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 20.965, y: -9.515}
-  m_SizeDelta: {x: 97.166, y: 15.31}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2070646772
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2070646770}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: 10/10 - $10
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 13.7
-  m_fontSizeBase: 36
-  m_fontWeight: 400
-  m_enableAutoSizing: 1
-  m_fontSizeMin: 9
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &2070646773
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2070646770}
-  m_CullTransparentMesh: 1
 --- !u!114 &2073938554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45527,7 +45059,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Espada
-  stand: {fileID: 1114110930}
+  stand: {fileID: 124063295}
   price: 45
   cost: 30
   active: 1
@@ -45544,7 +45076,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Pan
-  stand: {fileID: 1685491069}
+  stand: {fileID: 1304337645}
   price: 6
   cost: 4
   active: 1
@@ -45567,7 +45099,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Hacha
-  stand: {fileID: 1114110930}
+  stand: {fileID: 124063295}
   price: 55
   cost: 35
   active: 1
@@ -45584,7 +45116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Pan
-  stand: {fileID: 1685491069}
+  stand: {fileID: 1304337645}
   price: 6
   cost: 4
   active: 1
@@ -45600,8 +45132,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  itemType: Carne
+  stand: {fileID: 1040548846}
   price: 8
   cost: 4
   active: 1
@@ -45988,75 +45520,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6cfbca0aa720344e9a0d920d30c1e75, type: 3}
---- !u!1 &2112127687
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2112127688}
-  - component: {fileID: 2112127690}
-  - component: {fileID: 2112127689}
-  m_Layer: 6
-  m_Name: Path (9)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2112127688
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2112127687}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.12, y: 3.571, z: -4.7}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1730755471}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &2112127689
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2112127687}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2112127690
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2112127687}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f5d81f417f87214eb3c472270a90c36, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textCost: {fileID: 0}
-  neighbors: []
-  isOccupied: 0
 --- !u!114 &2116553883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46070,7 +45533,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Hacha
-  stand: {fileID: 1114110930}
+  stand: {fileID: 124063295}
   price: 55
   cost: 35
   active: 1
@@ -46092,8 +45555,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado verde
+  stand: {fileID: 1121713995}
   price: 16
   cost: 8
   active: 1
@@ -46143,8 +45606,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  stand: {fileID: 2606311158365134059}
+  itemType: Pescado rojo
+  stand: {fileID: 1121713995}
   price: 12
   cost: 8
   active: 1
@@ -46540,6 +46003,84 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &2136501780
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2136501781}
+  - component: {fileID: 2136501783}
+  - component: {fileID: 2136501782}
+  m_Layer: 5
+  m_Name: Item 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2136501781
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136501780}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 267769337}
+  - {fileID: 12975614}
+  - {fileID: 480091234}
+  m_Father: {fileID: 1730320915}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 39.981}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2136501782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136501780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2136501783
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136501780}
+  m_CullTransparentMesh: 1
 --- !u!1 &2137111974
 GameObject:
   m_ObjectHideFlags: 0
@@ -47496,10 +47037,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 2506286901812682096}
-    - targetCorrespondingSourceObject: {fileID: 8918512582408417044, guid: 70eb163c2558dd14d97f3b3f6621756a,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 185986422}
     - targetCorrespondingSourceObject: {fileID: 1360950264960807551, guid: 70eb163c2558dd14d97f3b3f6621756a,
         type: 3}
       insertIndex: -1
@@ -47951,8 +47488,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  itemType: Carne
+  stand: {fileID: 1040548846}
   price: 8
   cost: 4
   active: 1
@@ -47968,8 +47505,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  itemType: Carne
+  stand: {fileID: 1040548846}
   price: 8
   cost: 4
   active: 1
@@ -47985,8 +47522,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  itemType: Carne
+  stand: {fileID: 1040548846}
   price: 8
   cost: 4
   active: 1
@@ -48002,8 +47539,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  itemType: Carne
+  stand: {fileID: 1040548846}
   price: 8
   cost: 4
   active: 1
@@ -48019,8 +47556,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: "Jam\xF3n"
-  stand: {fileID: 185986422}
+  itemType: Carne
+  stand: {fileID: 1040548846}
   price: 8
   cost: 4
   active: 1
@@ -48552,10 +48089,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7206603038304466778, guid: 5ed459fa9af3cc54a8803d749f445718,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2606311158365134059}
-    - targetCorrespondingSourceObject: {fileID: 7206603038304466778, guid: 5ed459fa9af3cc54a8803d749f445718,
-        type: 3}
-      insertIndex: -1
       addedObject: {fileID: 2606311158365134060}
     - targetCorrespondingSourceObject: {fileID: 2900987821557703939, guid: 5ed459fa9af3cc54a8803d749f445718,
         type: 3}
@@ -48916,101 +48449,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2606311158365134057}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2606311158365134059
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 200390635}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66819de8dd3c2e0408780a6f38389a7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  money: 1000
-  standObjects:
-  - {fileID: 1647108484}
-  - {fileID: 1869531023}
-  - {fileID: 1936233884}
-  - {fileID: 149976464}
-  - {fileID: 1773173393}
-  - {fileID: 2025523880}
-  - {fileID: 1028082005}
-  - {fileID: 207795601}
-  - {fileID: 809636226}
-  - {fileID: 1139203571}
-  - {fileID: 433755908}
-  - {fileID: 1884758387}
-  - {fileID: 1631425856}
-  - {fileID: 1943346938}
-  - {fileID: 299892648}
-  - {fileID: 1793662521}
-  - {fileID: 1596130955}
-  - {fileID: 57930041}
-  - {fileID: 501732543}
-  - {fileID: 1769476362}
-  - {fileID: 712533242}
-  - {fileID: 1526003865}
-  - {fileID: 1724642457}
-  - {fileID: 484384865}
-  - {fileID: 264860001}
-  - {fileID: 1859316131}
-  - {fileID: 227483284}
-  - {fileID: 361821069}
-  - {fileID: 1912972744}
-  - {fileID: 1451837724}
-  - {fileID: 819025934}
-  - {fileID: 12243194}
-  - {fileID: 2120368174}
-  - {fileID: 916653684}
-  - {fileID: 363767259}
-  - {fileID: 1390925758}
-  - {fileID: 636813806}
-  - {fileID: 879469453}
-  - {fileID: 1792259060}
-  - {fileID: 784501216}
-  - {fileID: 630531127}
-  - {fileID: 1789676577}
-  - {fileID: 514661806}
-  - {fileID: 1629451670}
-  - {fileID: 308844276}
-  - {fileID: 237256699}
-  - {fileID: 1496932543}
-  - {fileID: 1938085225}
-  - {fileID: 1739325483}
-  - {fileID: 817114810}
-  - {fileID: 1350858123}
-  - {fileID: 1404536138}
-  - {fileID: 1468961742}
-  - {fileID: 541813124}
-  - {fileID: 1792224159}
-  - {fileID: 1269241641}
-  - {fileID: 480828942}
-  - {fileID: 366620317}
-  - {fileID: 1302668997}
-  - {fileID: 855834032}
-  - {fileID: 2117089702}
-  - {fileID: 1386631460}
-  - {fileID: 453743979}
-  - {fileID: 912896047}
-  - {fileID: 795106610}
-  - {fileID: 371655168}
-  - {fileID: 1383172766}
-  - {fileID: 1551412253}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 433385}
-  - {fileID: 1562481804}
-  - {fileID: 927559940}
-  - {fileID: 83568297}
-  - {fileID: 1574060121}
 --- !u!64 &2606311158365134060
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -49531,10 +48969,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 3102235111362442353}
-    - targetCorrespondingSourceObject: {fileID: 3102235111441439032, guid: c3f576fec9299524b91ef6107359f09e,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1685491069}
     - targetCorrespondingSourceObject: {fileID: 3102235112381253004, guid: c3f576fec9299524b91ef6107359f09e,
         type: 3}
       insertIndex: -1
@@ -49777,7 +49211,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Galletas
-  stand: {fileID: 1685491069}
+  stand: {fileID: 1304337645}
   price: 3
   cost: 1
   active: 1
@@ -49794,7 +49228,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Torta
-  stand: {fileID: 1685491069}
+  stand: {fileID: 1304337645}
   price: 15
   cost: 6
   active: 1
@@ -49811,7 +49245,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Pan
-  stand: {fileID: 1685491069}
+  stand: {fileID: 1304337645}
   price: 6
   cost: 4
   active: 1
@@ -49828,7 +49262,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Pan
-  stand: {fileID: 1685491069}
+  stand: {fileID: 1304337645}
   price: 8
   cost: 3
   active: 1
@@ -49845,7 +49279,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Tarta
-  stand: {fileID: 1685491069}
+  stand: {fileID: 1304337645}
   price: 14
   cost: 8
   active: 0
@@ -52030,7 +51464,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: "Sand\xEDa"
-  stand: {fileID: 0}
+  stand: {fileID: 255764652}
   price: 8
   cost: 5
   active: 1
@@ -52047,7 +51481,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: "Sand\xEDa"
-  stand: {fileID: 0}
+  stand: {fileID: 255764652}
   price: 8
   cost: 5
   active: 1
@@ -52064,7 +51498,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: "Sand\xEDa"
-  stand: {fileID: 0}
+  stand: {fileID: 255764652}
   price: 8
   cost: 5
   active: 1
@@ -52081,7 +51515,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: "Sand\xEDa"
-  stand: {fileID: 0}
+  stand: {fileID: 255764652}
   price: 8
   cost: 5
   active: 1
@@ -52098,7 +51532,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: "Sand\xEDa"
-  stand: {fileID: 0}
+  stand: {fileID: 255764652}
   price: 8
   cost: 5
   active: 1
@@ -52694,7 +52128,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Banana
-  stand: {fileID: 0}
+  stand: {fileID: 255764652}
   price: 6
   cost: 4
   active: 1
@@ -52711,7 +52145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Banana
-  stand: {fileID: 0}
+  stand: {fileID: 255764652}
   price: 6
   cost: 4
   active: 1
@@ -52728,7 +52162,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Banana
-  stand: {fileID: 0}
+  stand: {fileID: 255764652}
   price: 6
   cost: 4
   active: 1
@@ -52745,7 +52179,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Banana
-  stand: {fileID: 0}
+  stand: {fileID: 255764652}
   price: 6
   cost: 4
   active: 1
@@ -52762,7 +52196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: Banana
-  stand: {fileID: 0}
+  stand: {fileID: 255764652}
   price: 6
   cost: 4
   active: 1

@@ -8,7 +8,7 @@ public static class LINQFunctions_ML
 {
     //Funciones de LINQ de Matias Labreniuk
 
-    public static List<Tuple<string,int, bool, Item>> TupleListCreator<T>(this List<Item> myItemList)
+    public static List<Tuple<string,int, bool, Item>> TupleListCreator(this IEnumerable<Item> myItemList)
     {
         var myCollection = myItemList.Aggregate(new List<Tuple<string, int, bool, Item>>(), (acumulator, current) => 
                            {
@@ -24,5 +24,13 @@ public static class LINQFunctions_ML
     {
         return allItems.Where(x => x.active == false)           //Grupo 1: Where
                        .OrderBy(x => x.cost);                   //Grupo 2: OrderBy
+    }
+
+    public static IEnumerable<dynamic> TupleTypeCounter(this List<Tuple<string, int, bool, Item>> allItems)
+    {
+        var itemCount = allItems.GroupBy(x => x.Item1)                                              //GroupBy
+                                .Select(group => new {Item1 = group.Key, Count = group.Count()})    //Grupo 1: Select
+                                .ToList();                                                          //Grupo 3: ToList
+        return itemCount;
     }
 }

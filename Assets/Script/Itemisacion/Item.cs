@@ -12,9 +12,16 @@ public class Item : MonoBehaviour
                         "Carne", "Jamón", "Chorizo" })]
     public string itemType;
 
+    public Stand stand;
     public int price; // minorist price
+
     public int cost; // cost to buy
 
     public bool active; // is the item active
+
+    private void Start()
+    {
+       stand.standObjects.Add(gameObject);
+    }
 
 }

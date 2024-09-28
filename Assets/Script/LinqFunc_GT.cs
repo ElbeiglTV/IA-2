@@ -16,4 +16,5 @@ public static class LinqFunc_GT
     {
         return items.Where(x => x.active && x.price < costFilter).OfType<T>();
     }
+ 
 }

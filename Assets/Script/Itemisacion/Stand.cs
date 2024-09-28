@@ -43,9 +43,7 @@ public class Stand : MonoBehaviour
     {
         money += item.price;
         item.active = false;
-        visuals[items.ToList().IndexOf(item)].enabled = false;
-        Debug.Log("Bought " + item.itemType);
-        
+        visuals[items.ToList().IndexOf(item)].enabled = false;   
     }
 
     public void ReStock()

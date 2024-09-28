@@ -15,7 +15,10 @@ public class LinqAgent : MonoBehaviour
 
     private void Start()
     {
+        if (MarketManager.instance.MarketIsOpen)
+        {
         StartCoroutine(TravelAlongMarket());
+        }
     }
 
     public IEnumerator TravelAlongMarket()

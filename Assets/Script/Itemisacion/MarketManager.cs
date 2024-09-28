@@ -74,6 +74,7 @@ public class MarketManager : MonoBehaviour
 
 
   
+    // Generate a list of agents  Utilize BuyListGenerator Gael Taborda
     public IEnumerable<LinqAgent> LinqAgentGenerator()
     {
         while (true)
@@ -86,6 +87,7 @@ public class MarketManager : MonoBehaviour
             yield return LA;
         }
     }
+    // Generate a list of items to buy for the agent Matias Labreniuk
     public IEnumerable<NMItem> BuyListGenerator()
     {
         while (true)

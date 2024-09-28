@@ -49,6 +49,7 @@ public class Stand : MonoBehaviour
     public void ReStock()
     {
         StartCoroutine(Purchase());
+
     }
 
     //Time-Slicing Matias Labreniuk
@@ -68,4 +69,6 @@ public class Stand : MonoBehaviour
         }
         MarketManager.instance.StandCorrutineCounter--;
     }
+
+    
 }

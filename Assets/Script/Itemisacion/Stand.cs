@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Stand : MonoBehaviour
 {
+    public float money = 1000; // the money of the stand
     public List<GameObject> standObjects; // the stand objects
 
     // list of Visual objects for this stand (GameObject)
@@ -17,16 +18,7 @@ public class Stand : MonoBehaviour
         InitializeStand();
     
     }
-
-    private void Update()
-    {
-            
-    }
-
-    public IEnumerable<T> InspectItems<T>(int costFilter) where T : Item
-    {
-        return items.Where(x => x.active && x.price < costFilter).OfType<T>();
-    }
+    
     void InitializeStand()
     {
         foreach (var item in items)

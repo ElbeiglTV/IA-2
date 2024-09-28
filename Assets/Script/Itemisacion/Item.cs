@@ -12,7 +12,6 @@ public class Item : MonoBehaviour
                         "Carne", "Jamón", "Chorizo" })]
     public string itemType;
 
-
     public int price; // minorist price
     public int cost; // cost to buy
 

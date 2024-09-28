@@ -19,4 +19,11 @@ public static class LINQFunctions_ML
                            );
         return myCollection;
     }
+
+    public static List<Item> PurchaseItems(this IEnumerable<Item> allItems)
+    {
+        return allItems.Where(x => x.active == false)           //Grupo 1: Where
+                       .OrderBy(x => x.cost)                    //Grupo 2: OrderBy
+                       .ToList();                               //Grupo 3: ToList
+    }
 }

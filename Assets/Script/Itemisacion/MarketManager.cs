@@ -35,6 +35,12 @@ public class MarketManager : MonoBehaviour
     public int StandCorrutineCounter;
     public int AgentCorrutineCounter;
 
+    
+    private void Start()
+    {
+        StartCoroutine(MarketCycle());
+    }
+
 
     IEnumerator MarketCycle()
     {

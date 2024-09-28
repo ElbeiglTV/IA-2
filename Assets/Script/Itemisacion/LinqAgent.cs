@@ -12,9 +12,13 @@ public class LinqAgent : MonoBehaviour
 
     public int ActualStand;
 
+    public bool inSpawn;
+
     public void InitializeAgent()
     {
-        transform.position = MarketManager.instance.MarketEntrance.transform.position;
+        MarketManager.instance.MarketEntranceCounter++;
+        transform.position = MarketManager.instance.MarketEntrance.transform.position+ new Vector3(0,10* MarketManager.instance.MarketEntranceCounter,0);
+        inSpawn = true;
 
         if (MarketManager.instance.MarketIsOpen)
         {
@@ -35,6 +39,11 @@ public class LinqAgent : MonoBehaviour
                 
                 MarketManager.instance.MarketQueueCounter++;
                 transform.position = MarketManager.instance.MarketQueue.transform.position + new Vector3(0,10*MarketManager.instance.MarketQueueCounter,0);
+                if (inSpawn == true)
+                {
+                    MarketManager.instance.MarketEntranceCounter--;
+                    inSpawn = false;
+                }
                 while (MarketManager.instance.Stands[ActualStand].isOccupied)
                 {
                     yield return null;
@@ -81,4 +90,5 @@ public class LinqAgent : MonoBehaviour
             yield return new WaitForSeconds(1);
         }
     }
+    
 }

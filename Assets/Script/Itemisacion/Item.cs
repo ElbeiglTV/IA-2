@@ -7,7 +7,7 @@ public class Item : MonoBehaviour
 {
     [StringPopup(new[] {"Pescado azul", "Pescado rojo", "Pescado verde", 
                         "Espada", "Escudo", "Hacha", 
-                        "Tarta", "Torta", "Pan", 
+                        "Tarta", "Torta", "Pan", "Galletas",
                         "Banana", "Zanahoria", "Sandía", 
                         "Carne", "Jamón", "Chorizo" })]
     public string itemType;

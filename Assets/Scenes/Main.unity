@@ -142,10 +142,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado azul
+  price: 35
+  cost: 18
+  active: 1
 --- !u!64 &433390
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -168,6 +168,38 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -7681823731938670938, guid: 216af29fb8329d948aacd9ef677bee72, type: 3}
+--- !u!114 &433391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 433385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Pescado azul
+  price: 25
+  cost: 15
+  active: 1
+--- !u!114 &648945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7879479369554055522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Zanahoria
+  price: 4
+  cost: 3
+  active: 1
 --- !u!1001 &11976467
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -285,10 +317,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado rojo
+  price: 13
+  cost: 5
+  active: 1
 --- !u!64 &12243199
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -608,6 +640,22 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 540981869}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &22336865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3102235111362442354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Galletas
+  price: 3
+  cost: 1
+  active: 1
 --- !u!1001 &22878956
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -998,6 +1046,22 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1079557420}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &39131314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398777259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Espada
+  price: 45
+  cost: 30
+  active: 1
 --- !u!1001 &40299524
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1100,10 +1164,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado rojo
+  price: 17
+  cost: 9
+  active: 1
 --- !u!64 &57930046
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1421,10 +1485,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado azul
+  price: 35
+  cost: 18
+  active: 1
 --- !u!64 &83568301
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1562,6 +1626,22 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 88515875}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &91303553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398777279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Hacha
+  price: 55
+  cost: 35
+  active: 1
 --- !u!1001 &94665860
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1881,6 +1961,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 263969933280661232, guid: 03295be368e52954e972393b2dc55cc9, type: 3}
+--- !u!114 &110083872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7879479369554055525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Zanahoria
+  price: 4
+  cost: 3
+  active: 1
 --- !u!1001 &111142437
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1980,6 +2076,22 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 111142437}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &113315128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398777258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Hacha
+  price: 55
+  cost: 35
+  active: 1
 --- !u!1 &119706218
 GameObject:
   m_ObjectHideFlags: 0
@@ -2672,6 +2784,22 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1142463822}
+    - targetCorrespondingSourceObject: {fileID: 491353544200932534, guid: 7242c3c430ebdd4478843bd94fc55be7,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 137716956}
+    - targetCorrespondingSourceObject: {fileID: 5673148727558227546, guid: 7242c3c430ebdd4478843bd94fc55be7,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 137716955}
+    - targetCorrespondingSourceObject: {fileID: 5219971132063237969, guid: 7242c3c430ebdd4478843bd94fc55be7,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 137716954}
+    - targetCorrespondingSourceObject: {fileID: 7138494364665148308, guid: 7242c3c430ebdd4478843bd94fc55be7,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 137716953}
   m_SourcePrefab: {fileID: 100100000, guid: 7242c3c430ebdd4478843bd94fc55be7, type: 3}
 --- !u!4 &137716948 stripped
 Transform:
@@ -2679,6 +2807,94 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 137716947}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &137716949 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7138494364665148308, guid: 7242c3c430ebdd4478843bd94fc55be7,
+    type: 3}
+  m_PrefabInstance: {fileID: 137716947}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &137716950 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5219971132063237969, guid: 7242c3c430ebdd4478843bd94fc55be7,
+    type: 3}
+  m_PrefabInstance: {fileID: 137716947}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &137716951 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5673148727558227546, guid: 7242c3c430ebdd4478843bd94fc55be7,
+    type: 3}
+  m_PrefabInstance: {fileID: 137716947}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &137716952 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 491353544200932534, guid: 7242c3c430ebdd4478843bd94fc55be7,
+    type: 3}
+  m_PrefabInstance: {fileID: 137716947}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &137716953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137716949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Escudo
+  price: 25
+  cost: 15
+  active: 1
+--- !u!114 &137716954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137716950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Hacha
+  price: 55
+  cost: 35
+  active: 1
+--- !u!114 &137716955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137716951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Espada
+  price: 45
+  cost: 30
+  active: 1
+--- !u!114 &137716956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137716952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Espada
+  price: 45
+  cost: 30
+  active: 1
 --- !u!1001 &142774869
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3035,10 +3251,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado rojo
+  price: 17
+  cost: 9
+  active: 1
 --- !u!64 &149976469
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3941,22 +4157,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2606311158365134057}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &201296637
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 201296635}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
 --- !u!64 &201296640
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3997,10 +4197,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado azul
+  price: 18
+  cost: 15
+  active: 1
 --- !u!64 &207795606
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4250,10 +4450,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado rojo
+  price: 12
+  cost: 8
+  active: 1
 --- !u!64 &227483289
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4514,10 +4714,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
+  itemType: Pescado rojo
+  price: 16
   cost: 10
-  active: 0
+  active: 1
 --- !u!64 &237256704
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4634,6 +4834,22 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 238789916}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &242257361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3102235111362442367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Torta
+  price: 15
+  cost: 6
+  active: 1
 --- !u!1 &245281998
 GameObject:
   m_ObjectHideFlags: 0
@@ -5305,10 +5521,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado rojo
+  price: 15
+  cost: 8
+  active: 1
 --- !u!64 &264860006
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5662,22 +5878,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2606311158365134057}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &286669458
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 286669456}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
 --- !u!64 &286669461
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5836,10 +6036,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado rojo
+  price: 15
+  cost: 8
+  active: 1
 --- !u!64 &299892653
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5979,10 +6179,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado azul
+  price: 18
+  cost: 15
+  active: 1
 --- !u!64 &308844281
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6295,6 +6495,22 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 568687998}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &336531755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3102235111362442355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Pan
+  price: 8
+  cost: 3
+  active: 1
 --- !u!1 &337029006 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5542946569397405763, guid: 73a9ab3e0680d24459b8cc6ef9809672,
@@ -6658,10 +6874,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado azul
+  price: 18
+  cost: 15
+  active: 1
 --- !u!64 &361821074
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6702,10 +6918,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado rojo
+  price: 16
+  cost: 8
+  active: 1
 --- !u!64 &363767264
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6746,10 +6962,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado rojo
+  price: 17
+  cost: 9
+  active: 1
 --- !u!64 &366620322
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6790,10 +7006,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado rojo
+  price: 12
+  cost: 8
+  active: 1
 --- !u!64 &371655173
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6822,22 +7038,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2606311158365134057}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &377163406
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 377163404}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
 --- !u!64 &377163409
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7478,10 +7678,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado rojo
+  price: 17
+  cost: 9
+  active: 1
 --- !u!64 &433755913
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7555,7 +7755,6 @@ Transform:
   - {fileID: 1341407686}
   - {fileID: 1389675081}
   - {fileID: 535689682}
-  - {fileID: 1398777256}
   - {fileID: 2506286901812682095}
   - {fileID: 3133338189097087704}
   - {fileID: 1417480719}
@@ -7574,6 +7773,7 @@ Transform:
   - {fileID: 1208130203}
   - {fileID: 5208564038340896254}
   - {fileID: 8172504967688988172}
+  - {fileID: 1398777256}
   m_Father: {fileID: 964955258}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &436344233
@@ -7804,10 +8004,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado rojo
+  price: 16
+  cost: 8
+  active: 1
 --- !u!64 &453743984
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7830,6 +8030,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1258736543099589447, guid: 3763a610870991740befe42354bfeb4a, type: 3}
+--- !u!114 &454452053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7879479369554055528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: "Sand\xEDa"
+  price: 8
+  cost: 5
+  active: 1
 --- !u!1001 &455566610
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7918,6 +8134,38 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 455566610}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &468490676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398777264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Espada
+  price: 45
+  cost: 30
+  active: 1
+--- !u!114 &471901774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398777273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Hacha
+  price: 55
+  cost: 35
+  active: 1
 --- !u!114 &472381149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8064,10 +8312,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
+  itemType: Pescado rojo
+  price: 16
   cost: 10
-  active: 0
+  active: 1
 --- !u!64 &480828947
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8108,10 +8356,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado rojo
+  price: 12
+  cost: 8
+  active: 1
 --- !u!64 &484384870
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8257,10 +8505,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado rojo
+  price: 15
+  cost: 8
+  active: 1
 --- !u!64 &501732548
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8576,10 +8824,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado rojo
+  price: 12
+  cost: 8
+  active: 1
 --- !u!64 &514661811
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8726,6 +8974,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textCost: {fileID: 0}
   neighbors: []
+--- !u!114 &529696829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7879479369554055534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Banana
+  price: 6
+  cost: 4
+  active: 1
 --- !u!1 &531129381
 GameObject:
   m_ObjectHideFlags: 0
@@ -9092,6 +9356,14 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 2013485299}
+    - targetCorrespondingSourceObject: {fileID: 4589656810000503009, guid: 1cfe0aebf2d528e41a25542addfe8364,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 535689686}
+    - targetCorrespondingSourceObject: {fileID: 869687455062465906, guid: 1cfe0aebf2d528e41a25542addfe8364,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 535689685}
   m_SourcePrefab: {fileID: 100100000, guid: 1cfe0aebf2d528e41a25542addfe8364, type: 3}
 --- !u!4 &535689682 stripped
 Transform:
@@ -9099,6 +9371,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 535689681}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &535689683 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 869687455062465906, guid: 1cfe0aebf2d528e41a25542addfe8364,
+    type: 3}
+  m_PrefabInstance: {fileID: 535689681}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &535689684 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4589656810000503009, guid: 1cfe0aebf2d528e41a25542addfe8364,
+    type: 3}
+  m_PrefabInstance: {fileID: 535689681}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &535689685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535689683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Espada
+  price: 45
+  cost: 30
+  active: 1
+--- !u!114 &535689686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535689684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Espada
+  price: 45
+  cost: 30
+  active: 1
 --- !u!1001 &536016336
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9297,6 +9613,22 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 536316933}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &540335993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398777271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Espada
+  price: 45
+  cost: 30
+  active: 1
 --- !u!1001 &540981869
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9425,10 +9757,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado rojo
+  price: 16
+  cost: 8
+  active: 1
 --- !u!64 &541813129
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9451,6 +9783,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1258736543099589447, guid: 3763a610870991740befe42354bfeb4a, type: 3}
+--- !u!114 &547125756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7879479369554055519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Zanahoria
+  price: 4
+  cost: 3
+  active: 1
 --- !u!1001 &559078163
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9979,6 +10327,51 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6285478986604354725, guid: 73a9ab3e0680d24459b8cc6ef9809672,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 33e08b6bbbf1d1348a4801ae4d1fffe5, type: 2}
+    - target: {fileID: 6285478986641994910, guid: 73a9ab3e0680d24459b8cc6ef9809672,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 33e08b6bbbf1d1348a4801ae4d1fffe5, type: 2}
+    - target: {fileID: 6285478986790104523, guid: 73a9ab3e0680d24459b8cc6ef9809672,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 33e08b6bbbf1d1348a4801ae4d1fffe5, type: 2}
+    - target: {fileID: 6285478987148036569, guid: 73a9ab3e0680d24459b8cc6ef9809672,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 33e08b6bbbf1d1348a4801ae4d1fffe5, type: 2}
+    - target: {fileID: 6285478987215664412, guid: 73a9ab3e0680d24459b8cc6ef9809672,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 33e08b6bbbf1d1348a4801ae4d1fffe5, type: 2}
+    - target: {fileID: 6285478987593989563, guid: 73a9ab3e0680d24459b8cc6ef9809672,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 33e08b6bbbf1d1348a4801ae4d1fffe5, type: 2}
+    - target: {fileID: 6285478987697500337, guid: 73a9ab3e0680d24459b8cc6ef9809672,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 33e08b6bbbf1d1348a4801ae4d1fffe5, type: 2}
+    - target: {fileID: 6285478987914712929, guid: 73a9ab3e0680d24459b8cc6ef9809672,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 33e08b6bbbf1d1348a4801ae4d1fffe5, type: 2}
+    - target: {fileID: 6285478988080750331, guid: 73a9ab3e0680d24459b8cc6ef9809672,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 33e08b6bbbf1d1348a4801ae4d1fffe5, type: 2}
     - target: {fileID: 9093236154714144734, guid: 73a9ab3e0680d24459b8cc6ef9809672,
         type: 3}
       propertyPath: m_RootOrder
@@ -10406,6 +10799,22 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 582748637}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &588898066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3102235111362442364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Galletas
+  price: 3
+  cost: 1
+  active: 1
 --- !u!1 &594591492
 GameObject:
   m_ObjectHideFlags: 0
@@ -10839,10 +11248,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado rojo
+  price: 15
+  cost: 8
+  active: 1
 --- !u!64 &630531132
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10889,10 +11298,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado rojo
+  price: 17
+  cost: 9
+  active: 1
 --- !u!64 &636813811
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11007,6 +11416,22 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 638015849}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &647336637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398777266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Espada
+  price: 45
+  cost: 30
+  active: 1
 --- !u!1001 &651736569
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11824,6 +12249,22 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 671792578}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &674973022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7879479369554055535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: "Sand\xEDa"
+  price: 8
+  cost: 5
+  active: 1
 --- !u!1001 &677113497
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12347,6 +12788,22 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 704468441}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &705922786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7879479369554055521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Zanahoria
+  price: 4
+  cost: 3
+  active: 1
 --- !u!1001 &706857298
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12652,10 +13109,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado rojo
+  price: 13
+  cost: 5
+  active: 1
 --- !u!64 &712533247
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13831,10 +14288,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado rojo
+  price: 15
+  cost: 8
+  active: 1
 --- !u!64 &784501221
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13985,10 +14442,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado rojo
+  price: 16
+  cost: 8
+  active: 1
 --- !u!64 &795106615
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14134,10 +14591,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado azul
+  price: 18
+  cost: 15
+  active: 1
 --- !u!64 &809636231
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14160,6 +14617,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1258736543099589447, guid: 3763a610870991740befe42354bfeb4a, type: 3}
+--- !u!114 &811096832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398777260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Espada
+  price: 45
+  cost: 30
+  active: 1
 --- !u!1001 &812695528
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14248,6 +14721,22 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 812695528}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &815598407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7879479369554055524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Zanahoria
+  price: 4
+  cost: 3
+  active: 1
 --- !u!1 &817114810 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1303864705675907430, guid: 5ed459fa9af3cc54a8803d749f445718,
@@ -14266,10 +14755,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado rojo
+  price: 12
+  cost: 8
+  active: 1
 --- !u!64 &817114815
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14310,10 +14799,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
+  itemType: Pescado rojo
+  price: 16
   cost: 10
-  active: 0
+  active: 1
 --- !u!64 &819025939
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14548,10 +15037,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado azul
+  price: 18
+  cost: 15
+  active: 1
 --- !u!64 &855834037
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15076,10 +15565,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado rojo
+  price: 13
+  cost: 5
+  active: 1
 --- !u!64 &879469458
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15345,6 +15834,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -9144735209240173524, guid: 547918b602e9a664f8bbed6998006b60, type: 3}
+--- !u!114 &896077411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7879479369554055517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Zanahoria
+  price: 4
+  cost: 3
+  active: 1
 --- !u!1001 &904782259
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15556,10 +16061,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado rojo
+  price: 12
+  cost: 8
+  active: 1
 --- !u!64 &912896052
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15600,10 +16105,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado azul
+  price: 18
+  cost: 15
+  active: 1
 --- !u!64 &916653689
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15626,6 +16131,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1258736543099589447, guid: 3763a610870991740befe42354bfeb4a, type: 3}
+--- !u!114 &917828320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3102235111362442362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Tarta
+  price: 14
+  cost: 8
+  active: 0
 --- !u!1 &919053228 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5512969965247550855, guid: ac936ad7ddc749a41a651adf7537ca96,
@@ -15750,10 +16271,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado azul
+  price: 35
+  cost: 18
+  active: 1
 --- !u!64 &927559945
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15776,6 +16297,38 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -7681823731938670938, guid: 216af29fb8329d948aacd9ef677bee72, type: 3}
+--- !u!114 &927559946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 927559940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Pescado azul
+  price: 25
+  cost: 15
+  active: 1
+--- !u!114 &934140130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3102235111362442359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Pan
+  price: 6
+  cost: 4
+  active: 1
 --- !u!1001 &945471934
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16274,6 +16827,14 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1454760187}
+    - targetCorrespondingSourceObject: {fileID: 8042084656029120469, guid: 90f15e791bd7a46409914c71c35c27ea,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 953499281}
+    - targetCorrespondingSourceObject: {fileID: 9145504539424985441, guid: 90f15e791bd7a46409914c71c35c27ea,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 953499280}
   m_SourcePrefab: {fileID: 100100000, guid: 90f15e791bd7a46409914c71c35c27ea, type: 3}
 --- !u!4 &953499277 stripped
 Transform:
@@ -16281,6 +16842,66 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 953499276}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &953499278 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9145504539424985441, guid: 90f15e791bd7a46409914c71c35c27ea,
+    type: 3}
+  m_PrefabInstance: {fileID: 953499276}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &953499279 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8042084656029120469, guid: 90f15e791bd7a46409914c71c35c27ea,
+    type: 3}
+  m_PrefabInstance: {fileID: 953499276}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &953499280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 953499278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Pan
+  price: 8
+  cost: 3
+  active: 1
+--- !u!114 &953499281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 953499279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Pan
+  price: 8
+  cost: 3
+  active: 1
+--- !u!114 &957435916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398777274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Escudo
+  price: 25
+  cost: 15
+  active: 1
 --- !u!1 &964955257
 GameObject:
   m_ObjectHideFlags: 0
@@ -17102,6 +17723,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -9144735209240173524, guid: 547918b602e9a664f8bbed6998006b60, type: 3}
+--- !u!114 &1007315253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398777287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Hacha
+  price: 55
+  cost: 35
+  active: 1
 --- !u!1 &1015808612 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7231767413298178359, guid: 7a529b20e0299d54e8a27a8499ab7f81,
@@ -17215,10 +17852,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
+  itemType: Pescado rojo
+  price: 16
   cost: 10
-  active: 0
+  active: 1
 --- !u!64 &1028082010
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17335,28 +17972,28 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1028450249}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1030637980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398777267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Espada
+  price: 45
+  cost: 30
+  active: 1
 --- !u!1 &1037744243 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9095942915707105154, guid: 5ed459fa9af3cc54a8803d749f445718,
     type: 3}
   m_PrefabInstance: {fileID: 2606311158365134057}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1037744245
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1037744243}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
 --- !u!64 &1037744248
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17730,6 +18367,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -445526093955236900, guid: 7cb2c82d5615e92438e691aee458fe7c, type: 3}
+--- !u!114 &1062772544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398777275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Espada
+  price: 45
+  cost: 30
+  active: 1
 --- !u!1001 &1063900423
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18105,22 +18758,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2606311158365134057}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1083678922
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1083678920}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
 --- !u!64 &1083678925
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18369,6 +19006,22 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1089208222}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1096338537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398777288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Espada
+  price: 45
+  cost: 30
+  active: 1
 --- !u!1001 &1101768486
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18722,6 +19375,38 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -9144735209240173524, guid: 547918b602e9a664f8bbed6998006b60, type: 3}
+--- !u!114 &1118852796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398777268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Espada
+  price: 45
+  cost: 30
+  active: 1
+--- !u!114 &1120751862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398777281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Hacha
+  price: 55
+  cost: 35
+  active: 1
 --- !u!1 &1121713991
 GameObject:
   m_ObjectHideFlags: 0
@@ -18790,6 +19475,38 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1124704064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7879479369554055527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Banana
+  price: 6
+  cost: 4
+  active: 1
+--- !u!114 &1126453138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398777262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Hacha
+  price: 55
+  cost: 35
+  active: 1
 --- !u!1 &1128373594 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5512969965247550855, guid: ac936ad7ddc749a41a651adf7537ca96,
@@ -18824,6 +19541,22 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1632041924}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1134111893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7879479369554055523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Zanahoria
+  price: 4
+  cost: 3
+  active: 1
 --- !u!1001 &1134117240
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18941,10 +19674,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado rojo
+  price: 13
+  cost: 5
+  active: 1
 --- !u!64 &1139203576
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19051,6 +19784,22 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1141789751}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1142109578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7879479369554055533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: "Sand\xEDa"
+  price: 8
+  cost: 5
+  active: 1
 --- !u!1 &1142463821 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6390088810522250898, guid: 7242c3c430ebdd4478843bd94fc55be7,
@@ -19628,6 +20377,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -3181957846400817141, guid: fb1a94648bbde3b4aa235b2722ee7582, type: 3}
+--- !u!114 &1202461957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398777265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Espada
+  price: 45
+  cost: 30
+  active: 1
 --- !u!1001 &1208130202
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19970,6 +20735,22 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1230172629}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1234986388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7879479369554055518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Zanahoria
+  price: 4
+  cost: 3
+  active: 1
 --- !u!1 &1237913067 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7090961198725882904, guid: 7ae44cce9c551704984deac91f767c88,
@@ -20116,6 +20897,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1428656796}
   m_LocalEulerAnglesHint: {x: 55.7, y: -146.2, z: -388}
+--- !u!114 &1241444206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7879479369554055526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Zanahoria
+  price: 4
+  cost: 3
+  active: 1
 --- !u!1001 &1241914551
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20200,6 +20997,22 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1241914551}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1243664223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3102235111362442365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Pan
+  price: 8
+  cost: 3
+  active: 1
 --- !u!1 &1244661248 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7090961198725882904, guid: 7ae44cce9c551704984deac91f767c88,
@@ -20571,10 +21384,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado rojo
+  price: 12
+  cost: 8
+  active: 1
 --- !u!64 &1269241646
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21073,6 +21886,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textCost: {fileID: 0}
   neighbors: []
+--- !u!114 &1291989959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398777261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Escudo
+  price: 25
+  cost: 15
+  active: 1
 --- !u!1001 &1296137940
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21521,6 +22350,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -6414079997428420802, guid: 76720c48bd762e840b89a7f55e2e238d, type: 3}
+--- !u!114 &1300935702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398777277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Escudo
+  price: 25
+  cost: 15
+  active: 1
 --- !u!1001 &1301420375
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21732,10 +22577,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
+  itemType: Pescado rojo
+  price: 16
   cost: 10
-  active: 0
+  active: 1
 --- !u!64 &1302669002
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22287,6 +23132,22 @@ MonoBehaviour:
   price: 10
   cost: 6
   active: 1
+--- !u!114 &1348699688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3102235111362442360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Pan
+  price: 8
+  cost: 3
+  active: 1
 --- !u!1 &1350858123 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5492840848138943856, guid: 73a9ab3e0680d24459b8cc6ef9809672,
@@ -22305,10 +23166,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado azul
+  price: 18
+  cost: 15
+  active: 1
 --- !u!64 &1350858128
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22464,6 +23325,38 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &1371905344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398777284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Escudo
+  price: 25
+  cost: 15
+  active: 1
+--- !u!114 &1373427777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7879479369554055531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Zanahoria
+  price: 4
+  cost: 3
+  active: 1
 --- !u!1 &1373811956 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 802741716594662309, guid: 5ed459fa9af3cc54a8803d749f445718,
@@ -22721,10 +23614,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado rojo
+  price: 16
+  cost: 8
+  active: 1
 --- !u!64 &1383172771
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22765,10 +23658,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado rojo
+  price: 12
+  cost: 8
+  active: 1
 --- !u!64 &1386631465
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22897,10 +23790,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
+  itemType: Pescado rojo
   price: 20
   cost: 10
-  active: 0
+  active: 1
 --- !u!64 &1390925763
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23705,6 +24598,150 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1398777257}
+    - targetCorrespondingSourceObject: {fileID: 7291558787647426699, guid: 6eef9e580c001db45934a1ce61d95a7b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1398777298}
+    - targetCorrespondingSourceObject: {fileID: 929680446579367496, guid: 6eef9e580c001db45934a1ce61d95a7b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1398777297}
+    - targetCorrespondingSourceObject: {fileID: 6573608215464953677, guid: 6eef9e580c001db45934a1ce61d95a7b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1398777296}
+    - targetCorrespondingSourceObject: {fileID: 6579324054145584734, guid: 6eef9e580c001db45934a1ce61d95a7b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1398777295}
+    - targetCorrespondingSourceObject: {fileID: 7638249096090081373, guid: 6eef9e580c001db45934a1ce61d95a7b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1398777294}
+    - targetCorrespondingSourceObject: {fileID: 2134096005958894900, guid: 6eef9e580c001db45934a1ce61d95a7b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1096338537}
+    - targetCorrespondingSourceObject: {fileID: 8744340724207865362, guid: 6eef9e580c001db45934a1ce61d95a7b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1007315253}
+    - targetCorrespondingSourceObject: {fileID: 3006647050822336121, guid: 6eef9e580c001db45934a1ce61d95a7b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2073938554}
+    - targetCorrespondingSourceObject: {fileID: 7583910120980369008, guid: 6eef9e580c001db45934a1ce61d95a7b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2041003374}
+    - targetCorrespondingSourceObject: {fileID: 5732029595770863029, guid: 6eef9e580c001db45934a1ce61d95a7b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1371905344}
+    - targetCorrespondingSourceObject: {fileID: 3523892126826308698, guid: 6eef9e580c001db45934a1ce61d95a7b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1891040448}
+    - targetCorrespondingSourceObject: {fileID: 9031779930061628408, guid: 6eef9e580c001db45934a1ce61d95a7b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2084552928}
+    - targetCorrespondingSourceObject: {fileID: 6752283654575293535, guid: 6eef9e580c001db45934a1ce61d95a7b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1120751862}
+    - targetCorrespondingSourceObject: {fileID: 4145472346447711206, guid: 6eef9e580c001db45934a1ce61d95a7b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1518298539}
+    - targetCorrespondingSourceObject: {fileID: 7787651883248554693, guid: 6eef9e580c001db45934a1ce61d95a7b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 91303553}
+    - targetCorrespondingSourceObject: {fileID: 2069942875576813853, guid: 6eef9e580c001db45934a1ce61d95a7b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2116553883}
+    - targetCorrespondingSourceObject: {fileID: 6254183786865997323, guid: 6eef9e580c001db45934a1ce61d95a7b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1300935702}
+    - targetCorrespondingSourceObject: {fileID: 5945817202911895891, guid: 6eef9e580c001db45934a1ce61d95a7b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1417767454}
+    - targetCorrespondingSourceObject: {fileID: 4466849908060741594, guid: 6eef9e580c001db45934a1ce61d95a7b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1062772544}
+    - targetCorrespondingSourceObject: {fileID: 8970083788182497292, guid: 6eef9e580c001db45934a1ce61d95a7b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 957435916}
+    - targetCorrespondingSourceObject: {fileID: 1404489340583357372, guid: 6eef9e580c001db45934a1ce61d95a7b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 471901774}
+    - targetCorrespondingSourceObject: {fileID: 4482421378817388491, guid: 6eef9e580c001db45934a1ce61d95a7b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1618045045}
+    - targetCorrespondingSourceObject: {fileID: 1169957808365735306, guid: 6eef9e580c001db45934a1ce61d95a7b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 540335993}
+    - targetCorrespondingSourceObject: {fileID: 2692407074487912291, guid: 6eef9e580c001db45934a1ce61d95a7b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1868126631}
+    - targetCorrespondingSourceObject: {fileID: 1523615053689635323, guid: 6eef9e580c001db45934a1ce61d95a7b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1708343258}
+    - targetCorrespondingSourceObject: {fileID: 1964960561714145880, guid: 6eef9e580c001db45934a1ce61d95a7b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1118852796}
+    - targetCorrespondingSourceObject: {fileID: 3622829912397451736, guid: 6eef9e580c001db45934a1ce61d95a7b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1030637980}
+    - targetCorrespondingSourceObject: {fileID: 5379533870361889501, guid: 6eef9e580c001db45934a1ce61d95a7b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 647336637}
+    - targetCorrespondingSourceObject: {fileID: 2359415571749382008, guid: 6eef9e580c001db45934a1ce61d95a7b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1202461957}
+    - targetCorrespondingSourceObject: {fileID: 1071914988673484244, guid: 6eef9e580c001db45934a1ce61d95a7b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 468490676}
+    - targetCorrespondingSourceObject: {fileID: 6439976627143279473, guid: 6eef9e580c001db45934a1ce61d95a7b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1763598284}
+    - targetCorrespondingSourceObject: {fileID: 8883078864681917899, guid: 6eef9e580c001db45934a1ce61d95a7b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1126453138}
+    - targetCorrespondingSourceObject: {fileID: 5756240453265902745, guid: 6eef9e580c001db45934a1ce61d95a7b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1291989959}
+    - targetCorrespondingSourceObject: {fileID: 2781506727600143903, guid: 6eef9e580c001db45934a1ce61d95a7b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 811096832}
+    - targetCorrespondingSourceObject: {fileID: 861899633827957146, guid: 6eef9e580c001db45934a1ce61d95a7b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 39131314}
+    - targetCorrespondingSourceObject: {fileID: 4016711516608267315, guid: 6eef9e580c001db45934a1ce61d95a7b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 113315128}
   m_SourcePrefab: {fileID: 100100000, guid: 6eef9e580c001db45934a1ce61d95a7b, type: 3}
 --- !u!4 &1398777256 stripped
 Transform:
@@ -23734,6 +24771,302 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!1 &1398777258 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4016711516608267315, guid: 6eef9e580c001db45934a1ce61d95a7b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1398777255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1398777259 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 861899633827957146, guid: 6eef9e580c001db45934a1ce61d95a7b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1398777255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1398777260 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2781506727600143903, guid: 6eef9e580c001db45934a1ce61d95a7b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1398777255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1398777261 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5756240453265902745, guid: 6eef9e580c001db45934a1ce61d95a7b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1398777255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1398777262 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8883078864681917899, guid: 6eef9e580c001db45934a1ce61d95a7b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1398777255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1398777263 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6439976627143279473, guid: 6eef9e580c001db45934a1ce61d95a7b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1398777255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1398777264 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1071914988673484244, guid: 6eef9e580c001db45934a1ce61d95a7b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1398777255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1398777265 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2359415571749382008, guid: 6eef9e580c001db45934a1ce61d95a7b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1398777255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1398777266 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5379533870361889501, guid: 6eef9e580c001db45934a1ce61d95a7b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1398777255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1398777267 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3622829912397451736, guid: 6eef9e580c001db45934a1ce61d95a7b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1398777255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1398777268 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1964960561714145880, guid: 6eef9e580c001db45934a1ce61d95a7b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1398777255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1398777269 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1523615053689635323, guid: 6eef9e580c001db45934a1ce61d95a7b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1398777255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1398777270 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2692407074487912291, guid: 6eef9e580c001db45934a1ce61d95a7b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1398777255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1398777271 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1169957808365735306, guid: 6eef9e580c001db45934a1ce61d95a7b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1398777255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1398777272 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4482421378817388491, guid: 6eef9e580c001db45934a1ce61d95a7b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1398777255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1398777273 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1404489340583357372, guid: 6eef9e580c001db45934a1ce61d95a7b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1398777255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1398777274 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8970083788182497292, guid: 6eef9e580c001db45934a1ce61d95a7b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1398777255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1398777275 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4466849908060741594, guid: 6eef9e580c001db45934a1ce61d95a7b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1398777255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1398777276 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5945817202911895891, guid: 6eef9e580c001db45934a1ce61d95a7b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1398777255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1398777277 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6254183786865997323, guid: 6eef9e580c001db45934a1ce61d95a7b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1398777255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1398777278 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2069942875576813853, guid: 6eef9e580c001db45934a1ce61d95a7b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1398777255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1398777279 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7787651883248554693, guid: 6eef9e580c001db45934a1ce61d95a7b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1398777255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1398777280 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4145472346447711206, guid: 6eef9e580c001db45934a1ce61d95a7b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1398777255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1398777281 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6752283654575293535, guid: 6eef9e580c001db45934a1ce61d95a7b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1398777255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1398777282 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9031779930061628408, guid: 6eef9e580c001db45934a1ce61d95a7b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1398777255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1398777283 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3523892126826308698, guid: 6eef9e580c001db45934a1ce61d95a7b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1398777255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1398777284 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5732029595770863029, guid: 6eef9e580c001db45934a1ce61d95a7b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1398777255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1398777285 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7583910120980369008, guid: 6eef9e580c001db45934a1ce61d95a7b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1398777255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1398777286 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3006647050822336121, guid: 6eef9e580c001db45934a1ce61d95a7b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1398777255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1398777287 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8744340724207865362, guid: 6eef9e580c001db45934a1ce61d95a7b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1398777255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1398777288 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2134096005958894900, guid: 6eef9e580c001db45934a1ce61d95a7b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1398777255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1398777289 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7638249096090081373, guid: 6eef9e580c001db45934a1ce61d95a7b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1398777255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1398777290 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6579324054145584734, guid: 6eef9e580c001db45934a1ce61d95a7b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1398777255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1398777291 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6573608215464953677, guid: 6eef9e580c001db45934a1ce61d95a7b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1398777255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1398777292 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 929680446579367496, guid: 6eef9e580c001db45934a1ce61d95a7b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1398777255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1398777293 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7291558787647426699, guid: 6eef9e580c001db45934a1ce61d95a7b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1398777255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1398777294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398777289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Espada
+  price: 45
+  cost: 30
+  active: 1
+--- !u!114 &1398777295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398777290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Hacha
+  price: 55
+  cost: 35
+  active: 1
+--- !u!114 &1398777296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398777291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Espada
+  price: 45
+  cost: 30
+  active: 1
+--- !u!114 &1398777297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398777292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Espada
+  price: 45
+  cost: 30
+  active: 1
+--- !u!114 &1398777298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398777293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Espada
+  price: 45
+  cost: 30
+  active: 1
 --- !u!1001 &1403711353
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23836,10 +25169,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
+  itemType: Pescado rojo
+  price: 16
   cost: 10
-  active: 0
+  active: 1
 --- !u!64 &1404536143
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24378,6 +25711,22 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1417480718}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1417767454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398777276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Espada
+  price: 45
+  cost: 30
+  active: 1
 --- !u!1 &1417950848 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8833014857866130543, guid: db8edc7562833af4b9eebea07c69d5d9,
@@ -24767,6 +26116,22 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6cfbca0aa720344e9a0d920d30c1e75, type: 3}
+--- !u!114 &1433900266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3102235111362442361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Pan
+  price: 6
+  cost: 4
+  active: 1
 --- !u!1 &1436918978
 GameObject:
   m_ObjectHideFlags: 0
@@ -24972,10 +26337,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado rojo
+  price: 17
+  cost: 9
+  active: 1
 --- !u!64 &1451837729
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25248,10 +26613,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado azul
+  price: 18
+  cost: 15
+  active: 1
 --- !u!64 &1468961747
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25379,6 +26744,22 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1642746534}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1475641449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7879479369554055520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Zanahoria
+  price: 4
+  cost: 3
+  active: 1
 --- !u!1 &1476744754
 GameObject:
   m_ObjectHideFlags: 0
@@ -25664,6 +27045,22 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1488067319}
+    - targetCorrespondingSourceObject: {fileID: 3770583766135087372, guid: 4b7f7bf8cd0125243a6a457c53fc1b90,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1488067327}
+    - targetCorrespondingSourceObject: {fileID: 8828293266324351658, guid: 4b7f7bf8cd0125243a6a457c53fc1b90,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1488067326}
+    - targetCorrespondingSourceObject: {fileID: 5850665620796244027, guid: 4b7f7bf8cd0125243a6a457c53fc1b90,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1488067325}
+    - targetCorrespondingSourceObject: {fileID: 8543148969511493308, guid: 4b7f7bf8cd0125243a6a457c53fc1b90,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1488067324}
   m_SourcePrefab: {fileID: 100100000, guid: 4b7f7bf8cd0125243a6a457c53fc1b90, type: 3}
 --- !u!4 &1488067318 stripped
 Transform:
@@ -25693,6 +27090,94 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!1 &1488067320 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8543148969511493308, guid: 4b7f7bf8cd0125243a6a457c53fc1b90,
+    type: 3}
+  m_PrefabInstance: {fileID: 1488067317}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1488067321 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5850665620796244027, guid: 4b7f7bf8cd0125243a6a457c53fc1b90,
+    type: 3}
+  m_PrefabInstance: {fileID: 1488067317}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1488067322 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8828293266324351658, guid: 4b7f7bf8cd0125243a6a457c53fc1b90,
+    type: 3}
+  m_PrefabInstance: {fileID: 1488067317}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1488067323 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3770583766135087372, guid: 4b7f7bf8cd0125243a6a457c53fc1b90,
+    type: 3}
+  m_PrefabInstance: {fileID: 1488067317}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1488067324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1488067320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Pan
+  price: 6
+  cost: 4
+  active: 1
+--- !u!114 &1488067325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1488067321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Pan
+  price: 6
+  cost: 4
+  active: 1
+--- !u!114 &1488067326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1488067322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Pan
+  price: 6
+  cost: 4
+  active: 1
+--- !u!114 &1488067327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1488067323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Pan
+  price: 6
+  cost: 4
+  active: 1
 --- !u!1001 &1489197760
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25909,10 +27394,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado rojo
+  price: 15
+  cost: 8
+  active: 1
 --- !u!64 &1496932548
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26062,6 +27547,22 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1514231009}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1518298539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398777280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Espada
+  price: 45
+  cost: 30
+  active: 1
 --- !u!1 &1525035500 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7090961198725882904, guid: 7ae44cce9c551704984deac91f767c88,
@@ -26108,10 +27609,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
+  itemType: Pescado rojo
   price: 20
   cost: 10
-  active: 0
+  active: 1
 --- !u!64 &1526003870
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26146,6 +27647,22 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1431060404}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1527908105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3102235111362442366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Pan
+  price: 6
+  cost: 4
+  active: 1
 --- !u!1001 &1530378775
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26234,6 +27751,22 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1530378775}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1531383016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3102235111362442358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Pan
+  price: 8
+  cost: 3
+  active: 1
 --- !u!1001 &1539645532
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26434,10 +27967,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado rojo
+  price: 12
+  cost: 8
+  active: 1
 --- !u!64 &1551412258
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26571,10 +28104,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado azul
+  price: 35
+  cost: 18
+  active: 1
 --- !u!64 &1562481808
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27027,6 +28560,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -3181957846400817141, guid: fb1a94648bbde3b4aa235b2722ee7582, type: 3}
+--- !u!114 &1579204442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7879479369554055530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Zanahoria
+  price: 4
+  cost: 3
+  active: 1
 --- !u!1001 &1582437718
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27249,10 +28798,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
+  itemType: Pescado rojo
+  price: 16
   cost: 10
-  active: 0
+  active: 1
 --- !u!64 &1596130960
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27610,6 +29159,22 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1608738890}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1612429736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7879479369554055529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Banana
+  price: 6
+  cost: 4
+  active: 1
 --- !u!1 &1612994901 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8833014857866130543, guid: db8edc7562833af4b9eebea07c69d5d9,
@@ -27726,6 +29291,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 819776266096643936, guid: b39a0e71668003e45a671a83393f0767, type: 3}
+--- !u!114 &1618045045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398777272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Hacha
+  price: 55
+  cost: 35
+  active: 1
 --- !u!1 &1622282876 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8833014857866130543, guid: db8edc7562833af4b9eebea07c69d5d9,
@@ -27834,10 +29415,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado rojo
+  price: 17
+  cost: 9
+  active: 1
 --- !u!64 &1629451675
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27878,10 +29459,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado rojo
+  price: 16
+  cost: 8
+  active: 1
 --- !u!64 &1631425861
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28227,10 +29808,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado
+  itemType: Pescado rojo
   price: 20
   cost: 10
-  active: 0
+  active: 1
 --- !u!64 &1647108489
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28718,6 +30299,22 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6cfbca0aa720344e9a0d920d30c1e75, type: 3}
+--- !u!114 &1669083714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3102235111362442368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Torta
+  price: 15
+  cost: 6
+  active: 1
 --- !u!1001 &1670969404
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29493,6 +31090,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 5053586439927270725, guid: b7e179b894b78ba479ebf74e790e8a7a, type: 3}
+--- !u!114 &1708343258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398777269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Espada
+  price: 45
+  cost: 30
+  active: 1
 --- !u!1001 &1709881152
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29904,22 +31517,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2606311158365134057}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1724502557
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1724502555}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
 --- !u!64 &1724502560
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29960,10 +31557,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado azul
+  price: 18
+  cost: 15
+  active: 1
 --- !u!64 &1724642462
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30411,10 +32008,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado rojo
+  price: 16
+  cost: 8
+  active: 1
 --- !u!64 &1739325488
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31232,6 +32829,22 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19029c1e7c9031d4bb5273374fc0dc4e, type: 3}
+--- !u!114 &1763598284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398777263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Espada
+  price: 45
+  cost: 30
+  active: 1
 --- !u!1 &1769476362 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1143888163060967089, guid: 5ed459fa9af3cc54a8803d749f445718,
@@ -31250,10 +32863,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado rojo
+  price: 16
+  cost: 8
+  active: 1
 --- !u!64 &1769476367
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31294,10 +32907,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado rojo
+  price: 13
+  cost: 5
+  active: 1
 --- !u!64 &1773173398
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31590,10 +33203,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado rojo
+  price: 16
+  cost: 8
+  active: 1
 --- !u!64 &1789676582
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31634,10 +33247,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado rojo
+  price: 17
+  cost: 9
+  active: 1
 --- !u!64 &1792224164
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31678,10 +33291,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
+  itemType: Pescado rojo
+  price: 16
   cost: 10
-  active: 0
+  active: 1
 --- !u!64 &1792259065
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31722,10 +33335,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado azul
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado rojo
+  price: 12
+  cost: 8
+  active: 1
 --- !u!64 &1793662526
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32686,22 +34299,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2606311158365134057}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1826803430
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1826803428}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
 --- !u!64 &1826803433
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33067,10 +34664,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado rojo
+  price: 16
+  cost: 8
+  active: 1
 --- !u!64 &1859316136
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33177,6 +34774,22 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1860115780}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1862747676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3102235111362442363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Galletas
+  price: 3
+  cost: 1
+  active: 1
 --- !u!1001 &1862953548
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33464,6 +35077,22 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1865725906}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1868126631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398777270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Espada
+  price: 45
+  cost: 30
+  active: 1
 --- !u!1 &1869531023 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5721597294843588029, guid: 0793504ad3bc94f4cba8cd1e1621390e,
@@ -33482,10 +35111,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado rojo
+  price: 15
+  cost: 8
+  active: 1
 --- !u!64 &1869531028
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33711,10 +35340,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado azul
+  price: 35
+  cost: 18
+  active: 1
 --- !u!64 &1881457786
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33761,10 +35390,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
+  itemType: Pescado rojo
+  price: 16
   cost: 10
-  active: 0
+  active: 1
 --- !u!64 &1884758392
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33815,6 +35444,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -3680369583796740819, guid: 6f113b7979482754a96e262399ec698b, type: 3}
+--- !u!114 &1891040448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398777283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Hacha
+  price: 55
+  cost: 35
+  active: 1
 --- !u!1001 &1897844379
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34174,10 +35819,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
+  itemType: Pescado rojo
   price: 20
   cost: 10
-  active: 0
+  active: 1
 --- !u!64 &1912972749
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34222,22 +35867,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2606311158365134057}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1926149281
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1926149279}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
 --- !u!64 &1926149284
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34493,10 +36122,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado rojo
+  price: 12
+  cost: 8
+  active: 1
 --- !u!64 &1936233889
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34537,10 +36166,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado rojo
+  price: 17
+  cost: 9
+  active: 1
 --- !u!64 &1938085230
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34581,10 +36210,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
+  itemType: Pescado rojo
   price: 20
   cost: 10
-  active: 0
+  active: 1
 --- !u!64 &1943346943
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35571,10 +37200,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado rojo
+  price: 16
+  cost: 8
+  active: 1
 --- !u!64 &2025523885
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35889,6 +37518,22 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2031085904}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2041003374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398777285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Escudo
+  price: 25
+  cost: 15
+  active: 1
 --- !u!1001 &2043072043
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36203,6 +37848,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -6414079997428420802, guid: 76720c48bd762e840b89a7f55e2e238d, type: 3}
+--- !u!114 &2046301668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7879479369554055532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Zanahoria
+  price: 4
+  cost: 3
+  active: 1
 --- !u!1 &2046464082 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5512969965247550855, guid: ac936ad7ddc749a41a651adf7537ca96,
@@ -36991,12 +38652,76 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 1379806433689925699, guid: ced8328dcd6ff85449e524474b164944, type: 3}
+--- !u!114 &2073938554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398777286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Espada
+  price: 45
+  cost: 30
+  active: 1
+--- !u!114 &2074317150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3102235111362442356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Pan
+  price: 6
+  cost: 4
+  active: 1
 --- !u!1 &2076751769 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2899230073973634592, guid: 0708d410ceaf54740ba86aa9668506c3,
     type: 3}
   m_PrefabInstance: {fileID: 7879479369554055516}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2084552928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398777282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Hacha
+  price: 55
+  cost: 35
+  active: 1
+--- !u!114 &2090807751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3102235111362442357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Pan
+  price: 6
+  cost: 4
+  active: 1
 --- !u!114 &2091911668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37386,6 +39111,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textCost: {fileID: 0}
   neighbors: []
+--- !u!114 &2116553883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398777278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Hacha
+  price: 55
+  cost: 35
+  active: 1
 --- !u!1 &2117089702 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1143888162419334604, guid: 5ed459fa9af3cc54a8803d749f445718,
@@ -37404,10 +39145,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: Pescado
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado rojo
+  price: 16
+  cost: 8
+  active: 1
 --- !u!64 &2117089707
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -37454,10 +39195,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 
-  price: 20
-  cost: 10
-  active: 0
+  itemType: Pescado rojo
+  price: 12
+  cost: 8
+  active: 1
 --- !u!64 &2120368179
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -39227,11 +40968,71 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 433809911}
     m_Modifications:
+    - target: {fileID: 655483179308904271, guid: 5ed459fa9af3cc54a8803d749f445718,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 33e08b6bbbf1d1348a4801ae4d1fffe5, type: 2}
+    - target: {fileID: 655483179597923441, guid: 5ed459fa9af3cc54a8803d749f445718,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 33e08b6bbbf1d1348a4801ae4d1fffe5, type: 2}
+    - target: {fileID: 655483179634061491, guid: 5ed459fa9af3cc54a8803d749f445718,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 33e08b6bbbf1d1348a4801ae4d1fffe5, type: 2}
+    - target: {fileID: 655483179796984532, guid: 5ed459fa9af3cc54a8803d749f445718,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 33e08b6bbbf1d1348a4801ae4d1fffe5, type: 2}
+    - target: {fileID: 655483179941168860, guid: 5ed459fa9af3cc54a8803d749f445718,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 33e08b6bbbf1d1348a4801ae4d1fffe5, type: 2}
+    - target: {fileID: 655483180077978526, guid: 5ed459fa9af3cc54a8803d749f445718,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 33e08b6bbbf1d1348a4801ae4d1fffe5, type: 2}
+    - target: {fileID: 655483180327130480, guid: 5ed459fa9af3cc54a8803d749f445718,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 33e08b6bbbf1d1348a4801ae4d1fffe5, type: 2}
+    - target: {fileID: 655483180339834226, guid: 5ed459fa9af3cc54a8803d749f445718,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 33e08b6bbbf1d1348a4801ae4d1fffe5, type: 2}
+    - target: {fileID: 655483180408747644, guid: 5ed459fa9af3cc54a8803d749f445718,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 33e08b6bbbf1d1348a4801ae4d1fffe5, type: 2}
+    - target: {fileID: 655483180597191417, guid: 5ed459fa9af3cc54a8803d749f445718,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 33e08b6bbbf1d1348a4801ae4d1fffe5, type: 2}
+    - target: {fileID: 655483181034129833, guid: 5ed459fa9af3cc54a8803d749f445718,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 33e08b6bbbf1d1348a4801ae4d1fffe5, type: 2}
     - target: {fileID: 783848499592869455, guid: 5ed459fa9af3cc54a8803d749f445718,
         type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 783848499592869455, guid: 5ed459fa9af3cc54a8803d749f445718,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 33e08b6bbbf1d1348a4801ae4d1fffe5, type: 2}
     - target: {fileID: 802741716594662309, guid: 5ed459fa9af3cc54a8803d749f445718,
         type: 3}
       propertyPath: m_Layer
@@ -39372,6 +41173,61 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 1503943104524280194, guid: 5ed459fa9af3cc54a8803d749f445718,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 72fe060dd179c43469f3a3f4c6e920ab, type: 2}
+    - target: {fileID: 1503943104821955260, guid: 5ed459fa9af3cc54a8803d749f445718,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 72fe060dd179c43469f3a3f4c6e920ab, type: 2}
+    - target: {fileID: 1503943104853900926, guid: 5ed459fa9af3cc54a8803d749f445718,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 72fe060dd179c43469f3a3f4c6e920ab, type: 2}
+    - target: {fileID: 1503943105024949273, guid: 5ed459fa9af3cc54a8803d749f445718,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 72fe060dd179c43469f3a3f4c6e920ab, type: 2}
+    - target: {fileID: 1503943105164937233, guid: 5ed459fa9af3cc54a8803d749f445718,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 72fe060dd179c43469f3a3f4c6e920ab, type: 2}
+    - target: {fileID: 1503943105297554771, guid: 5ed459fa9af3cc54a8803d749f445718,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 72fe060dd179c43469f3a3f4c6e920ab, type: 2}
+    - target: {fileID: 1503943105517607869, guid: 5ed459fa9af3cc54a8803d749f445718,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 72fe060dd179c43469f3a3f4c6e920ab, type: 2}
+    - target: {fileID: 1503943105555211199, guid: 5ed459fa9af3cc54a8803d749f445718,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 72fe060dd179c43469f3a3f4c6e920ab, type: 2}
+    - target: {fileID: 1503943105636972721, guid: 5ed459fa9af3cc54a8803d749f445718,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 72fe060dd179c43469f3a3f4c6e920ab, type: 2}
+    - target: {fileID: 1503943105787669556, guid: 5ed459fa9af3cc54a8803d749f445718,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 72fe060dd179c43469f3a3f4c6e920ab, type: 2}
+    - target: {fileID: 1503943106220410724, guid: 5ed459fa9af3cc54a8803d749f445718,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 72fe060dd179c43469f3a3f4c6e920ab, type: 2}
     - target: {fileID: 1649517464886777192, guid: 5ed459fa9af3cc54a8803d749f445718,
         type: 3}
       propertyPath: m_Layer
@@ -39477,6 +41333,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4890489536367501844, guid: 5ed459fa9af3cc54a8803d749f445718,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 33e08b6bbbf1d1348a4801ae4d1fffe5, type: 2}
+    - target: {fileID: 4890489536843956708, guid: 5ed459fa9af3cc54a8803d749f445718,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 33e08b6bbbf1d1348a4801ae4d1fffe5, type: 2}
+    - target: {fileID: 4890489537766706538, guid: 5ed459fa9af3cc54a8803d749f445718,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 33e08b6bbbf1d1348a4801ae4d1fffe5, type: 2}
     - target: {fileID: 5879056402741407829, guid: 5ed459fa9af3cc54a8803d749f445718,
         type: 3}
       propertyPath: m_Layer
@@ -39552,11 +41423,26 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 7260542378844851287, guid: 5ed459fa9af3cc54a8803d749f445718,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 33e08b6bbbf1d1348a4801ae4d1fffe5, type: 2}
     - target: {fileID: 7476129638303764791, guid: 5ed459fa9af3cc54a8803d749f445718,
         type: 3}
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 8720388214266102426, guid: 5ed459fa9af3cc54a8803d749f445718,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 72fe060dd179c43469f3a3f4c6e920ab, type: 2}
+    - target: {fileID: 8726567405223935967, guid: 5ed459fa9af3cc54a8803d749f445718,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 33e08b6bbbf1d1348a4801ae4d1fffe5, type: 2}
     - target: {fileID: 8746790521595194062, guid: 5ed459fa9af3cc54a8803d749f445718,
         type: 3}
       propertyPath: m_Layer
@@ -39622,15 +41508,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 9095942915707105154, guid: 5ed459fa9af3cc54a8803d749f445718,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1037744245}
-    - targetCorrespondingSourceObject: {fileID: 9095942915707105154, guid: 5ed459fa9af3cc54a8803d749f445718,
-        type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1037744248}
-    - targetCorrespondingSourceObject: {fileID: 6440789764741030849, guid: 5ed459fa9af3cc54a8803d749f445718,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1083678922}
     - targetCorrespondingSourceObject: {fileID: 6440789764741030849, guid: 5ed459fa9af3cc54a8803d749f445718,
         type: 3}
       insertIndex: -1
@@ -39678,15 +41556,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 9095942916077944230, guid: 5ed459fa9af3cc54a8803d749f445718,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1724502557}
-    - targetCorrespondingSourceObject: {fileID: 9095942916077944230, guid: 5ed459fa9af3cc54a8803d749f445718,
-        type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1724502560}
-    - targetCorrespondingSourceObject: {fileID: 6440789765353807096, guid: 5ed459fa9af3cc54a8803d749f445718,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 286669458}
     - targetCorrespondingSourceObject: {fileID: 6440789765353807096, guid: 5ed459fa9af3cc54a8803d749f445718,
         type: 3}
       insertIndex: -1
@@ -39694,15 +41564,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 9095942915606747068, guid: 5ed459fa9af3cc54a8803d749f445718,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 377163406}
-    - targetCorrespondingSourceObject: {fileID: 9095942915606747068, guid: 5ed459fa9af3cc54a8803d749f445718,
-        type: 3}
-      insertIndex: -1
       addedObject: {fileID: 377163409}
-    - targetCorrespondingSourceObject: {fileID: 6440789765944920319, guid: 5ed459fa9af3cc54a8803d749f445718,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1826803430}
     - targetCorrespondingSourceObject: {fileID: 6440789765944920319, guid: 5ed459fa9af3cc54a8803d749f445718,
         type: 3}
       insertIndex: -1
@@ -39710,15 +41572,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6440789765564617912, guid: 5ed459fa9af3cc54a8803d749f445718,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 201296637}
-    - targetCorrespondingSourceObject: {fileID: 6440789765564617912, guid: 5ed459fa9af3cc54a8803d749f445718,
-        type: 3}
-      insertIndex: -1
       addedObject: {fileID: 201296640}
-    - targetCorrespondingSourceObject: {fileID: 9095942915120226209, guid: 5ed459fa9af3cc54a8803d749f445718,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1926149281}
     - targetCorrespondingSourceObject: {fileID: 9095942915120226209, guid: 5ed459fa9af3cc54a8803d749f445718,
         type: 3}
       insertIndex: -1
@@ -39747,6 +41601,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 433390}
+    - targetCorrespondingSourceObject: {fileID: 5879056402741407829, guid: 5ed459fa9af3cc54a8803d749f445718,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 433391}
     - targetCorrespondingSourceObject: {fileID: 6403694408603462847, guid: 5ed459fa9af3cc54a8803d749f445718,
         type: 3}
       insertIndex: -1
@@ -39783,6 +41641,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 927559945}
+    - targetCorrespondingSourceObject: {fileID: 7118582442234311270, guid: 5ed459fa9af3cc54a8803d749f445718,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 927559946}
     - targetCorrespondingSourceObject: {fileID: 1288089410794624922, guid: 5ed459fa9af3cc54a8803d749f445718,
         type: 3}
       insertIndex: -1
@@ -40026,6 +41888,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66819de8dd3c2e0408780a6f38389a7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  money: 1000
   standObjects:
   - {fileID: 1647108484}
   - {fileID: 1869531023}
@@ -40628,6 +42491,86 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 3102235111362442353}
+    - targetCorrespondingSourceObject: {fileID: 3102235112381253004, guid: c3f576fec9299524b91ef6107359f09e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3102235111362442378}
+    - targetCorrespondingSourceObject: {fileID: 3102235111227701317, guid: c3f576fec9299524b91ef6107359f09e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3102235111362442377}
+    - targetCorrespondingSourceObject: {fileID: 3102235110407764761, guid: c3f576fec9299524b91ef6107359f09e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3102235111362442376}
+    - targetCorrespondingSourceObject: {fileID: 3102235110425630399, guid: c3f576fec9299524b91ef6107359f09e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3102235111362442375}
+    - targetCorrespondingSourceObject: {fileID: 3102235112267376336, guid: c3f576fec9299524b91ef6107359f09e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3102235111362442374}
+    - targetCorrespondingSourceObject: {fileID: 3102235111475054512, guid: c3f576fec9299524b91ef6107359f09e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1669083714}
+    - targetCorrespondingSourceObject: {fileID: 3102235111863174732, guid: c3f576fec9299524b91ef6107359f09e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 242257361}
+    - targetCorrespondingSourceObject: {fileID: 3102235111692291926, guid: c3f576fec9299524b91ef6107359f09e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1527908105}
+    - targetCorrespondingSourceObject: {fileID: 3102235111413906139, guid: c3f576fec9299524b91ef6107359f09e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1243664223}
+    - targetCorrespondingSourceObject: {fileID: 3102235112291419271, guid: c3f576fec9299524b91ef6107359f09e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 588898066}
+    - targetCorrespondingSourceObject: {fileID: 3102235111434438365, guid: c3f576fec9299524b91ef6107359f09e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1862747676}
+    - targetCorrespondingSourceObject: {fileID: 3102235111814181431, guid: c3f576fec9299524b91ef6107359f09e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 917828320}
+    - targetCorrespondingSourceObject: {fileID: 3102235110627761595, guid: c3f576fec9299524b91ef6107359f09e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1433900266}
+    - targetCorrespondingSourceObject: {fileID: 3102235111152415244, guid: c3f576fec9299524b91ef6107359f09e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1348699688}
+    - targetCorrespondingSourceObject: {fileID: 3102235110906266020, guid: c3f576fec9299524b91ef6107359f09e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 934140130}
+    - targetCorrespondingSourceObject: {fileID: 3102235111610233780, guid: c3f576fec9299524b91ef6107359f09e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1531383016}
+    - targetCorrespondingSourceObject: {fileID: 3102235111414912283, guid: c3f576fec9299524b91ef6107359f09e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2090807751}
+    - targetCorrespondingSourceObject: {fileID: 3102235111081613612, guid: c3f576fec9299524b91ef6107359f09e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2074317150}
+    - targetCorrespondingSourceObject: {fileID: 3102235111621935233, guid: c3f576fec9299524b91ef6107359f09e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 336531755}
+    - targetCorrespondingSourceObject: {fileID: 3102235112131308370, guid: c3f576fec9299524b91ef6107359f09e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 22336865}
   m_SourcePrefab: {fileID: 100100000, guid: c3f576fec9299524b91ef6107359f09e, type: 3}
 --- !u!4 &3102235111362442352 stripped
 Transform:
@@ -40657,6 +42600,206 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!1 &3102235111362442354 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3102235112131308370, guid: c3f576fec9299524b91ef6107359f09e,
+    type: 3}
+  m_PrefabInstance: {fileID: 3102235111362442351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3102235111362442355 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3102235111621935233, guid: c3f576fec9299524b91ef6107359f09e,
+    type: 3}
+  m_PrefabInstance: {fileID: 3102235111362442351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3102235111362442356 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3102235111081613612, guid: c3f576fec9299524b91ef6107359f09e,
+    type: 3}
+  m_PrefabInstance: {fileID: 3102235111362442351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3102235111362442357 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3102235111414912283, guid: c3f576fec9299524b91ef6107359f09e,
+    type: 3}
+  m_PrefabInstance: {fileID: 3102235111362442351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3102235111362442358 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3102235111610233780, guid: c3f576fec9299524b91ef6107359f09e,
+    type: 3}
+  m_PrefabInstance: {fileID: 3102235111362442351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3102235111362442359 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3102235110906266020, guid: c3f576fec9299524b91ef6107359f09e,
+    type: 3}
+  m_PrefabInstance: {fileID: 3102235111362442351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3102235111362442360 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3102235111152415244, guid: c3f576fec9299524b91ef6107359f09e,
+    type: 3}
+  m_PrefabInstance: {fileID: 3102235111362442351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3102235111362442361 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3102235110627761595, guid: c3f576fec9299524b91ef6107359f09e,
+    type: 3}
+  m_PrefabInstance: {fileID: 3102235111362442351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3102235111362442362 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3102235111814181431, guid: c3f576fec9299524b91ef6107359f09e,
+    type: 3}
+  m_PrefabInstance: {fileID: 3102235111362442351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3102235111362442363 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3102235111434438365, guid: c3f576fec9299524b91ef6107359f09e,
+    type: 3}
+  m_PrefabInstance: {fileID: 3102235111362442351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3102235111362442364 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3102235112291419271, guid: c3f576fec9299524b91ef6107359f09e,
+    type: 3}
+  m_PrefabInstance: {fileID: 3102235111362442351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3102235111362442365 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3102235111413906139, guid: c3f576fec9299524b91ef6107359f09e,
+    type: 3}
+  m_PrefabInstance: {fileID: 3102235111362442351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3102235111362442366 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3102235111692291926, guid: c3f576fec9299524b91ef6107359f09e,
+    type: 3}
+  m_PrefabInstance: {fileID: 3102235111362442351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3102235111362442367 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3102235111863174732, guid: c3f576fec9299524b91ef6107359f09e,
+    type: 3}
+  m_PrefabInstance: {fileID: 3102235111362442351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3102235111362442368 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3102235111475054512, guid: c3f576fec9299524b91ef6107359f09e,
+    type: 3}
+  m_PrefabInstance: {fileID: 3102235111362442351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3102235111362442369 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3102235112267376336, guid: c3f576fec9299524b91ef6107359f09e,
+    type: 3}
+  m_PrefabInstance: {fileID: 3102235111362442351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3102235111362442370 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3102235110425630399, guid: c3f576fec9299524b91ef6107359f09e,
+    type: 3}
+  m_PrefabInstance: {fileID: 3102235111362442351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3102235111362442371 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3102235110407764761, guid: c3f576fec9299524b91ef6107359f09e,
+    type: 3}
+  m_PrefabInstance: {fileID: 3102235111362442351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3102235111362442372 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3102235111227701317, guid: c3f576fec9299524b91ef6107359f09e,
+    type: 3}
+  m_PrefabInstance: {fileID: 3102235111362442351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3102235111362442373 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3102235112381253004, guid: c3f576fec9299524b91ef6107359f09e,
+    type: 3}
+  m_PrefabInstance: {fileID: 3102235111362442351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3102235111362442374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3102235111362442369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Galletas
+  price: 3
+  cost: 1
+  active: 1
+--- !u!114 &3102235111362442375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3102235111362442370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Torta
+  price: 15
+  cost: 6
+  active: 1
+--- !u!114 &3102235111362442376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3102235111362442371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Pan
+  price: 6
+  cost: 4
+  active: 1
+--- !u!114 &3102235111362442377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3102235111362442372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Pan
+  price: 8
+  cost: 3
+  active: 1
+--- !u!114 &3102235111362442378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3102235111362442373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Tarta
+  price: 14
+  cost: 8
+  active: 0
 --- !u!4 &3133338189097087704 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5053692742740599684, guid: 0708d410ceaf54740ba86aa9668506c3,
@@ -40753,6 +42896,51 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6285478986604354725, guid: 73a9ab3e0680d24459b8cc6ef9809672,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 72fe060dd179c43469f3a3f4c6e920ab, type: 2}
+    - target: {fileID: 6285478986641994910, guid: 73a9ab3e0680d24459b8cc6ef9809672,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 72fe060dd179c43469f3a3f4c6e920ab, type: 2}
+    - target: {fileID: 6285478986790104523, guid: 73a9ab3e0680d24459b8cc6ef9809672,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 72fe060dd179c43469f3a3f4c6e920ab, type: 2}
+    - target: {fileID: 6285478987148036569, guid: 73a9ab3e0680d24459b8cc6ef9809672,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 72fe060dd179c43469f3a3f4c6e920ab, type: 2}
+    - target: {fileID: 6285478987215664412, guid: 73a9ab3e0680d24459b8cc6ef9809672,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 72fe060dd179c43469f3a3f4c6e920ab, type: 2}
+    - target: {fileID: 6285478987593989563, guid: 73a9ab3e0680d24459b8cc6ef9809672,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 72fe060dd179c43469f3a3f4c6e920ab, type: 2}
+    - target: {fileID: 6285478987697500337, guid: 73a9ab3e0680d24459b8cc6ef9809672,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 72fe060dd179c43469f3a3f4c6e920ab, type: 2}
+    - target: {fileID: 6285478987914712929, guid: 73a9ab3e0680d24459b8cc6ef9809672,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 72fe060dd179c43469f3a3f4c6e920ab, type: 2}
+    - target: {fileID: 6285478988080750331, guid: 73a9ab3e0680d24459b8cc6ef9809672,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 72fe060dd179c43469f3a3f4c6e920ab, type: 2}
     - target: {fileID: 9093236154714144734, guid: 73a9ab3e0680d24459b8cc6ef9809672,
         type: 3}
       propertyPath: m_RootOrder
@@ -40979,6 +43167,41 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6082056443936943774, guid: 0793504ad3bc94f4cba8cd1e1621390e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 33e08b6bbbf1d1348a4801ae4d1fffe5, type: 2}
+    - target: {fileID: 6082056444252651484, guid: 0793504ad3bc94f4cba8cd1e1621390e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 33e08b6bbbf1d1348a4801ae4d1fffe5, type: 2}
+    - target: {fileID: 6082056444666979724, guid: 0793504ad3bc94f4cba8cd1e1621390e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 33e08b6bbbf1d1348a4801ae4d1fffe5, type: 2}
+    - target: {fileID: 6082056445003779176, guid: 0793504ad3bc94f4cba8cd1e1621390e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 33e08b6bbbf1d1348a4801ae4d1fffe5, type: 2}
+    - target: {fileID: 6082056445068399130, guid: 0793504ad3bc94f4cba8cd1e1621390e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 33e08b6bbbf1d1348a4801ae4d1fffe5, type: 2}
+    - target: {fileID: 6082056445213729793, guid: 0793504ad3bc94f4cba8cd1e1621390e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 33e08b6bbbf1d1348a4801ae4d1fffe5, type: 2}
+    - target: {fileID: 6082056445495224541, guid: 0793504ad3bc94f4cba8cd1e1621390e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 33e08b6bbbf1d1348a4801ae4d1fffe5, type: 2}
     - target: {fileID: 6256723926254748612, guid: 0793504ad3bc94f4cba8cd1e1621390e,
         type: 3}
       propertyPath: m_RootOrder
@@ -42504,7 +44727,327 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 3133338189097087705}
+    - targetCorrespondingSourceObject: {fileID: 6551150437204047992, guid: 0708d410ceaf54740ba86aa9668506c3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7879479369554055545}
+    - targetCorrespondingSourceObject: {fileID: 4743943749003933318, guid: 0708d410ceaf54740ba86aa9668506c3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7879479369554055544}
+    - targetCorrespondingSourceObject: {fileID: 6127301455961544097, guid: 0708d410ceaf54740ba86aa9668506c3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7879479369554055543}
+    - targetCorrespondingSourceObject: {fileID: 3312261057949869103, guid: 0708d410ceaf54740ba86aa9668506c3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7879479369554055542}
+    - targetCorrespondingSourceObject: {fileID: 5240792447120529082, guid: 0708d410ceaf54740ba86aa9668506c3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7879479369554055541}
+    - targetCorrespondingSourceObject: {fileID: 8094059257629821570, guid: 0708d410ceaf54740ba86aa9668506c3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 674973022}
+    - targetCorrespondingSourceObject: {fileID: 7519725281845409633, guid: 0708d410ceaf54740ba86aa9668506c3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 529696829}
+    - targetCorrespondingSourceObject: {fileID: 4277841233802691612, guid: 0708d410ceaf54740ba86aa9668506c3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1142109578}
+    - targetCorrespondingSourceObject: {fileID: 3635465928314320250, guid: 0708d410ceaf54740ba86aa9668506c3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2046301668}
+    - targetCorrespondingSourceObject: {fileID: 1210800574734277852, guid: 0708d410ceaf54740ba86aa9668506c3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1373427777}
+    - targetCorrespondingSourceObject: {fileID: 3251745507712972143, guid: 0708d410ceaf54740ba86aa9668506c3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1579204442}
+    - targetCorrespondingSourceObject: {fileID: 8337230091826044820, guid: 0708d410ceaf54740ba86aa9668506c3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1612429736}
+    - targetCorrespondingSourceObject: {fileID: 9003196853590908741, guid: 0708d410ceaf54740ba86aa9668506c3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 454452053}
+    - targetCorrespondingSourceObject: {fileID: 2715605738064302237, guid: 0708d410ceaf54740ba86aa9668506c3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1124704064}
+    - targetCorrespondingSourceObject: {fileID: 4924890366655562183, guid: 0708d410ceaf54740ba86aa9668506c3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1241444206}
+    - targetCorrespondingSourceObject: {fileID: 4471112373887836403, guid: 0708d410ceaf54740ba86aa9668506c3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 110083872}
+    - targetCorrespondingSourceObject: {fileID: 2059180771172653479, guid: 0708d410ceaf54740ba86aa9668506c3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 815598407}
+    - targetCorrespondingSourceObject: {fileID: 7361064681569023989, guid: 0708d410ceaf54740ba86aa9668506c3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1134111893}
+    - targetCorrespondingSourceObject: {fileID: 5911401910157741667, guid: 0708d410ceaf54740ba86aa9668506c3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 648945}
+    - targetCorrespondingSourceObject: {fileID: 4918678380181156192, guid: 0708d410ceaf54740ba86aa9668506c3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 705922786}
+    - targetCorrespondingSourceObject: {fileID: 7197163345745003207, guid: 0708d410ceaf54740ba86aa9668506c3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1475641449}
+    - targetCorrespondingSourceObject: {fileID: 4945494449625355564, guid: 0708d410ceaf54740ba86aa9668506c3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 547125756}
+    - targetCorrespondingSourceObject: {fileID: 7863544186361922294, guid: 0708d410ceaf54740ba86aa9668506c3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1234986388}
+    - targetCorrespondingSourceObject: {fileID: 9007187580039666654, guid: 0708d410ceaf54740ba86aa9668506c3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 896077411}
   m_SourcePrefab: {fileID: 100100000, guid: 0708d410ceaf54740ba86aa9668506c3, type: 3}
+--- !u!1 &7879479369554055517 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9007187580039666654, guid: 0708d410ceaf54740ba86aa9668506c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 7879479369554055516}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7879479369554055518 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7863544186361922294, guid: 0708d410ceaf54740ba86aa9668506c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 7879479369554055516}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7879479369554055519 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4945494449625355564, guid: 0708d410ceaf54740ba86aa9668506c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 7879479369554055516}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7879479369554055520 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7197163345745003207, guid: 0708d410ceaf54740ba86aa9668506c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 7879479369554055516}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7879479369554055521 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4918678380181156192, guid: 0708d410ceaf54740ba86aa9668506c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 7879479369554055516}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7879479369554055522 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5911401910157741667, guid: 0708d410ceaf54740ba86aa9668506c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 7879479369554055516}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7879479369554055523 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7361064681569023989, guid: 0708d410ceaf54740ba86aa9668506c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 7879479369554055516}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7879479369554055524 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2059180771172653479, guid: 0708d410ceaf54740ba86aa9668506c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 7879479369554055516}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7879479369554055525 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4471112373887836403, guid: 0708d410ceaf54740ba86aa9668506c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 7879479369554055516}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7879479369554055526 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4924890366655562183, guid: 0708d410ceaf54740ba86aa9668506c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 7879479369554055516}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7879479369554055527 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2715605738064302237, guid: 0708d410ceaf54740ba86aa9668506c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 7879479369554055516}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7879479369554055528 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9003196853590908741, guid: 0708d410ceaf54740ba86aa9668506c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 7879479369554055516}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7879479369554055529 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8337230091826044820, guid: 0708d410ceaf54740ba86aa9668506c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 7879479369554055516}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7879479369554055530 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3251745507712972143, guid: 0708d410ceaf54740ba86aa9668506c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 7879479369554055516}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7879479369554055531 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1210800574734277852, guid: 0708d410ceaf54740ba86aa9668506c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 7879479369554055516}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7879479369554055532 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3635465928314320250, guid: 0708d410ceaf54740ba86aa9668506c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 7879479369554055516}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7879479369554055533 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4277841233802691612, guid: 0708d410ceaf54740ba86aa9668506c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 7879479369554055516}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7879479369554055534 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7519725281845409633, guid: 0708d410ceaf54740ba86aa9668506c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 7879479369554055516}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7879479369554055535 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8094059257629821570, guid: 0708d410ceaf54740ba86aa9668506c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 7879479369554055516}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7879479369554055536 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5240792447120529082, guid: 0708d410ceaf54740ba86aa9668506c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 7879479369554055516}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7879479369554055537 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3312261057949869103, guid: 0708d410ceaf54740ba86aa9668506c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 7879479369554055516}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7879479369554055538 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6127301455961544097, guid: 0708d410ceaf54740ba86aa9668506c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 7879479369554055516}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7879479369554055539 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4743943749003933318, guid: 0708d410ceaf54740ba86aa9668506c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 7879479369554055516}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7879479369554055540 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6551150437204047992, guid: 0708d410ceaf54740ba86aa9668506c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 7879479369554055516}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7879479369554055541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7879479369554055536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: "Sand\xEDa"
+  price: 8
+  cost: 5
+  active: 1
+--- !u!114 &7879479369554055542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7879479369554055537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: "Sand\xEDa"
+  price: 8
+  cost: 5
+  active: 1
+--- !u!114 &7879479369554055543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7879479369554055538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: "Sand\xEDa"
+  price: 8
+  cost: 5
+  active: 1
+--- !u!114 &7879479369554055544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7879479369554055539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: "Sand\xEDa"
+  price: 8
+  cost: 5
+  active: 1
+--- !u!114 &7879479369554055545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7879479369554055540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: "Sand\xEDa"
+  price: 8
+  cost: 5
+  active: 1
 --- !u!1001 &8097132815083584435
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43005,6 +45548,26 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 8172504967688988173}
+    - targetCorrespondingSourceObject: {fileID: 8735010936591234821, guid: f9d69a5c9bffe874f8d3098830fabf72,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8172504967688988183}
+    - targetCorrespondingSourceObject: {fileID: 8735010936051694193, guid: f9d69a5c9bffe874f8d3098830fabf72,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8172504967688988182}
+    - targetCorrespondingSourceObject: {fileID: 8735010937485856657, guid: f9d69a5c9bffe874f8d3098830fabf72,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8172504967688988181}
+    - targetCorrespondingSourceObject: {fileID: 8735010936472090100, guid: f9d69a5c9bffe874f8d3098830fabf72,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8172504967688988180}
+    - targetCorrespondingSourceObject: {fileID: 8735010937888629260, guid: f9d69a5c9bffe874f8d3098830fabf72,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8172504967688988179}
   m_SourcePrefab: {fileID: 100100000, guid: f9d69a5c9bffe874f8d3098830fabf72, type: 3}
 --- !u!4 &8172504967688988172 stripped
 Transform:
@@ -43034,6 +45597,116 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!1 &8172504967688988174 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8735010937888629260, guid: f9d69a5c9bffe874f8d3098830fabf72,
+    type: 3}
+  m_PrefabInstance: {fileID: 8172504967688988171}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8172504967688988175 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8735010936472090100, guid: f9d69a5c9bffe874f8d3098830fabf72,
+    type: 3}
+  m_PrefabInstance: {fileID: 8172504967688988171}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8172504967688988176 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8735010937485856657, guid: f9d69a5c9bffe874f8d3098830fabf72,
+    type: 3}
+  m_PrefabInstance: {fileID: 8172504967688988171}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8172504967688988177 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8735010936051694193, guid: f9d69a5c9bffe874f8d3098830fabf72,
+    type: 3}
+  m_PrefabInstance: {fileID: 8172504967688988171}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8172504967688988178 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8735010936591234821, guid: f9d69a5c9bffe874f8d3098830fabf72,
+    type: 3}
+  m_PrefabInstance: {fileID: 8172504967688988171}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8172504967688988179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8172504967688988174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Banana
+  price: 6
+  cost: 4
+  active: 1
+--- !u!114 &8172504967688988180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8172504967688988175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Banana
+  price: 6
+  cost: 4
+  active: 1
+--- !u!114 &8172504967688988181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8172504967688988176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Banana
+  price: 6
+  cost: 4
+  active: 1
+--- !u!114 &8172504967688988182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8172504967688988177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Banana
+  price: 6
+  cost: 4
+  active: 1
+--- !u!114 &8172504967688988183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8172504967688988178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bc6ead261c2784c81c012993c0fba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: Banana
+  price: 6
+  cost: 4
+  active: 1
 --- !u!1001 &8484638540659477258
 PrefabInstance:
   m_ObjectHideFlags: 0

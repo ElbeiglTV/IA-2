@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30864d8291816c441af747b2640ead9c, type: 3}
+  m_Name: Turret5
+  m_EditorClassIdentifier: 
+  turretName: T5
+  energyCost: 160
+  cooldown: 45
+  turretPrefab: {fileID: 5032626720357499458, guid: 71e3bbc651f252743b6a942dc86c37cb, type: 3}
+  turretSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}

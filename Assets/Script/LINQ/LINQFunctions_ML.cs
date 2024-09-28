@@ -20,8 +20,10 @@ public static class LINQFunctions_ML
         return myCollection;
     }
 
-    public static List<GameObject> PurchaseItems(this IEnumerable<Item> allItems)
+    public static List<Item> PurchaseItems(this IEnumerable<Item> allItems)
     {
-        return allItems.Where(x => x.active == false).OrderBy(x => x.cost).Select(x => x.gameObject).ToList();
+        return allItems.Where(x => x.active == false)           //Grupo 1: Where
+                       .OrderBy(x => x.cost)                    //Grupo 2: OrderBy
+                       .ToList();                               //Grupo 3: ToList
     }
 }

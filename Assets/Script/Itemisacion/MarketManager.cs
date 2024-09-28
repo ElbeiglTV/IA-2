@@ -20,24 +20,46 @@ public class MarketManager : MonoBehaviour
     }
     
     public bool MarketIsOpen;
+    public MarketState marketState;
     public List<Node> Stands;
 
     public int StandCorrutineCounter;
     public int AgentCorrutineCounter;
 
 
-    private void Update()
+    IEnumerator MarketCycle()
     {
-        if (AgentCorrutineCounter == 0)
+        while(true)
         {
-            MarketIsOpen = false;
+
+
+
+
+
+
+
+
+
+
+
+            foreach (var stand in Stands)
+            {
+                stand.GetComponent<Stand>().ReStock();
+            }
+
+            while (StandCorrutineCounter > 0)
+            {
+                yield return null;
+            }
         }
     }
 
 
-    public void ActualizeMarket()
-    {
 
-    }
+   
+}
+public enum MarketState
+{
+    ReStocking,Selling
    
 }

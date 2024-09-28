@@ -26,6 +26,15 @@ public class MarketManager : MonoBehaviour
     public int AgentCorrutineCounter;
 
 
+    private void Update()
+    {
+        if (AgentCorrutineCounter == 0)
+        {
+            MarketIsOpen = false;
+        }
+    }
+
+
     public void ActualizeMarket()
     {
 

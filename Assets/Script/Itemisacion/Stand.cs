@@ -46,4 +46,8 @@ public class Stand : MonoBehaviour
         Debug.Log("Bought " + item.itemType);
         
     }
+    public void ReStock()
+    {
+
+    }
 }

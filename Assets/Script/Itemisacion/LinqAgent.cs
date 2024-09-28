@@ -13,6 +13,10 @@ public class LinqAgent : MonoBehaviour
     public List<Node> Stands;
     public int ActualStand;
 
+    private void Start()
+    {
+        StartCoroutine(TravelAlongMarket());
+    }
 
     public IEnumerator TravelAlongMarket()
     {
@@ -50,7 +54,7 @@ public class LinqAgent : MonoBehaviour
                 money -= item.price;
                 standToBuy.BuyItem(item);
 
-                Debug.Log("Bought " + item.itemType);
+                Debug.Log("Compre un " + item.itemType + " a " +item.price);
             }
             yield return new WaitForSeconds(1);
         }

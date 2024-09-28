@@ -23,13 +23,14 @@ public class LinqAgent : MonoBehaviour
 
     public IEnumerator TravelAlongMarket()
     {
+        MarketManager.instance.AgentCorrutineCounter++;
         while(ActualStand < Stands.Count)
         {
             transform.position = Stands[ActualStand].transform.position;
             yield return StartCoroutine(BuyItems(Stands.Select(x => x.GetComponent<Stand>()).ToList()[ActualStand]));
             ActualStand++;
         }
-        
+        MarketManager.instance.AgentCorrutineCounter--; 
     }
     public IEnumerator BuyItems(Stand standToBuy)
     {

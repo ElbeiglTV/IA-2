@@ -1,9 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class TurretSelectorManager : MonoBehaviour
 {
@@ -82,7 +79,7 @@ public class TurretSelectorManager : MonoBehaviour
     {
         StartCoroutine(UpdateCooldownUI());
 
-        StartCoroutine(UpdateUI());
+        StartCoroutine(SetTurretsData());
 
         // Por defecto, seleccionamos la primera torreta
         SelectTurret(0);
@@ -125,7 +122,7 @@ public class TurretSelectorManager : MonoBehaviour
         StartCoroutine(UpdateCooldownUI());
     }
 
-    public IEnumerator UpdateUI()
+    public IEnumerator SetTurretsData()
     {
         for (int i = 0; i < turretData.Length; i++)
         {

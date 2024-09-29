@@ -865,8 +865,8 @@ MonoBehaviour:
   maxHealth: 90
   health: 50
   healthBar: {fileID: 7256285949533987999}
-  speed: 1
-  damage: 30
+  speed: 0.5
+  damage: 20
   target: {fileID: 0}
   fireRate: 0.6
   attackRange: 3

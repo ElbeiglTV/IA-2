@@ -86,11 +86,11 @@ public class Turret : MonoBehaviour
             if (attackTargetType == AttackType.TwoTankEnemies)
                 currentAttack += DoubleAttackTankEnemies;
             else if (attackTargetType == AttackType.DamagedEnemies)
-                currentAttack += MultiAttackExecutionDamagedEnemies;
+                currentAttack += MultiAttackExecution;
             else if (attackTargetType == AttackType.HealthyEnemies)
                 currentAttack += MultiAttackHealthyEnemies;
             else if (attackTargetType == AttackType.EnemiesStatsBonus)
-                currentAttack += MultiAttackWithStatBonus;
+                currentAttack += TripleAttackWithStatBonus;
             else if (attackTargetType == AttackType.MostDangerousEnemy)
                 currentAttack += AttackMostDangerousEnemy;
             else if (attackTargetType == AttackType.MostDamagedEnemy)
@@ -140,9 +140,9 @@ public class Turret : MonoBehaviour
     {
         // Obtener enemigos en rango y filtrar solo los vivos
         enemiesInRange = Physics.OverlapSphere(transform.position, range)
-            .Select(c => c.GetComponent<Enemy>())  // Grupo 1: Select               //Consigue al enemigo
-            .Where(e => e != null && e.health > 0) // Grupo 1: Where                //Filtra enemigos vivos
-            .ToList();                             // Grupo 3: ToList               //Lo vuelve una lista
+            .Select(c => c.GetComponent<Enemy>())                    // Grupo 1: Select               //Consigue al enemigo
+            .Where(e => e != null && e.health > 0)                   // Grupo 1: Where                //Filtra enemigos vivos
+            .ToList();                                               // Grupo 3: ToList               //Lo vuelve una lista
     }
 
     /// <summary>
@@ -232,17 +232,20 @@ public class Turret : MonoBehaviour
             Debug.Log("Atacando al enemigo más cercano: " + closestEnemy.name);
         }
     }
-    void MultiAttackWithStatBonus() //Tupla
+
+    void TripleAttackWithStatBonus() //Tupla
     {
         var enemiesWithDamage = enemiesInRange
             // Crear tupla con estadísticas
+            .Take(3)
             .Select(enemy => Tuple.Create(enemy, enemy.maxHealth, enemy.damage, enemy.speed))
 
             .Select(tuple => Tuple.Create(
-                tuple.Item1,                                                                 //Enemigo 
-                tuple.Item2 + tuple.Item3 + tuple.Item4,                                     //Suma de stats
-                Mathf.CeilToInt(damage + (0.1f * (tuple.Item2 + tuple.Item3 + tuple.Item4))) //daño base + 10% de la suma de stats del enemigo
+                tuple.Item1,                                                                  //Enemigo 
+                tuple.Item2 + tuple.Item3 + tuple.Item4,                                      //Suma de stats
+                Mathf.CeilToInt(damage + (0.05f * (tuple.Item2 + tuple.Item3 + tuple.Item4))) //daño base + 5% de la suma de stats del enemigo
                 ))
+            .OrderByDescending(tuple => tuple.Item3)                                          //Ataca al enemigo con mas stats primero
             .ToList();
 
         foreach (var enemyTuple in enemiesWithDamage)
@@ -256,31 +259,47 @@ public class Turret : MonoBehaviour
         }
     }
 
-    void MultiAttackExecutionDamagedEnemies()
+    void MultiAttackExecution()
+    {
+        StartCoroutine(MultiAttackExecutionDamaged());
+    }
+
+    IEnumerator MultiAttackExecutionDamaged()
     {
         var woundedEnemies = enemiesInRange
-            .Where(e => e.health <= e.maxHealth / 2)   // Grupo 1: Where      //SOLO ATACA A LOS ENEMIGOS con menos de la mitad de la vida
-            .OrderBy(e => e.health)                    // Grupo 2: OrderBy    //SE ORDENAN DE MENOR A MAYOR CANTIDAD DE SALUD
-            .ToList();                                 // Grupo 3: ToList     //PASA A UNA LISTA
+            .Where(e => e.health <= e.maxHealth / 2)   // Seleccionar enemigos con menos de la mitad de la vida
+            .OrderBy(e => e.health)                    // Ordenarlos por salud
+            .ToList();                                 // Convertir a lista
 
-        if (woundedEnemies.Any())                      // Grupo 3: Any      //SI HAY ALGUNO ENTONCES RECIBEN DAÑO
+        if (woundedEnemies.Any())
         {
-            foreach (var enemy in woundedEnemies)
+            // Aplicar daño en lotes para evitar sobrecargar un solo frame
+            for (int i = 0; i < woundedEnemies.Count; i++)
             {
-                enemy.TakeDamage(damage);
+                woundedEnemies[i].TakeDamage(damage);
+
+                yield return null;
             }
 
-            if (woundedEnemies.All(e => e.health <= e.maxHealth / 4)) // Grupo 3: All       //Si todos estan a un cuarto de vida, vuelven a recibir daño
+            // Time slicing antes de la comprobación del segundo ataque
+            yield return null;
+
+            // Si todos los enemigos tienen menos de un cuarto de vida, aplicar otro ataque
+            if (woundedEnemies.All(e => e.health <= e.maxHealth / 4))
             {
-                // Lógica para el ataque especial
                 Debug.Log("Execute wounded enemies");
-                foreach (var enemy in woundedEnemies)
+
+                // Aplicar el segundo daño en lotes
+                for (int i = 0; i < woundedEnemies.Count; i++)
                 {
-                    enemy.TakeDamage(damage);
+                    woundedEnemies[i].TakeDamage(damage);
+
+                    yield return null;
                 }
             }
         }
     }
+
 
     void DoubleAttackTankEnemies()
     {
@@ -292,7 +311,7 @@ public class Turret : MonoBehaviour
             return; // Salir si no hay al menos dos enemigos
         }
 
-        // Consigo los dos enemigos con más salud (máxima) 
+        // Consigo los dos enemigos con más salud máxima 
         var twoStrongestEnemies = enemiesInRange
             .OrderByDescending(e => e.maxHealth)    // Grupo 2: OrderByDescending
             .Take(2)                                // Grupo 1: Take
@@ -334,7 +353,7 @@ public class Turret : MonoBehaviour
         if (enemiesInRange.OfType<GroundedEnemy>().Any())
         {
             var strongestEnemy = enemiesInRange
-            .OfType<GroundedEnemy>()
+            .OfType<GroundedEnemy>()                                                                            //Grupo 3: OfType
             .Select(e => new                     //Crea un tipo anonimo que almacena info de los enemigos       //Grupo 1: Select
             {
                 Enemy = e,
@@ -343,7 +362,7 @@ public class Turret : MonoBehaviour
                 Damage = e.damage
             })
             .OrderBy(e => e.Distance)            // Enemigos más cercanos primero                               //Grupo 2: OrderBy
-            .ThenByDescending(e => e.Speed)      // Prioriza a los enemigos más rápidos                         //Grupo 2: ThemByDescending
+            .ThenByDescending(e => e.Speed)      // Prioriza a los enemigos más rápidos                         //Grupo 2: ThenByDescending
             .ThenByDescending(e => e.Damage)     // Prioriza a los que hacen más daño                           //Grupo 2: ThenByDescending
             .FirstOrDefault()?.Enemy;            // Devuelve el enemigo más peligroso según los criterios       //Grupo 1: FirstOrDefault
 
@@ -372,14 +391,12 @@ public class Turret : MonoBehaviour
         }
     }
 
-
-
     void AttackWeakestEnemy() //Tipo anonimo
     {
         if (enemiesInRange.OfType<GroundedEnemy>().Any())
         {
             var mostDamagedEnemy = enemiesInRange
-            .OfType<GroundedEnemy>()
+            .OfType<GroundedEnemy>()                                                                                  //Grupo 3: OfType
             .Select(e => new                        //Crea un tipo anonimo que almacena info de los enemigos          //Grupo 1: Select
             {
                 Enemy = e,
@@ -425,7 +442,9 @@ public class Turret : MonoBehaviour
         foreach (var (enemy, damageToApply) in damageDistribution)
         {
             enemy.TakeDamage(Mathf.CeilToInt(damageToApply));
+
             Debug.Log("Atacando al enemigo con daño de penetración: " + enemy.name + " con daño: " + damageToApply);
+            
             yield return new WaitForSeconds(0.25f); //Delay entre cada enemigo atravesado
         }
     }
@@ -460,7 +479,7 @@ public class Turret : MonoBehaviour
             currentCell.RemoveTurret();  // Libera la celda cuando la torreta sea destruida
         }
 
-        Destroy(gameObject);  // Destruir la torreta
+        Destroy(gameObject);
     }
 
     public void UpdateHealthBar()

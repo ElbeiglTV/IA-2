@@ -948,7 +948,7 @@ MonoBehaviour:
   maxHealth: 110
   health: 50
   healthBar: {fileID: 7256285949533987999}
-  speed: 1.2
+  speed: 0.7
   damage: 0
 --- !u!1 &5076898741143863237
 GameObject:

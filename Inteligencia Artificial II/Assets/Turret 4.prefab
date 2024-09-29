@@ -1147,12 +1147,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackTargetType: 4
   detectionType: 0
-  maxHealth: 120
+  maxHealth: 240
   currentHealth: 50
   healthBar: {fileID: 3974107212603577889}
-  damage: 25
+  damage: 14
   range: 8
-  fireRate: 0.5
+  fireRate: 1.5
   fireCountdown: 0
   enemiesInRange: []
 --- !u!65 &8779218705252738138

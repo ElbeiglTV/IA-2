@@ -57,7 +57,7 @@ public class WaveManager : MonoBehaviour
                     break;
 
                 case SpawnType.ByGroup:
-                    StartCoroutine(SpawnWaveGeneric(currentWave, SelectEnemiesByGroup)); // Spawn por grupo
+                    StartCoroutine(SpawnWaveGeneric(currentWave, SelectEnemiesByGroupCount)); // Spawn por grupo
                     break;
 
                 case SpawnType.Partial:
@@ -117,17 +117,32 @@ public class WaveManager : MonoBehaviour
 
     IEnumerable<GameObject> SelectRandomEnemies(IEnumerable<EnemyGroup> enemyGroups)
     {
-        return enemyGroups
-            .Where(group => group.count > 0)
-            .SelectMany(group => Enumerable.Repeat(group.enemyPrefab, group.count)) 
-            .OrderBy(x => UnityEngine.Random.value); // Aleatorizar
+        // Obtener una lista de enemigos a generar
+        var enemies = enemyGroups
+            .Where(group => group.count > 0)                                        //Grupo 1: Where
+            .SelectMany(group => Enumerable.Repeat(group.enemyPrefab, group.count)) //Grupo 2: SelectMany
+            .OrderBy(_ => UnityEngine.Random.value)  // Aleatorizar                 //Grupo 2: OrderBy
+            .ToList();                                                              //Grupo 3: ToList
+
+        // Usar yield para devolver uno por uno
+        foreach (var enemy in enemies)
+        {
+            yield return enemy;  // Generar un enemigo a la vez
+        }
     }
 
-    IEnumerable<GameObject> SelectEnemiesByGroup(IEnumerable<EnemyGroup> enemyGroups)
+
+    IEnumerable<GameObject> SelectEnemiesByGroupCount(IEnumerable<EnemyGroup> enemyGroups)
     {
-        return enemyGroups
-            .OrderByDescending(group => group.count)
-            .SelectMany(group => Enumerable.Repeat(group.enemyPrefab, group.count)); // En orden de mayor cantidad
+        // Para cada grupo, en orden descendente de cantidad
+        foreach (var group in enemyGroups.OrderByDescending(g => g.count))
+        {
+            // Generar tantos enemigos como `group.count` lo indique
+            for (int i = 0; i < group.count; i++)
+            {
+                yield return group.enemyPrefab;  // Devolver uno a uno
+            }
+        }
     }
 
     IEnumerable<GameObject> SelectPartialEnemies(IEnumerable<EnemyGroup> enemyGroups, int batchSize = 5)
@@ -135,7 +150,7 @@ public class WaveManager : MonoBehaviour
         var enemiesToSpawn = enemyGroups
             .Where(group => group.count > 0)                                            //Grupo 1: Where
             .SelectMany(group => Enumerable.Repeat(group.enemyPrefab, group.count))     //Grupo 2: SelectMany
-            .OrderByDescending(enemy => enemy.GetComponent<Enemy>().maxHealth)          //Grupo 2: OrderByDescending
+            .OrderByDescending(enemy => enemy.GetComponent<Enemy>().maxHealth)          //Grupo 2: OrderByDescending    //Tanques primero
             .ToList();                                                                  //Grupo 3: ToList
 
         for (int i = 0; i < enemiesToSpawn.Count; i += batchSize)
@@ -149,20 +164,22 @@ public class WaveManager : MonoBehaviour
 
     IEnumerable<GameObject> SelectControlledRandomEnemies(IEnumerable<EnemyGroup> enemyGroups)
     {
-        var validEnemyGroups = enemyGroups.Where(group => group.count > 0).ToList();
+        // Ordenar los grupos válidos por la velocidad del enemigo (de mayor a menor)
+        var orderedEnemyGroups = enemyGroups
+            .Where(group => group.count > 0)
+            .OrderByDescending(group => group.enemyPrefab.GetComponent<Enemy>().speed)
+            .ToList();  // Materializamos la consulta en una lista
 
-        var fastEnemyGroup = validEnemyGroups.FirstOrDefault(group => group.enemyPrefab.GetComponent<Enemy>().speed > .5f);
-
-        if (fastEnemyGroup != null)
+        // Iterar sobre los grupos ordenados y spawnear todos sus enemigos
+        foreach (var group in orderedEnemyGroups)
         {
-            yield return fastEnemyGroup.enemyPrefab; // Enemigo rápido primero
-        }
-
-        foreach (var enemy in validEnemyGroups.SelectMany(group => Enumerable.Repeat(group.enemyPrefab, group.count)).OrderBy(x => UnityEngine.Random.value))
-        {
-            yield return enemy; // Luego, el resto aleatorizado
+            for (int i = 0; i < group.count; i++)
+            {
+                yield return group.enemyPrefab;  // Devolver un enemigo a la vez
+            }
         }
     }
+
 
     [System.Serializable]
     public class Wave

@@ -866,7 +866,7 @@ MonoBehaviour:
   health: 50
   healthBar: {fileID: 7256285949533987999}
   speed: 0.5
-  damage: 20
+  damage: 13
   target: {fileID: 0}
   fireRate: 0.6
   attackRange: 3

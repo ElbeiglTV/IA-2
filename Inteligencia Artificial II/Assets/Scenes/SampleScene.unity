@@ -9243,7 +9243,7 @@ MonoBehaviour:
   energyText: {fileID: 1940976769}
   turretSelector: {fileID: 77092584}
   currentEnergy: 0
-  energyPerSecond: 100
+  energyPerSecond: 20
 --- !u!4 &1665071777
 Transform:
   m_ObjectHideFlags: 0
@@ -10976,31 +10976,31 @@ MonoBehaviour:
   waves:
   - enemyGroups:
     - enemyPrefab: {fileID: 5032626720357499458, guid: af9b5ef395074a748a4c25371ceff0de, type: 3}
-      count: 30
+      count: 25
     spawnInterval: 0.7
   - enemyGroups:
     - enemyPrefab: {fileID: 5032626720357499458, guid: af9b5ef395074a748a4c25371ceff0de, type: 3}
-      count: 20
+      count: 10
     - enemyPrefab: {fileID: 5032626720357499458, guid: b814190379bc77e478d480bd50684193, type: 3}
-      count: 30
+      count: 20
     - enemyPrefab: {fileID: 5032626720357499458, guid: 26f52003f31bd09439959152d0f11012, type: 3}
-      count: 15
+      count: 5
     spawnInterval: 0.5
   - enemyGroups:
     - enemyPrefab: {fileID: 5032626720357499458, guid: b98f2f556caae774d80496656735c202, type: 3}
-      count: 25
-    - enemyPrefab: {fileID: 5032626720357499458, guid: b814190379bc77e478d480bd50684193, type: 3}
       count: 15
+    - enemyPrefab: {fileID: 5032626720357499458, guid: b814190379bc77e478d480bd50684193, type: 3}
+      count: 5
     spawnInterval: 0.7
   - enemyGroups:
     - enemyPrefab: {fileID: 5032626720357499458, guid: af9b5ef395074a748a4c25371ceff0de, type: 3}
-      count: 40
+      count: 25
     - enemyPrefab: {fileID: 5032626720357499458, guid: b814190379bc77e478d480bd50684193, type: 3}
-      count: 30
-    - enemyPrefab: {fileID: 5032626720357499458, guid: 26f52003f31bd09439959152d0f11012, type: 3}
       count: 15
+    - enemyPrefab: {fileID: 5032626720357499458, guid: 26f52003f31bd09439959152d0f11012, type: 3}
+      count: 5
     - enemyPrefab: {fileID: 5032626720357499458, guid: b98f2f556caae774d80496656735c202, type: 3}
-      count: 20
+      count: 10
     spawnInterval: 0.45
   spawnPoints:
   - {fileID: 25684908}
@@ -11009,7 +11009,7 @@ MonoBehaviour:
   - {fileID: 959089759}
   - {fileID: 1042326852}
   timeBetweenWaves: 10
-  cooldownToStart: 5
+  cooldownToStart: 2.5
   spawnMethods: 00000000010000000200000003000000
 --- !u!1 &2077438331
 GameObject:

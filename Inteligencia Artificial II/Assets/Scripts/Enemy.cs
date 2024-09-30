@@ -52,22 +52,19 @@ public class Enemy : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        health -= damage;
-
-        //UpdateState();
+        if (health > 0)
+            health -= damage;
 
         if (health <= 0)
-        {
             Die();
-        }
 
-        if (health >= 0)
-            UpdateHealthBar();
+        UpdateHealthBar();
     }
 
     void Die()
     {
-        Destroy(gameObject);
+        if (gameObject != null)
+            Destroy(gameObject);
     }
 
     public void UpdateHealthBar()

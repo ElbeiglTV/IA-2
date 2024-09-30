@@ -1362,7 +1362,7 @@ MonoBehaviour:
   maxHealth: 320
   currentHealth: 50
   healthBar: {fileID: 5793530454607680795}
-  damage: 18
+  damage: 25
   range: 1.5
   fireRate: 1
   fireCountdown: 0

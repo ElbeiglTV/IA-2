@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   turretName: T5
   energyCost: 160
-  cooldown: 35
+  cooldown: 30
   turretPrefab: {fileID: 5032626720357499458, guid: 71e3bbc651f252743b6a942dc86c37cb, type: 3}
   turretSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}

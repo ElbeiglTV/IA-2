@@ -421,19 +421,19 @@ public class Turret : MonoBehaviour
             StartCoroutine(PiercingAttackWithDelay());
     }
 
-    IEnumerator PiercingAttackWithDelay() //Aggregate & Tuple
+    IEnumerator PiercingAttackWithDelay()
     {
         float currentDamage = damage;
 
-        //Usamos Aggregate para crear una lista de tuplas con el enemigo y el daño actual
+        // Usamos Aggregate para crear una lista de tuplas con el enemigo y el daño actual
         var damageDistribution = enemiesInRange
             .OfType<GroundedEnemy>()
             .Aggregate(new List<Tuple<GroundedEnemy, float>>(), (acc, enemy) =>
             {
                 if (enemy != null)
                 {
-                    acc.Add(Tuple.Create(enemy, currentDamage)); //Guarda cada enemigo con su respectivo daño a recibir
-                    currentDamage *= 0.7f; // Por cada enemigo atravesado, hay una Reducción del daño infligido
+                    acc.Add(Tuple.Create(enemy, currentDamage)); // Guarda cada enemigo con su respectivo daño a recibir
+                    currentDamage *= 0.7f; // Reducción del daño por cada enemigo atravesado
                 }
                 return acc;
             });
@@ -441,13 +441,24 @@ public class Turret : MonoBehaviour
         // Recorremos la lista de tuplas y aplicamos el daño
         foreach (var (enemy, damageToApply) in damageDistribution)
         {
-            enemy.TakeDamage(Mathf.CeilToInt(damageToApply));
+            // Verificamos si el enemigo aún es válido antes de aplicar el daño
+            if (enemy != null)
+            {
+                enemy.TakeDamage(Mathf.CeilToInt(damageToApply));
+                Debug.Log("Atacando al enemigo con daño de penetración: " + enemy.name + " con daño: " + damageToApply);
 
-            Debug.Log("Atacando al enemigo con daño de penetración: " + enemy.name + " con daño: " + damageToApply);
-            
-            yield return new WaitForSeconds(0.25f); //Delay entre cada enemigo atravesado
+                yield return new WaitForSeconds(0.1f); // Delay entre cada enemigo atravesado
+            }
+            else
+            {
+                Debug.LogWarning("Enemigo destruido antes de recibir daño. Saltando al siguiente.");
+
+                // Si es null, saltamos al siguiente enemigo inmediatamente
+                yield return null;
+            }
         }
     }
+
 
     void OnDrawGizmos()
     {

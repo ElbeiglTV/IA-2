@@ -362,13 +362,13 @@
 "Assets/Scripts/FlyingEnemy.cs"
 "Assets/Scripts/GridManager.cs"
 "Assets/Scripts/GroundedEnemy.cs"
+"Assets/Scripts/LinQ/Turret.cs"
+"Assets/Scripts/LinQ/WaveManager.cs"
 "Assets/Scripts/MeleeEnemy.cs"
-"Assets/Scripts/Turret.cs"
 "Assets/Scripts/TurretData.cs"
 "Assets/Scripts/TurretPlacementManager.cs"
 "Assets/Scripts/TurretSelectorManager.cs"
 "Assets/Scripts/TurretUIData.cs"
-"Assets/Scripts/WaveManager.cs"
 -langversion:9.0
 
 /deterministic

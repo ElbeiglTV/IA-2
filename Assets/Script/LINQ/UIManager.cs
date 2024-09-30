@@ -1,10 +1,24 @@
 using UnityEngine;
 using TMPro;
+using System.Linq;
+using System.Collections.Generic;
+using System;
+using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
     public TextMeshProUGUI pescadoA, pescadoB, pescadoC, espada, escudo, hacha, tarta, torta, pan, galletas, banana, zanahoria, sandia, carne, jamon, chorizo;
     public Stand pescado, vegetales, procesado, armaduras, carnes;
+
+
+    public Transform DayStatsParent, TotalStatsParent;
+    public GameObject MarketStatsPrefab;
+    public TextMeshProUGUI ItemStatsPrefab;
+
+
+    public TextMeshProUGUI Top1V, Top2V, Top3V, Top1R, Top2R, Top3R;
+    public TextMeshProUGUI Days;
+
 
     void Update()
     {
@@ -100,4 +114,67 @@ public class UIManager : MonoBehaviour
 
         return (value1, value2, value3, value4);
     }
+
+
+    //GaelTaborda
+    [ContextMenu("UpdateStatsUI")]
+    public void UpdateStatsUI(List<Tuple<string,int,float,string>> dayStats , List<Tuple<string, int, float, string>> totalStats)
+    {
+        var MarketStatsGrupByMarkets = dayStats.GroupBy(x => x.Item4); // Agrupo por mercado
+
+        Debug.Log("UpdateStatsUI "+ MarketStatsGrupByMarkets.Count());
+
+        foreach(var market in MarketStatsGrupByMarkets)
+        {
+            var marketStats = Instantiate(MarketStatsPrefab, DayStatsParent);
+            marketStats.GetComponentInChildren<TextMeshProUGUI>().text = market.Key;
+
+            Instantiate(ItemStatsPrefab, marketStats.GetComponentInChildren<VerticalLayoutGroup>().transform);
+            foreach (var item in market)
+            {
+                var itemStats = Instantiate(ItemStatsPrefab, marketStats.GetComponentInChildren<VerticalLayoutGroup>().transform);
+                itemStats.text = $"{item.Item1} - {item.Item2} - ${item.Item3}";
+            }
+
+        }
+        var MarketStatsGrupByMarketsTotal = totalStats.GroupBy(x => x.Item4);// Agrupo por mercado
+        foreach (var market in MarketStatsGrupByMarketsTotal)
+        {
+            var marketStats = Instantiate(MarketStatsPrefab, TotalStatsParent);
+            marketStats.GetComponentInChildren<TextMeshProUGUI>().text = market.Key;
+
+            Instantiate(ItemStatsPrefab, marketStats.GetComponentInChildren<VerticalLayoutGroup>().transform);
+            foreach (var item in market)
+            {
+                var itemStats = Instantiate(ItemStatsPrefab, marketStats.GetComponentInChildren<VerticalLayoutGroup>().transform);
+                itemStats.text = $"{item.Item1} - {item.Item2} - ${item.Item3}";
+            }
+
+        }
+
+        var rancking = MarketStatsGrupByMarketsTotal
+            .Select(x => Tuple.Create(x.Key, x.Sum(y => y.Item2), x.Sum(y => y.Item3)))// Parcial Grupo 1
+            .GroupBy(x => 1) // agrupo todo para poder trabajar sobre el total 
+            .Select(g => new
+            {
+                topVentas = g.OrderByDescending(x => x.Item2).Take(3).ToList()
+                ,
+                topRecaudacion = g.OrderByDescending(x => x.Item3).Take(3).ToList()
+            }) // Parcial Grupo 1
+            .SelectMany(g => g.topVentas.Zip(g.topRecaudacion, (topVenta, topRecaudacion) => (topVenta, topRecaudacion))) // Parcial grupo 2
+            .ToList(); // Parcial Grupo 3
+
+        Top1V.text = rancking[0].topVenta.Item1 + " - Uv/" + rancking[0].topVenta.Item2;
+        Top2V.text = rancking[1].topVenta.Item1 + " - Uv/" + rancking[1].topVenta.Item2;
+        Top3V.text = rancking[2].topVenta.Item1 + " - Uv/" + rancking[2].topVenta.Item2;
+
+
+        Top1R.text = rancking[0].topRecaudacion.Item1 + " - $" + rancking[0].topRecaudacion.Item3;
+        Top2R.text = rancking[1].topRecaudacion.Item1 + " - $" + rancking[1].topRecaudacion.Item3;
+        Top3R.text = rancking[2].topRecaudacion.Item1 + " - $" + rancking[2].topRecaudacion.Item3;
+
+
+
+    }
+    
 }

@@ -1,14 +1,17 @@
 using System.Collections;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using FriendlyEditor.UtilityAttributes;
 
 public class LinqAgent : MonoBehaviour
 {
-    public float QueueOfset; 
-
+    public float QueueOfset;
+    [DebugTag("Agent")]
     public float money;
 
+    //[DebugTag("Agent"),DebugTag("ListasDeCompra")]
     public List<NMItem> itemsToBuy;
 
     public int ActualStand;
@@ -75,10 +78,15 @@ public class LinqAgent : MonoBehaviour
 
         Destroy(gameObject);
     }
+
+    // Gael Taborda
+    //Agrregate Doble
     public IEnumerator BuyItems(Stand standToBuy)
     {
 
-        var StandItemsToBuy = itemsToBuy.Select(x => x.itemType).Aggregate(new Dictionary<string, int>(), (acc, x) =>
+        var StandItemsToBuy = itemsToBuy
+        .Select(x => x.itemType) // selecciona el tipo de item
+        .Aggregate(new Dictionary<string, int>(), (acc, x) =>
         {
             if (acc.ContainsKey(x))
             {
@@ -89,22 +97,27 @@ public class LinqAgent : MonoBehaviour
                 acc.Add(x, 1);
             }
             return acc;
-        }).Aggregate(new List<Item>(), (acc, x) =>
+        }) // cuenta cuantos de cada tipo de item hay
+        .Aggregate(new List<Item>(), (acc, x) =>
         {
             return acc.Concat(standToBuy.items.Where(y => y.itemType.Equals(x.Key) && y.active).OrderBy(z => z.price).Take(x.Value).ToList()).ToList();
-        });
+        });// en base a el diccionario anterior selecciona los items a comprar de cada tipo y los agrega a una lista
 
-        foreach (var item in StandItemsToBuy)
+        foreach (var item in StandItemsToBuy) // compra los items con 0.5 segundos de espera entre cada compra
         {
             if (money >= item.price)
             {
                 money -= item.price;
                 standToBuy.BuyItem(item);
 
+                MarketManager.instance.DaySelledItems.Add(Tuple.Create<Item,Stand>(item, standToBuy));
+
+
                 Debug.Log("Compre un " + item.itemType + " a " + item.price);
             }
-            yield return new WaitForSeconds(1);
+            yield return new WaitForSeconds(0.5f);
         }
+
     }
 
 }

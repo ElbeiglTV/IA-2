@@ -1,3 +1,4 @@
+using FriendlyEditor.UtilityAttributes;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -6,6 +7,9 @@ using UnityEngine;
 
 public class Stand : MonoBehaviour
 {
+    [StringPopup(new[] {"Pescaderia"," Armeria","Verduleria","Carniceria","Panaderia"})]
+    public string StandType;
+
     public float money = 1000; // the money of the stand
     public List<GameObject> standObjects; // the stand objects
 

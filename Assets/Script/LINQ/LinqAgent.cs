@@ -11,8 +11,10 @@ public class LinqAgent : MonoBehaviour
     [DebugTag("Agent")]
     public float money;
 
-    //[DebugTag("Agent"),DebugTag("ListasDeCompra")]
     public List<NMItem> itemsToBuy;
+
+    [DebugTag("Agent"),DebugTag("ListasDeCompra")]
+    string DebugItemsToBuy => itemsToBuy.Aggregate("", (acc, x) => acc + x.itemType +" | ");
 
     public int ActualStand;
 

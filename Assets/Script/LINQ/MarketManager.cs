@@ -49,6 +49,12 @@ public class MarketManager : MonoBehaviour
 
     public List<Tuple<Item, Stand>> TotalSelledItems = new ();
 
+    [DebugTag("SelledItems")]
+    int TotalSelledItemsCounter => TotalSelledItems.Count;
+
+    [DebugTag("SelledItems")]
+    int DaySelledItemsCounter => DaySelledItems.Count;
+
     public int Days;
 
 
